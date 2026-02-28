@@ -1,0 +1,106 @@
+{
+  "rss_feeds": [
+    {
+      "category": "Major AI Companies",
+      "feeds": [
+        "https://openai.com/news/rss.xml",
+        "https://www.anthropic.com/rss.xml",
+        "https://mistral.ai/news/rss",
+        "https://huggingface.co/blog/feed.xml",
+        "https://blog.google/technology/ai/rss/",
+        "https://www.deepmind.com/blog/rss.xml"
+      ]
+    },
+    {
+      "category": "Research & Academia",
+      "feeds": [
+        "https://bair.berkeley.edu/blog/feed.xml",
+        "https://ai.googleblog.com/feeds/posts/default",
+        "https://aws.amazon.com/blogs/machine-learning/feed/"
+      ]
+    },
+    {
+      "category": "Developer Tools & Platforms",
+      "feeds": [
+        "https://github.blog/category/ai-and-ml/feed/",
+        "https://developer.nvidia.com/blog/feed/"
+      ]
+    },
+    {
+      "category": "AI News & Analysis",
+      "feeds": [
+        "https://www.technologyreview.com/feed/",
+        "https://venturebeat.com/category/ai/feed/"
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/archive",
+      "feed_url": "https://www.latent.space/feed"
+    },
+    {
+      "name": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com",
+      "feed_url": "https://magazine.sebastianraschka.com/feed"
+    },
+    {
+      "name": "Eugene Yan",
+      "url": "https://eugeneyan.com",
+      "feed_url": "https://eugeneyan.com/feed.xml"
+    },
+    {
+      "name": "Chip Huyen",
+      "url": "https://huyenchip.com",
+      "feed_url": "https://huyenchip.com/atom.xml"
+    }
+  ],
+  "hackernews": {
+    "enabled": true,
+    "top_stories_count": 30,
+    "keywords": [
+      "ai",
+      "llm",
+      "gpt",
+      "claude",
+      "gemini",
+      "model",
+      "agent",
+      "mcp",
+      "transformer",
+      "benchmark",
+      "rag",
+      "vector",
+      "embedding",
+      "inference",
+      "deprecated",
+      "release",
+      "open source",
+      "openai",
+      "anthropic",
+      "mistral",
+      "huggingface",
+      "chatgpt",
+      "neural",
+      "ml",
+      "machine learning",
+      "deep learning",
+      "nlp",
+      "langchain"
+    ]
+  },
+  "github_trending": {
+    "enabled": true,
+    "urls": [
+      "https://github.com/trending/python?since=daily",
+      "https://github.com/trending?since=daily"
+    ],
+    "max_items_per_category": 10
+  }
+}
