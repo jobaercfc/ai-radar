@@ -45,7 +45,7 @@ jobs:
 
       - name: Commit and push if changes
         run: |
-          git add data/
+          git add -f data/latest.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
