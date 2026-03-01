@@ -54,11 +54,6 @@
         .nav-controls { position: fixed; right: 2rem; bottom: 2rem; display: flex; flex-direction: column; gap: 0.5rem; z-index: 100; }
         .nav-btn { background: var(--bg-secondary); border: 1px solid var(--bg-tertiary); padding: 0.75rem; border-radius: 9999px; cursor: pointer; transition: all 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
         .nav-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
-
-        .section-nav { background: var(--bg-secondary); border: 1px solid var(--bg-tertiary); border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
-        .section-link { color: var(--text-secondary); cursor: pointer; padding: 0.5rem; border-radius: 0.25rem; transition: all 0.2s; display: block; }
-        .section-link:hover { background: var(--bg-tertiary); color: var(--accent); }
-        .section-link.active { color: var(--accent); font-weight: 600; }
     </style>
 </head>
 <body>
@@ -85,14 +80,6 @@
                 <p class="reading-time">⏱️ <span id="totalReadingTime">-</span> estimated reading time</p>
             </div>
 
-            <!-- Section Navigation -->
-            <div id="sectionNav" class="section-nav hidden">
-                <div class="flex justify-between items-center mb-2">
-                    <h3 class="font-semibold">Quick Navigation</h3>
-                    <button onclick="toggleSectionNav()" class="text-sm text-gray-500 hover:text-gray-300">Collapse</button>
-                </div>
-                <div id="sectionLinks" class="grid grid-cols-2 md:grid-cols-3 gap-2"></div>
-            </div>
         </header>
 
         <div id="loading" class="flex justify-center items-center min-h-[60vh]">
@@ -129,7 +116,6 @@
                 <p><kbd class="bg-gray-700 px-2 py-1 rounded">t</kbd> Toggle theme</p>
                 <p><kbd class="bg-gray-700 px-2 py-1 rounded">s</kbd> Stats</p>
                 <p><kbd class="bg-gray-700 px-2 py-1 rounded">e</kbd> Export</p>
-                <p><kbd class="bg-gray-700 px-2 py-1 rounded">n</kbd> Toggle section nav</p>
                 <p><kbd class="bg-gray-700 px-2 py-1 rounded">Esc</kbd> Close</p>
             </div>
             <button onclick="closeModals()" class="mt-6 w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded">Close</button>
@@ -216,18 +202,6 @@
                 tabsEl.appendChild(allTab);
             }
 
-            // Render section navigation
-            const navEl = document.getElementById('sectionLinks');
-            navEl.innerHTML = '';
-            brief.sections.forEach((sec, i) => {
-                const link = document.createElement('div');
-                link.className = 'section-link' + (i === 0 ? ' active' : '');
-                link.innerHTML = `${sec.emoji} ${sec.title}`;
-                link.onclick = () => switchTab(sec.id, i);
-                navEl.appendChild(link);
-            });
-            document.getElementById('sectionNav').classList.remove('hidden');
-
             // Render content
             const contentEl = document.getElementById('content');
             contentEl.innerHTML = '';
@@ -287,9 +261,6 @@
             document.querySelectorAll('.tab')[index].classList.add('active');
             document.querySelectorAll('[id^="sec-"]').forEach(s => s.classList.add('hidden'));
             document.getElementById(`sec-${id}`).classList.remove('hidden');
-            document.querySelectorAll('.section-link').forEach((l, i) => {
-                l.classList.toggle('active', i === index);
-            });
             window.scrollTo(0, 0);
         }
 
@@ -330,10 +301,6 @@
 
         function scrollToTop() {
             window.scrollTo({top: 0, behavior: 'smooth'});
-        }
-
-        function toggleSectionNav() {
-            document.getElementById('sectionLinks').classList.toggle('hidden');
         }
 
         function filterAll() {
@@ -394,7 +361,6 @@
             if (e.key === 's') showStats();
             if (e.key === 'e') exportMD();
             if (e.key === 't') toggleTheme();
-            if (e.key === 'n') toggleSectionNav();
             if (e.key === 'Home') scrollToTop();
             if (e.key === 'ArrowLeft') prevSection();
             if (e.key === 'ArrowRight') nextSection();
