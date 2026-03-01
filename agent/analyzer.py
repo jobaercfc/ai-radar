@@ -67,12 +67,13 @@ USER_PROMPT_TEMPLATE = """Process the following scraped AI news content and retu
   "stats": {{
     "sources_checked": 8,
     "items_processed": 47,
-    "items_featured": 12
+    "items_categorized": 45
   }}
 }}
 
 Guidelines:
-- Max 3-5 items per section
+- Categorize ALL items into appropriate sections (no item limit per section)
+- Remove duplicate items across sections (same URL = duplicate)
 - Omit sections with nothing newsworthy
 - Only "must_know" section items need "why_it_matters" field
 - For summaries: Write 4-5 detailed sentences covering what, why, how, and impact
@@ -254,9 +255,9 @@ def analyze_content(scraped_items: List[Dict[str, Any]], sources_checked: int) -
         brief['stats']['sources_checked'] = sources_checked
         brief['stats']['items_processed'] = len(scraped_items)
 
-        # Count featured items
-        featured_count = sum(len(section.get('items', [])) for section in brief.get('sections', []))
-        brief['stats']['items_featured'] = featured_count
+        # Count categorized items
+        categorized_count = sum(len(section.get('items', [])) for section in brief.get('sections', []))
+        brief['stats']['items_categorized'] = categorized_count
 
         # Calculate costs
         total_tokens = input_tokens + output_tokens
