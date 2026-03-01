@@ -1,51 +1,73 @@
 # ⚡ AI Radar
 
-An AI news intelligence agent that runs daily via GitHub Actions, scrapes AI news from multiple sources, analyzes it with Claude API, and serves a beautiful daily brief on GitHub Pages. Completely free, no server required.
+An AI news intelligence agent that runs daily via GitHub Actions, scrapes AI news from 100+ sources, analyzes it with AI (Anthropic Claude or OpenAI GPT), and serves a beautiful daily brief. Completely automated, no server required.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://YOUR_USERNAME.github.io/ai-radar/)
-[![Daily Brief](https://github.com/YOUR_USERNAME/ai-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/YOUR_USERNAME/ai-radar/actions/workflows/daily.yml)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://ai-radar-beige.vercel.app)
+[![Daily Brief](https://github.com/jobaercfc/ai-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/jobaercfc/ai-radar/actions/workflows/daily.yml)
 
-## Features
+## 🎯 Live Demo
 
-- 🤖 **Automated**: Runs daily via GitHub Actions
-- 🧠 **AI-Powered**: Claude Sonnet 4 analyzes and summarizes news
-- 📰 **Multi-Source**: RSS feeds, Hacker News, GitHub Trending, AI blogs
-- 🎨 **Beautiful UI**: Single-file, modern dark mode interface
-- 💾 **Archive**: Full history of past briefs
-- 💰 **Free**: Hosted on GitHub Pages, no server costs
+**[ai-radar-beige.vercel.app](https://ai-radar-beige.vercel.app)**
 
-## Live Demo
+## ✨ Features
 
-![AI Radar Screenshot](docs/screenshot.png)
+- 🤖 **Automated**: Runs daily at 8 AM UTC via GitHub Actions
+- 🧠 **Multi-Provider AI**: Choose between Anthropic Claude or OpenAI GPT models
+- 📰 **100+ Sources**: RSS feeds, Hacker News, GitHub Trending, Reddit, arXiv, AI blogs
+- 🎨 **Interactive UI**: Dark/light mode, bookmarks, reading progress, keyboard shortcuts
+- 📊 **Smart Categorization**: AI categorizes ALL items into must-know, tools, research, etc.
+- 💾 **Token Tracking**: See real-time API usage and costs
+- 💰 **Free Infrastructure**: Hosted on Vercel, runs on GitHub Actions
 
-Visit the live demo: [YOUR_USERNAME.github.io/ai-radar](https://YOUR_USERNAME.github.io/ai-radar/)
-
-## Quick Setup
+## 🚀 Quick Setup
 
 ### 1. Fork This Repository
 
 Click the "Fork" button at the top of this page.
 
-### 2. Add Your API Key
+### 2. Choose Your AI Provider
 
-1. Get an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/settings/keys)
-2. Go to your fork's Settings → Secrets and variables → Actions
-3. Click "New repository secret"
+You can use either **Anthropic Claude** (recommended) or **OpenAI GPT**:
+
+#### Option A: Anthropic Claude (Recommended)
+
+1. Get an API key from [console.anthropic.com](https://console.anthropic.com/settings/keys)
+2. Go to your fork's **Settings → Secrets and variables → Actions**
+3. Click **"New repository secret"**
 4. Name: `ANTHROPIC_API_KEY`
 5. Value: Your API key
-6. Click "Add secret"
+6. Click **"Add secret"**
 
-### 3. Enable GitHub Pages
+#### Option B: OpenAI GPT
 
-1. Go to Settings → Pages
-2. Source: "Deploy from a branch"
-3. Branch: `main` (or `master`)
-4. Folder: `/docs`
-5. Click "Save"
+1. Get an API key from [platform.openai.com](https://platform.openai.com/api-keys)
+2. Go to your fork's **Settings → Secrets and variables → Actions**
+3. Add two secrets:
+   - Name: `AI_PROVIDER`, Value: `openai`
+   - Name: `OPENAI_API_KEY`, Value: Your API key
 
-Your site will be live at `https://YOUR_USERNAME.github.io/ai-radar/` in a few minutes!
+**Optional**: Add `AI_MODEL` secret to use a specific model:
+- For Anthropic: `claude-sonnet-4-20241022` (default) or `claude-opus-4-20241022`
+- For OpenAI: `gpt-4o` (default), `gpt-4o-mini`, or `gpt-4-turbo`
 
-## Local Development
+### 3. Deploy to Vercel
+
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click **"Add New... → Project"**
+3. Import your forked `ai-radar` repository
+4. Click **"Deploy"**
+
+Your site will be live in ~30 seconds! 🎉
+
+### 4. Run the Workflow
+
+The workflow runs automatically at 8 AM UTC daily, but you can trigger it manually:
+
+1. Go to **Actions → AI Radar Daily Brief**
+2. Click **"Run workflow"**
+3. Click the green **"Run workflow"** button
+
+## 💻 Local Development
 
 ### Run a Test Generation
 
@@ -54,40 +76,62 @@ Your site will be live at `https://YOUR_USERNAME.github.io/ai-radar/` in a few m
 git clone https://github.com/YOUR_USERNAME/ai-radar.git
 cd ai-radar
 
-# Create .env file
-cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# Set up Python environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run in dry-run mode (no files saved)
-python main.py --dry-run
-```
+# Create .env file
+cat > .env << EOF
+AI_PROVIDER=anthropic  # or 'openai'
+ANTHROPIC_API_KEY=your_anthropic_key_here
+# OPENAI_API_KEY=your_openai_key_here  # if using OpenAI
+EOF
 
-### Generate a Real Brief Locally
-
-```bash
+# Generate brief
 python main.py
 ```
 
 This will:
-- Scrape all configured sources
-- Analyze with Claude API
-- Save to `data/latest.json` and `data/archive/YYYY-MM-DD.json`
-- Update the archive index
+- Scrape all 100+ configured sources
+- Analyze with your chosen AI provider
+- Display token usage and costs
+- Save to `data/latest.json`
 
-## Configuration
+### View Locally
 
-### Add More RSS Feeds
+```bash
+# Serve the site locally
+python -m http.server 8000
 
-Edit [`scrapers/rss.py`](scrapers/rss.py) and add URLs to the `RSS_FEEDS` list:
+# Open http://localhost:8000 in your browser
+```
 
-```python
-RSS_FEEDS = [
-    "https://openai.com/news/rss.xml",
-    "https://your-new-feed.com/rss.xml",  # Add here
-]
+## 🛠️ Configuration
+
+### Customize Sources
+
+All sources are configured in [`sources.json`](sources.json):
+
+```json
+{
+  "rss_feeds": [
+    { "category": "Major AI Companies", "feeds": ["..."] }
+  ],
+  "blogs": [
+    { "name": "Simon Willison", "feed_url": "..." }
+  ],
+  "hackernews": {
+    "enabled": true,
+    "keywords": ["ai", "llm", "gpt", ...]
+  },
+  "reddit": {
+    "enabled": true,
+    "feed_urls": [...]
+  }
+}
 ```
 
 ### Change the Schedule
@@ -97,73 +141,107 @@ Edit [`.github/workflows/daily.yml`](.github/workflows/daily.yml):
 ```yaml
 on:
   schedule:
-    - cron: '0 8 * * *'  # Change this cron expression
+    - cron: '0 8 * * *'  # 8 AM UTC daily (change as needed)
+  workflow_dispatch:  # Allows manual trigger
 ```
 
-Cron examples:
+**Cron examples:**
 - `0 8 * * *` - 8 AM UTC daily
 - `0 */6 * * *` - Every 6 hours
-- `0 12 * * 1` - Mondays at noon
+- `0 12 * * 1` - Mondays at noon UTC
 
 ### Customize the Frontend
 
-The entire frontend is in [`docs/index.html`](docs/index.html). It's a single self-contained HTML file with Tailwind CSS via CDN and vanilla JavaScript. Modify as needed!
+The entire UI is in [`index.html`](index.html) - a single self-contained HTML file with:
+- Tailwind CSS (via CDN)
+- Vanilla JavaScript
+- localStorage for persistence
+- Keyboard shortcuts (press `?` to see all)
 
-## Data Sources
+## 📦 Data Sources
 
-AI Radar aggregates news from:
+AI Radar aggregates news from 100+ sources:
 
-- **RSS Feeds**: OpenAI, Anthropic, Mistral, HuggingFace, Google AI, BAIR
-- **Hacker News**: Top 30 stories filtered by AI keywords
-- **GitHub Trending**: Daily trending repos (all languages + Python)
-- **Blogs**: Simon Willison, Latent Space
+### RSS Feeds (60+)
+- **Major AI Companies**: OpenAI, Anthropic, Mistral, HuggingFace, Google AI, DeepMind
+- **Research**: BAIR, Google AI Blog, AWS ML Blog
+- **Developer Tools**: GitHub AI/ML Blog, NVIDIA Developer Blog
+- **News & Analysis**: MIT Tech Review, VentureBeat AI
 
-## How It Works
+### Blogs (18)
+- Simon Willison, Latent Space, Sebastian Raschka, Eugene Yan, Chip Huyen, and more
 
-1. **Scraping**: Python scripts fetch content from multiple sources
-2. **Analysis**: Claude API processes raw content and returns structured JSON
-3. **Storage**: Results saved to `data/latest.json` and archived
-4. **Deployment**: GitHub Actions commits changes and GitHub Pages serves the UI
+### Other Sources
+- **Hacker News**: Top 30 stories filtered by 50+ AI keywords
+- **GitHub Trending**: Python + All languages (daily)
+- **Reddit**: r/MachineLearning, r/LocalLLaMA, r/singularity, r/ArtificialIntelligence
+- **arXiv**: Latest AI/ML papers from cs.AI, cs.LG, cs.CL, cs.CV
 
-## Manual Trigger
+## 🏗️ How It Works
 
-You can manually trigger a brief generation:
+1. **Scraping**: Python scripts fetch content from 100+ sources in parallel
+2. **Analysis**: AI (Claude or GPT) processes raw content:
+   - Categorizes into sections (Must Know, New Tools, Research, etc.)
+   - Generates comprehensive 4-5 sentence summaries
+   - Deduplicates across sections
+   - Extracts metadata (source, published date)
+3. **Storage**: Saves structured JSON to repository
+4. **Deployment**:
+   - GitHub Actions commits `data/latest.json`
+   - Vercel auto-deploys the updated site
 
-1. Go to Actions → AI Radar Daily Brief
-2. Click "Run workflow"
-3. Click the green "Run workflow" button
-
-## Troubleshooting
+## 🔧 Troubleshooting
 
 ### No brief generated
 
-- Check if `ANTHROPIC_API_KEY` is set in repository secrets
-- Look at the GitHub Actions log for errors
-- Verify you haven't hit Anthropic API rate limits
+- Check if API key secret is set correctly in **Settings → Secrets**
+- Look at **Actions** log for errors
+- Verify you haven't hit API rate limits
+- Ensure `data/latest.json` is being committed (check git log)
 
-### GitHub Pages not updating
+### Vercel deployment not updating
 
-- Ensure Pages is enabled in Settings → Pages
-- Wait a few minutes after the action completes
-- Check that the `docs/` folder is being served
+- Check that Vercel is connected to your GitHub repository
+- Verify automatic deployments are enabled in Vercel settings
+- Pull latest changes: `git pull origin main`
 
 ### Scraper errors
 
-Individual scraper failures won't crash the entire process. Check the GitHub Actions log to see which sources failed and why.
+Individual scraper failures won't crash the process. Check the **Actions** log to see which sources failed and why (rate limits, changed URLs, etc.).
 
-## Contributing
+### High API costs
+
+- Use `gpt-4o-mini` instead of `gpt-4o` (90% cheaper)
+- Use `claude-sonnet-4` instead of `claude-opus-4` (5x cheaper)
+- Reduce sources in `sources.json`
+- The workflow shows token usage and costs in the logs
+
+## 📊 Model Pricing (as of 2024)
+
+| Provider | Model | Input (per 1M tokens) | Output (per 1M tokens) |
+|----------|-------|----------------------|------------------------|
+| Anthropic | Claude Sonnet 4 | $3.00 | $15.00 |
+| Anthropic | Claude Opus 4 | $15.00 | $75.00 |
+| OpenAI | GPT-4o | $2.50 | $10.00 |
+| OpenAI | GPT-4o-mini | $0.15 | $0.60 |
+| OpenAI | GPT-4 Turbo | $10.00 | $30.00 |
+
+💡 **Tip**: For daily briefs with 100+ sources, expect ~50K-100K tokens (~$0.50-$2.00 per run with recommended models).
+
+## 🤝 Contributing
 
 Contributions welcome! Ideas:
-- Add more data sources
-- Improve the frontend design
-- Better categorization logic
-- Email notifications
+- Add more data sources (Twitter/X, YouTube, newsletters)
+- Improve categorization logic
+- Email/Slack notifications
 - RSS feed output
+- Better error handling
+- UI improvements
 
-## License
+## 📄 License
 
 MIT License - feel free to fork and customize!
 
 ---
 
-**Built with ❤️ using Claude API**
+**Built with ❤️ using Anthropic Claude & OpenAI GPT APIs**
