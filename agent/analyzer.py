@@ -91,16 +91,16 @@ Return ONLY the JSON object, no other text."""
 PROVIDER_CONFIGS = {
     'anthropic': {
         'models': {
-            'claude-sonnet-4-20250514': {
+            'claude-sonnet-4-20241022': {
                 'input_price_per_mtk': 3.00,   # $3 per million tokens
                 'output_price_per_mtk': 15.00,  # $15 per million tokens
             },
-            'claude-opus-4-20250514': {
+            'claude-opus-4-20241022': {
                 'input_price_per_mtk': 15.00,   # $15 per million tokens
                 'output_price_per_mtk': 75.00,  # $75 per million tokens
             },
         },
-        'default_model': 'claude-sonnet-4-20250514',
+        'default_model': 'claude-sonnet-4-20241022',
     },
     'openai': {
         'models': {
