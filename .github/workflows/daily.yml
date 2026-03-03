@@ -51,7 +51,7 @@ jobs:
           else
             DATE=$(date +%Y-%m-%d)
             git commit -m "📡 AI Radar brief — $DATE"
-            git push
+            git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jobaercfc/ai-radar.git master
           fi
 
       - name: Create issue on failure
