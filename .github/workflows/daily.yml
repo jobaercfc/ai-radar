@@ -51,6 +51,7 @@ jobs:
           else
             DATE=$(date +%Y-%m-%d)
             git commit -m "📡 AI Radar brief — $DATE"
+            git pull --rebase https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jobaercfc/ai-radar.git master
             git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jobaercfc/ai-radar.git master
           fi
 
