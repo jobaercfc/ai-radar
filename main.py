@@ -2,7 +2,7 @@
 """
 AI Radar - AI News Intelligence Agent
 
-Scrapes AI news from multiple sources, analyzes with Claude API,
+Scrapes AI news from multiple sources, analyzes with AI,
 and generates a daily brief.
 """
 
@@ -22,6 +22,7 @@ from scrapers import (
     scrape_reddit,
     scrape_arxiv,
 )
+from scrapers.readtime import enrich_items_with_read_time
 from agent import analyze_content
 
 
@@ -140,8 +141,14 @@ def main():
         print("⚠️  No items collected. Exiting.")
         sys.exit(1)
 
-    # Analyze with Claude
-    print("Step 2: Analyzing with Claude API...")
+    # Estimate reading times by fetching articles
+    print("Step 2: Estimating article reading times...")
+    enrich_items_with_read_time(all_items)
+    enriched = sum(1 for it in all_items if 'read_time_minutes' in it)
+    print(f"✓ Estimated read time for {enriched}/{len(all_items)} articles\n")
+
+    # Analyze with AI
+    print("Step 3: Analyzing with AI...")
     try:
         brief, usage_stats = analyze_content(all_items, sources_checked)
         print("✓ Analysis complete\n")
@@ -149,11 +156,18 @@ def main():
         print(f"✗ Error during analysis: {e}")
         sys.exit(1)
 
+    # Propagate read_time_minutes from scraped items to section items by URL
+    read_times = {it['url']: it['read_time_minutes'] for it in all_items if 'read_time_minutes' in it}
+    for section in brief.get('sections', []):
+        for item in section.get('items', []):
+            if item.get('url') in read_times:
+                item['read_time_minutes'] = read_times[item['url']]
+
     # Add all scraped items to the brief for transparency
     brief['all_items'] = all_items
 
     # Save results
-    print("Step 3: Saving results...")
+    print("Step 4: Saving results...")
     save_brief(brief, dry_run=args.dry_run)
 
     # Print summary

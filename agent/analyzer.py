@@ -218,8 +218,18 @@ def analyze_content(scraped_items: List[Dict[str, Any]], sources_checked: int) -
 
     model_config = provider_config['models'][model]
 
-    # Format scraped content
-    content_text = json.dumps(scraped_items, indent=2)
+    # Trim items to only fields the AI needs, cap total to stay within token limits
+    trimmed = []
+    for item in scraped_items:
+        trimmed.append({
+            'title': item.get('title', ''),
+            'url': item.get('url', ''),
+            'summary': (item.get('summary', '') or '')[:300],
+            'source': item.get('source', ''),
+            'published': item.get('published'),
+        })
+    # Cap at 80 items to stay well within token limits
+    content_text = json.dumps(trimmed[:80])
 
     print(f"Using {provider.upper()} - Model: {model}")
 

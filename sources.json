@@ -102,5 +102,25 @@
       "https://github.com/trending?since=daily"
     ],
     "max_items_per_category": 10
+  },
+  "reddit": {
+    "enabled": true,
+    "feed_urls": [
+      "https://www.reddit.com/r/MachineLearning/hot.json?limit=15",
+      "https://www.reddit.com/r/LocalLLaMA/hot.json?limit=15",
+      "https://www.reddit.com/r/singularity/hot.json?limit=10",
+      "https://www.reddit.com/r/artificial/hot.json?limit=10",
+      "https://www.reddit.com/r/OpenAI/hot.json?limit=10",
+      "https://www.reddit.com/r/ChatGPT/hot.json?limit=10"
+    ]
+  },
+  "arxiv": {
+    "enabled": true,
+    "feeds": [
+      { "url": "https://rss.arxiv.org/rss/cs.AI", "category": "arXiv cs.AI" },
+      { "url": "https://rss.arxiv.org/rss/cs.LG", "category": "arXiv cs.LG" },
+      { "url": "https://rss.arxiv.org/rss/cs.CL", "category": "arXiv cs.CL" },
+      { "url": "https://rss.arxiv.org/rss/cs.CV", "category": "arXiv cs.CV" }
+    ]
   }
 }
