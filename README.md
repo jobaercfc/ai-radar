@@ -243,5 +243,3 @@ Contributions welcome! Ideas:
 MIT License - feel free to fork and customize!
 
 ---
-
-**Built with ❤️ using Anthropic Claude & OpenAI GPT APIs**
