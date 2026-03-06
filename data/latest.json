@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-05",
-  "generated_at": "2026-03-05T19:39:22.317522",
-  "headline": "OpenAI releases GPT-5.4, pushing the boundaries of AI with enhanced capabilities and efficiency.",
+  "date": "2026-03-06",
+  "generated_at": "2026-03-06T02:24:23.669823",
+  "headline": "OpenAI launches GPT-5.4, enhancing AI's professional capabilities with a 1M-token context.",
   "sections": [
     {
       "id": "must_know",
@@ -10,11 +10,19 @@
       "items": [
         {
           "title": "Introducing GPT-5.4",
-          "summary": "OpenAI has launched GPT-5.4, its latest and most advanced AI model yet. This new version excels in professional tasks, boasting state-of-the-art capabilities in coding, computer use, and tool search. Notably, it supports a 1 million-token context, making it highly effective for complex projects. This release underscores significant improvements in efficiency and versatility for AI-driven applications.",
-          "why_it_matters": "GPT-5.4's capabilities could redefine AI tool development, offering enhanced performance for complex, large-scale applications.",
+          "summary": "OpenAI has released GPT-5.4, their most advanced model to date, featuring state-of-the-art capabilities in coding and tool utilization. It offers a groundbreaking 1 million token context, allowing for highly detailed professional applications. Key enhancements include optimized performance for computer use and seamless tool integration. This release aims to push the boundaries of AI in work environments, providing developers with a more robust and versatile tool.",
+          "why_it_matters": "GPT-5.4's extended context and improved functionalities provide significant advancements for developers aiming to integrate AI into complex applications.",
           "url": "https://openai.com/index/introducing-gpt-5-4",
           "source": "OpenAI News",
           "published": "2026-03-05T10:00:00"
+        },
+        {
+          "title": "Introducing ChatGPT for Excel and new financial data integrations",
+          "summary": "OpenAI has unveiled ChatGPT for Excel, integrating advanced financial data processing capabilities within Excel. This development leverages the power of GPT-5.4 to streamline modeling and data analysis, particularly in regulated financial environments. The integration promises to enhance productivity by automating complex data tasks and providing real-time insights directly within Excel.",
+          "why_it_matters": "This tool significantly optimizes data handling and analysis in Excel, a critical application for many businesses.",
+          "url": "https://openai.com/index/chatgpt-for-excel",
+          "source": "OpenAI News",
+          "published": "2026-03-05T00:00:00"
         }
       ]
     },
@@ -25,19 +33,19 @@
       "items": [
         {
           "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
-          "summary": "Hugging Face has introduced Modular Diffusers, a new set of composable building blocks designed for diffusion pipelines. These modules allow developers to customize and extend diffusion processes, enhancing the flexibility and efficiency of AI implementations. The release aims to simplify the integration and customization of diffusion models in various applications.",
+          "summary": "Hugging Face has launched Modular Diffusers, offering developers composable building blocks to create diffusion pipelines. This release provides greater flexibility in designing and deploying AI models, enabling custom configurations that better suit specific application needs.",
           "url": "https://huggingface.co/blog/modular-diffusers",
           "source": "Hugging Face - Blog",
           "published": "2026-03-05T00:00:00",
           "read_time_minutes": 10
         },
         {
-          "title": "Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline",
-          "summary": "Amazon has unveiled a new CI/CD pipeline for Amazon Lex, facilitating multi-developer collaboration. This setup supports isolated development environments, automated testing, and streamlined deployments, enhancing productivity and reducing time-to-market for conversational AI solutions.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/drive-organizational-growth-with-amazon-lex-multi-developer-ci-cd-pipeline/",
-          "source": "Artificial Intelligence",
-          "published": "2026-03-05T16:20:13",
-          "read_time_minutes": 10
+          "title": "Jido 2.0, Elixir Agent Framework",
+          "summary": "Jido has released version 2.0 of its Elixir Agent Framework, which is designed to build, manage, and run agents on the BEAM. The update includes features such as tool calling and agent skills, enhancing the framework's capability to support complex agentic workflows.",
+          "url": "https://jido.run/blog/jido-2-0-is-here",
+          "source": "Hacker News",
+          "published": null,
+          "read_time_minutes": 7
         }
       ]
     },
@@ -45,16 +53,7 @@
       "id": "deprecations",
       "title": "Deprecations & Changes",
       "emoji": "\ud83d\udcc9",
-      "items": [
-        {
-          "title": "Building custom model provider for Strands Agents with LLMs hosted on SageMaker AI endpoints",
-          "summary": "AWS demonstrates how to build custom model providers for Strands agents using LLMs hosted on SageMaker that do not natively support the Bedrock Messages API format. This involves deploying Llama 3.1 with SGLang on SageMaker, illustrating AWS's shift in supporting diverse AI model ecosystems.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-custom-model-provider-for-strands-agents-with-llms-hosted-on-sagemaker-ai-endpoints/",
-          "source": "Artificial Intelligence",
-          "published": "2026-03-05T16:15:41",
-          "read_time_minutes": 8
-        }
-      ]
+      "items": []
     },
     {
       "id": "research",
@@ -62,20 +61,35 @@
       "emoji": "\ud83d\udd2c",
       "items": [
         {
-          "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
-          "summary": "A recent arXiv paper explores goal drift in coding agents, revealing how autonomous agents navigate conflicting instructions and environmental pressures. The study highlights the need for refined strategies in managing agentic AI systems over extended operational periods.",
-          "url": "https://arxiv.org/abs/2603.03456",
+          "title": "MAGE: Meta-Reinforcement Learning for Language Agents toward Strategic Exploration and Exploitation",
+          "summary": "A recent study explores the use of meta-reinforcement learning to enhance strategic exploration and exploitation in language agents. This research addresses the challenges LLMs face in adapting to non-stationary environments, proposing solutions that could improve their adaptability and learning efficiency.",
+          "url": "https://arxiv.org/abs/2603.03680",
           "source": "arXiv cs.AI",
           "published": "2026-03-05T05:00:00",
           "read_time_minutes": 4
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community Buzz",
+      "emoji": "\ud83d\udccc",
+      "items": [
+        {
+          "title": "60 million Copilot code reviews and counting",
+          "summary": "GitHub's Copilot has surpassed 60 million code reviews, marking a significant milestone in AI-assisted coding. This achievement highlights the increasing adoption of AI tools in software development, helping teams streamline code review processes.",
+          "url": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
+          "source": "The latest on AI & ML - The GitHub Blog",
+          "published": "2026-03-05T20:10:43",
+          "read_time_minutes": 7
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 158,
-    "items_categorized": 5
+    "items_processed": 153,
+    "items_categorized": 6
   },
   "all_items": [
     {
@@ -111,26 +125,34 @@
       "source_type": "rss"
     },
     {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "url": "https://openai.com/index/chatgpt-for-excel",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "published": "2026-03-05T00:00:00",
+      "source": "OpenAI News",
+      "source_type": "rss"
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "summary": "Practical insights and frameworks to turn AI progress into business advantage",
+      "published": "2026-03-05T00:00:00",
+      "source": "OpenAI News",
+      "source_type": "rss"
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "published": "2026-03-05T00:00:00",
+      "source": "OpenAI News",
+      "source_type": "rss"
+    },
+    {
       "title": "Extending single-minus amplitudes to gravitons",
       "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
       "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
       "published": "2026-03-04T10:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Understanding AI and learning outcomes",
-      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
-      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI\u2019s impact on student learning across diverse educational environments over time.",
-      "published": "2026-03-04T00:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "How Axios uses AI to help deliver high-impact local journalism",
-      "url": "https://openai.com/index/axios-allison-murphy",
-      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
-      "published": "2026-03-04T00:00:00",
       "source": "OpenAI News",
       "source_type": "rss"
     },
@@ -225,13 +247,31 @@
       "read_time_minutes": 20
     },
     {
+      "title": "60 million Copilot code reviews and counting",
+      "url": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
+      "summary": "<p>How Copilot code review helps teams keep up with AI-accelerated code changes.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/\">60 million Copilot code reviews and counting</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-03-05T20:10:43",
+      "source": "The latest on AI & ML - The GitHub Blog",
+      "source_type": "rss",
+      "read_time_minutes": 7
+    },
+    {
       "title": "NVIDIA Blackwell Sets STAC-AI Record for LLM Inference in Finance",
       "url": "https://developer.nvidia.com/blog/nvidia-blackwell-sets-stac-ai-record-for-llm-inference-in-finance/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/model-TensorRT-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"model-TensorRT\" width=\"768\" />Large language models (LLMs) are revolutionizing the financial trading landscape by enabling sophisticated analysis of vast amounts of unstructured data to...",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/fsi-kv-trading-in-office-1-4350800-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"fsi-kv-trading-in-office-1-4350800\" width=\"768\" />Large language models (LLMs) are revolutionizing the financial trading landscape by enabling sophisticated analysis of vast amounts of unstructured data to...",
       "published": "2026-03-05T18:00:00",
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 10
+    },
+    {
+      "title": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile",
+      "url": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/",
+      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" />In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you\u2019ll learn: How to implement Flash Attention using NVIDIA...",
+      "published": "2026-03-05T17:00:00",
+      "source": "NVIDIA Technical Blog",
+      "source_type": "rss",
+      "read_time_minutes": 20
     },
     {
       "title": "Controlling Floating-Point Determinism in NVIDIA CCCL",
@@ -241,33 +281,6 @@
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 6
-    },
-    {
-      "title": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile",
-      "url": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/CUDA-Tile-Flash-Attention-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"CUDA-Tile-Flash-Attention\" width=\"768\" />In this post, we dive into one of the most critical workloads in modern AI: Flash Attention, where you\u2019ll learn: How to implement Flash Attention using NVIDIA...",
-      "published": "2026-03-04T17:00:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 20
-    },
-    {
-      "title": "How to Minimize Game Runtime Inference Costs with Coding Agents",
-      "url": "https://developer.nvidia.com/blog/how-to-minimize-game-runtime-inference-costs-with-coding-agents/",
-      "summary": "<img alt=\"Decorative-image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Inference-Game-Agents-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Inference-Game-Agents\" width=\"768\" />NVIDIA ACE is a suite of technologies for building AI agents for gaming. ACE provides ready-to-integrate cloud and on-device AI models for every part of in-game...",
-      "published": "2026-03-03T19:49:57",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "cuTile.jl Brings NVIDIA CUDA Tile-Based Programming to Julia",
-      "url": "https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/",
-      "summary": "<img alt=\"JuliaHub logo.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/JuliaHub-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"JuliaHub\" width=\"768\" />NVIDIA CUDA Tile is one of the most significant additions to NVIDIA CUDA programming and unlocks automatic access to tensor cores and other specialized...",
-      "published": "2026-03-03T19:48:16",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 5
     },
     {
       "title": "The Download: an AI agent\u2019s hit piece, and preventing lightning",
@@ -315,147 +328,106 @@
       "read_time_minutes": 6
     },
     {
-      "title": "GPT-5.4 Thinking System Card",
-      "url": "https://openai.com/index/gpt-5-4-thinking-system-card/",
-      "summary": "Score: 167 | 110 comments",
-      "score": 167,
+      "title": "GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;gpt-5-4-thinking-system-card&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;gpt-5-4-thinking-system-card&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;OpenAI&#x2F;status&#x2F;2029620619743219811\" rel=\"nofollow\">https:&#x2F",
+      "score": 645,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
-      "title": "Show HN: Jido 2.0, Elixir Agent Framework",
-      "url": "https://jido.run/blog/jido-2-0-is-here",
-      "summary": "Hi HN!<p>I&#x27;m the author of an Elixir Agent Framework called Jido. We reached our 2.0 release this week, shipping a production-hardened framework to build, manage and run Agents on the BEAM.<p>Jido now supports a host of Agentic features, including:<p>- Tool Calling and Agent Skills\n- Comprehens",
-      "score": 159,
+      "title": "The next generations of Bubble Tea, Lip Gloss, and Bubbles are available now",
+      "url": "https://charm.land/blog/v2/",
+      "summary": "Score: 96 | 29 comments",
+      "score": 96,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 7
+      "read_time_minutes": 3
+    },
+    {
+      "title": "A standard protocol to handle and discard low-effort, AI-Generated pull requests",
+      "url": "https://406.fail/",
+      "summary": "Score: 91 | 23 comments",
+      "score": 91,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 11
     },
     {
       "title": "Hardware hotplug events on Linux, the gory details",
       "url": "https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html",
-      "summary": "Score: 16 | 0 comments",
-      "score": 16,
+      "summary": "Score: 118 | 5 comments",
+      "score": 118,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 17
     },
     {
-      "title": "Optimizing Recommendation Systems with JDK's Vector API",
-      "url": "https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec",
-      "summary": "Score: 31 | 1 comments",
-      "score": 31,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "Datasets for Reconstructing Visual Perception from Brain Data",
-      "url": "https://github.com/seelikat/neuro-visual-reconstruction-dataset-index",
-      "summary": "Score: 31 | 6 comments",
-      "score": 31,
+      "title": "Show HN: Jido 2.0, Elixir Agent Framework",
+      "url": "https://jido.run/blog/jido-2-0-is-here",
+      "summary": "Hi HN!<p>I&#x27;m the author of an Elixir Agent Framework called Jido. We reached our 2.0 release this week, shipping a production-hardened framework to build, manage and run Agents on the BEAM.<p>Jido now supports a host of Agentic features, including:<p>- Tool Calling and Agent Skills\n- Comprehens",
+      "score": 250,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 16
+      "read_time_minutes": 7
+    },
+    {
+      "title": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
+      "url": "https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/",
+      "summary": "Score: 217 | 108 comments",
+      "score": 217,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 2
     },
     {
       "title": "Launch HN: Vela (YC W26) \u2013 AI for complex scheduling",
       "url": "https://news.ycombinator.com/item?id=47264741",
       "summary": "Hi HN! We&#x27;re Gobhanu and Saatvik (brothers), building Vela (<a href=\"https:&#x2F;&#x2F;tryvela.ai\">https:&#x2F;&#x2F;tryvela.ai</a>) - AI agents that handle multi-party, multi-channel scheduling.<p>Scheduling is a constraint satisfaction problem disguised as email! It\u2019s easy when it\u2019s two peopl",
-      "score": 15,
+      "score": 36,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 8
+      "read_time_minutes": 16
     },
     {
-      "title": "Show HN: PageAgent, A GUI agent that lives inside your web app",
-      "url": "https://alibaba.github.io/page-agent/",
-      "summary": "Title: Show HN: PageAgent, A GUI agent that lives inside your web app<p>Hi HN,<p>I&#x27;m building PageAgent, an open-source (MIT) library that embeds an AI agent directly into your frontend.<p>I built this because I believe there&#x27;s a massive design space for deploying general agents natively i",
-      "score": 41,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "US asked Ukraine for help fighting Iranian drones, Zelensky says",
-      "url": "https://www.bbc.com/news/articles/cr5llg0e9g9o",
-      "summary": "Score: 55 | 23 comments",
-      "score": 55,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "GPT-5.4 Thinking and GPT-5.4 Pro",
-      "url": "https://twitter.com/i/status/2029620619743219811",
-      "summary": "Score: 84 | 21 comments",
-      "score": 84,
+      "title": "Optimizing Recommendation Systems with JDK's Vector API",
+      "url": "https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec",
+      "summary": "Score: 67 | 4 comments",
+      "score": 67,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
       "title": "World-first gigabit laser link between aircraft and geostationary satellite",
       "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/World-first_gigabit-per-second_laser_link_between_aircraft_and_geostationary_satellite",
-      "summary": "Score: 135 | 53 comments",
-      "score": 135,
+      "summary": "Score: 169 | 66 comments",
+      "score": 169,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 3
     },
     {
-      "title": "Relicensing with AI-Assisted Rewrite",
-      "url": "https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/",
-      "summary": "Score: 333 | 332 comments",
-      "score": 333,
+      "title": "Datasets for Reconstructing Visual Perception from Brain Data",
+      "url": "https://github.com/seelikat/neuro-visual-reconstruction-dataset-index",
+      "summary": "Score: 50 | 11 comments",
+      "score": 50,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 3
+      "read_time_minutes": 16
     },
     {
-      "title": "GPT 5.4 Thinking and Pro",
-      "url": "https://twitter.com/OpenAI/status/2029620619743219811",
-      "summary": "Score: 58 | 9 comments",
-      "score": 58,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "The Man Who Broke into Jail",
+      "title": "A man who broke into jail",
       "url": "https://www.newyorker.com/magazine/2026/03/09/alexander-friedmann-profile-prison-reform",
-      "summary": "Score: 58 | 35 comments",
-      "score": 58,
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;zt15Q\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;zt15Q</a>",
+      "score": 108,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 70
     },
     {
-      "title": "AMD will bring its \u201cRyzen AI\u201d processors to standard desktop PCs for first time",
-      "url": "https://arstechnica.com/gadgets/2026/03/amd-ryzen-ai-400-cpus-will-bring-upgraded-graphics-to-socket-am5-desktops/",
-      "summary": "Score: 198 | 185 comments",
-      "score": 198,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Intelligence is a commodity. Context is the real AI Moat",
-      "url": "https://adlrocha.substack.com/p/adlrocha-intelligence-is-a-commodity",
-      "summary": "Score: 109 | 74 comments",
-      "score": 109,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "Jails for NetBSD \u2013 Kernel Enforced Isolation and Native Resource Control",
-      "url": "https://netbsd-jails.petermann-digital.de/",
-      "summary": "Score: 89 | 23 comments",
-      "score": 89,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 1
-    },
-    {
       "title": "TheCraigHewitt/seomachine",
       "url": "https://github.com/TheCraigHewitt/seomachine",
-      "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience. | 371 stars today stars today",
+      "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience. | 310 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 18
@@ -463,7 +435,7 @@
     {
       "title": "inclusionAI/AReaL",
       "url": "https://github.com/inclusionAI/AReaL",
-      "summary": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. | 161 stars today stars today",
+      "summary": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. | 173 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 9
@@ -479,7 +451,7 @@
     {
       "title": "agentscope-ai/ReMe",
       "url": "https://github.com/agentscope-ai/ReMe",
-      "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me. | 195 stars today stars today",
+      "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me. | 194 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
@@ -487,7 +459,7 @@
     {
       "title": "public-apis/public-apis",
       "url": "https://github.com/public-apis/public-apis",
-      "summary": "A collective list of free APIs | 557 stars today stars today",
+      "summary": "A collective list of free APIs | 460 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 86
@@ -495,7 +467,7 @@
     {
       "title": "Jeffallan/claude-skills",
       "url": "https://github.com/Jeffallan/claude-skills",
-      "summary": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer. | 379 stars today stars today",
+      "summary": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer. | 397 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
@@ -503,7 +475,7 @@
     {
       "title": "Aider-AI/aider",
       "url": "https://github.com/Aider-AI/aider",
-      "summary": "aider is AI pair programming in your terminal | 135 stars today stars today",
+      "summary": "aider is AI pair programming in your terminal | 139 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 5
@@ -511,7 +483,7 @@
     {
       "title": "streamlit/streamlit",
       "url": "https://github.com/streamlit/streamlit",
-      "summary": "Streamlit \u2014 A faster way to build and share data apps. | 24 stars today stars today",
+      "summary": "Streamlit \u2014 A faster way to build and share data apps. | 25 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
@@ -519,7 +491,7 @@
     {
       "title": "ComposioHQ/awesome-claude-skills",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | 417 stars today stars today",
+      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | 413 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 16
@@ -527,7 +499,7 @@
     {
       "title": "khoj-ai/khoj",
       "url": "https://github.com/khoj-ai/khoj",
-      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. | 178 stars today stars today",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. | 217 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
@@ -535,7 +507,7 @@
     {
       "title": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 1,469 stars today stars today",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 1,468 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
@@ -543,7 +515,7 @@
     {
       "title": "TheCraigHewitt/seomachine",
       "url": "https://github.com/TheCraigHewitt/seomachine",
-      "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience. | 371 stars today stars today",
+      "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience. | 310 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 18
@@ -551,7 +523,7 @@
     {
       "title": "KeygraphHQ/shannon",
       "url": "https://github.com/KeygraphHQ/shannon",
-      "summary": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark. | 2,926 stars today stars today",
+      "summary": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark. | 2,930 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 20
@@ -559,7 +531,7 @@
     {
       "title": "aquasecurity/trivy",
       "url": "https://github.com/aquasecurity/trivy",
-      "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more | 297 stars today stars today",
+      "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more | 298 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
@@ -567,7 +539,7 @@
     {
       "title": "moeru-ai/airi",
       "url": "https://github.com/moeru-ai/airi",
-      "summary": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. | 3,003 stars today stars today",
+      "summary": "\ud83d\udc96\ud83e\uddf8 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. | 3,006 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 9
@@ -575,7 +547,7 @@
     {
       "title": "inclusionAI/AReaL",
       "url": "https://github.com/inclusionAI/AReaL",
-      "summary": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. | 161 stars today stars today",
+      "summary": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. | 173 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 9
@@ -583,7 +555,7 @@
     {
       "title": "microsoft/mcp-for-beginners",
       "url": "https://github.com/microsoft/mcp-for-beginners",
-      "summary": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | 122 stars today stars today",
+      "summary": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | 137 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 17
@@ -607,10 +579,18 @@
     {
       "title": "agentscope-ai/ReMe",
       "url": "https://github.com/agentscope-ai/ReMe",
-      "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me. | 195 stars today stars today",
+      "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me. | 194 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
+    },
+    {
+      "title": "Introducing GPT\u20115.4",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-5-4/\">Introducing GPT\u20115.4</a></strong></p>\nTwo new API models: <a href=\"https://developers.openai.com/api/docs/models/gpt-5.4\">gpt-5.4</a> and <a href=\"https://developers.openai.com/api/docs/models/gpt-5.4-pro\">gpt-5.4-pro</a>, also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 million token context window. Pri",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
     },
     {
       "title": "Can coding agents relicense open source through a \u201cclean room\u201d implementation of code?",
@@ -640,14 +620,6 @@
       "title": "Quoting Donald Knuth",
       "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
       "summary": "<blockquote cite=\"https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf\"><p>Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hybrid reasoning model that had been released three weeks earlier! It seems that I'll have to revise my opinions about \"generative AI\" one of these days. What a jo",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Gemini 3.1 Flash-Lite",
-      "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
-      "summary": "<p><strong><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/\">Gemini 3.1 Flash-Lite</a></strong></p>\nGoogle's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro.</p>\n<p>It supports four different thinking levels, so I had it output ",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
