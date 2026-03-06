@@ -39,7 +39,8 @@ def scrape_reddit() -> List[Dict[str, Any]]:
     feed_urls = config.get('feed_urls', [])
 
     headers = {
-        'User-Agent': 'AIRadar/1.0'
+        'User-Agent': 'web:ai-radar:v1.0 (by /u/ai-radar-bot)',
+        'Accept': 'application/json',
     }
 
     for feed_url in feed_urls:
