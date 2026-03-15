@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-14",
-  "generated_at": "2026-03-14T08:05:06.121281",
-  "headline": "NVIDIA NeMo Retriever introduces a new agentic retrieval pipeline.",
+  "date": "2026-03-15",
+  "generated_at": "2026-03-15T08:07:09.347017",
+  "headline": "NVIDIA's NeMo Retriever introduces a generalizable agentic retrieval pipeline, enhancing AI search capabilities.",
   "sections": [
     {
       "id": "must_know",
@@ -9,21 +9,12 @@
       "emoji": "\ud83d\udd25",
       "items": [
         {
-          "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM",
-          "summary": "AWS introduces P-EAGLE, a new method for improving inference speeds in large language models by integrating Parallel Speculative Decoding into vLLM from v0.16.0. This enhancement allows for faster processing by serving pre-trained checkpoints more efficiently. The update promises significant improvements in throughput without sacrificing model accuracy. The integration also supports better scalability for cloud-based AI workloads.",
-          "why_it_matters": "Faster inference speeds can drastically reduce costs and improve the performance of AI applications, a critical factor for tech leads managing large-scale deployments.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/",
-          "source": "Artificial Intelligence Blog",
-          "published": "2026-03-13T19:27:04",
-          "read_time_minutes": 11
-        },
-        {
-          "title": "Beyond Semantic Similarity: NVIDIA NeMo Retriever\u2019s Generalizable Agentic Retrieval Pipeline",
-          "summary": "NVIDIA's latest update to the NeMo framework introduces a Generalizable Agentic Retrieval Pipeline, which extends beyond traditional semantic similarity matching. This pipeline is designed to enhance information retrieval across diverse datasets, improving the efficiency of AI models in processing and understanding complex queries. The new architecture leverages advanced techniques to offer more nuanced and contextually relevant responses.",
-          "why_it_matters": "This advancement provides a powerful new tool for developers seeking to build more intelligent and responsive AI systems, crucial for improving user experience in AI-driven applications.",
+          "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever\u2019s Generalizable Agentic Retrieval Pipeline",
+          "summary": "NVIDIA has unveiled a new feature in its NeMo Retriever that introduces a generalizable agentic retrieval pipeline, which improves the AI's ability to perform searches beyond basic semantic similarity. This advancement allows for more nuanced and context-aware retrievals, enhancing the capabilities of AI models in handling complex queries and tasks. The pipeline leverages advanced algorithms to interpret and respond to queries with greater precision and relevance. This update is expected to significantly impact AI-driven applications across various industries by improving the accuracy and efficiency of search operations.",
+          "why_it_matters": "Enhances AI tools with better search accuracy, crucial for developers building complex AI solutions.",
           "url": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
           "source": "Hugging Face - Blog",
-          "published": "2026-03-13T20:00:00",
+          "published": "2026-03-13",
           "read_time_minutes": 8
         }
       ]
@@ -34,20 +25,28 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics",
-          "summary": "Amazon has unveiled new CloudWatch metrics for Amazon Bedrock, specifically TimeToFirstToken and EstimatedTPMQuotaUsage. These metrics aim to enhance operational visibility by allowing developers to set alarms, establish baselines, and proactively manage capacity for inference workloads. This update facilitates better resource allocation and performance tuning in AI applications.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/",
-          "source": "Artificial Intelligence Blog",
-          "published": "2026-03-12T21:20:17",
+          "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM",
+          "summary": "AWS introduces P-EAGLE, a new method integrated into vLLM starting from version 0.16.0. P-EAGLE employs Parallel Speculative Decoding to expedite large language model inference, enhancing performance and reducing latency. This method allows for more rapid processing of AI model outputs, which is crucial for real-time applications. Developers can leverage this technology to optimize the deployment of AI models, particularly in environments requiring quick response times.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/",
+          "source": "Artificial Intelligence",
+          "published": "2026-03-13",
           "read_time_minutes": 11
         },
         {
-          "title": "Build Accelerated, Differentiable Computational Physics Code for AI with NVIDIA Warp",
-          "summary": "NVIDIA introduces Warp, a new tool for developing accelerated and differentiable computational physics code tailored for AI applications. This tool aims to streamline the process of building simulation models by offering a comprehensive framework for integrating AI with computational physics. Warp is designed to enhance the performance of AI systems in engineering and scientific domains.",
-          "url": "https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/",
-          "source": "NVIDIA Technical Blog",
-          "published": "2026-03-12T17:30:00",
-          "read_time_minutes": 16
+          "title": "OpenViking: An Open-Source Context Database for AI Agents",
+          "summary": "OpenViking has been launched as an open-source context database tailored for AI agents. It simplifies the management of context, memory, resources, and skills needed by AI systems, offering a unified file system paradigm. This tool supports hierarchical context delivery, allowing AI agents to self-evolve and adapt more efficiently. Developers building AI agents can integrate OpenViking to enhance context management capabilities.",
+          "url": "https://github.com/volcengine/OpenViking",
+          "source": "GitHub Trending",
+          "published": "today",
+          "read_time_minutes": 15
+        },
+        {
+          "title": "DimensionalOS: An Agentic Operating System for Physical Space",
+          "summary": "DimensionalOS is an innovative operating system designed for managing physical spaces through AI agents. It supports various hardware platforms, including humanoids and drones, and integrates natural language processing for seamless operation. This system allows developers to build multi-agent systems that interact with physical inputs like cameras and lidar, enhancing the development of intelligent physical systems.",
+          "url": "https://github.com/dimensionalOS/dimos",
+          "source": "GitHub Trending",
+          "published": "today",
+          "read_time_minutes": 6
         }
       ]
     },
@@ -55,43 +54,22 @@
       "id": "deprecations",
       "title": "Deprecations & Changes",
       "emoji": "\ud83d\udcc9",
-      "items": []
-    },
-    {
-      "id": "research",
-      "title": "Research Worth Watching",
-      "emoji": "\ud83d\udd2c",
       "items": [
         {
-          "title": "Scale Synthetic Data and Physical AI Reasoning with NVIDIA Cosmos World Foundation Models",
-          "summary": "NVIDIA's Cosmos World Foundation Models aim to advance physical AI reasoning by leveraging synthetic data. This research focuses on the scalability of AI models in simulating real-world physics, enabling more accurate predictions and interactions in virtual environments. The models are designed to support a wide range of applications, from robotics to autonomous vehicles.",
-          "url": "https://developer.nvidia.com/blog/scale-synthetic-data-and-physical-ai-reasoning-with-nvidia-cosmos-world-foundation-models/",
-          "source": "NVIDIA Technical Blog",
-          "published": "2026-03-13T16:00:47",
-          "read_time_minutes": 7
-        }
-      ]
-    },
-    {
-      "id": "community",
-      "title": "Community Buzz",
-      "emoji": "\ud83d\udccc",
-      "items": [
-        {
-          "title": "Validate Kubernetes for GPU Infrastructure with Layered, Reproducible Recipes",
-          "summary": "NVIDIA provides a detailed guide on validating Kubernetes setups for GPU infrastructure using reproducible recipes. This approach ensures consistent and efficient deployment of GPU resources, addressing common challenges in managing AI workloads at scale. The guide offers insights into optimizing GPU usage and enhancing the reliability of Kubernetes environments.",
-          "url": "https://developer.nvidia.com/blog/validate-kubernetes-for-gpu-infrastructure-with-layered-reproducible-recipes/",
-          "source": "NVIDIA Technical Blog",
-          "published": "2026-03-12T16:30:00",
-          "read_time_minutes": 5
+          "title": "1M Context is Now Generally Available for Opus 4.6 and Sonnet 4.6",
+          "summary": "Anthropic has announced the general availability of 1 million context windows for their models Opus 4.6 and Sonnet 4.6. This update removes the premium pricing previously associated with long-context windows, standardizing costs for extensive context usage. The change is likely to impact developers by lowering operational costs for applications requiring large context handling.",
+          "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+          "source": "Simon Willison",
+          "published": "2026-03-13",
+          "read_time_minutes": 2
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 69,
-    "items_categorized": 6
+    "items_processed": 49,
+    "items_categorized": 5
   },
   "all_items": [
     {
@@ -104,13 +82,13 @@
       "read_time_minutes": 8
     },
     {
-      "title": "How AI is helping improve heart health in rural Australia",
-      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
-      "summary": "A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background.",
-      "published": "2026-03-12T15:00:00",
-      "source": "AI",
+      "title": "Identifying Interactions at Scale for LLMs",
+      "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+      "summary": "<!-- twitter -->\n\n\n\n\n\n\n\n\n\n\n\n\n<p style=\"text-align: center;\">\n<!-- <img src=\"https://bair.berkeley.edu/static/blog/spex/image1.png\" alt=\"different_tests\" width=\"600\"><br> -->\n<img alt=\"different_tests\" src=\"https://bair.berkeley.edu/static/blog/spex/image1.png\" width=\"600\" /><br />\n<i style=\"font-size: 0.9em;\">\n</i>\n</p>\n\n<p>Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpre",
+      "published": "2026-03-13T09:00:00",
+      "source": "The Berkeley Artificial Intelligence Research Blog",
       "source_type": "rss",
-      "read_time_minutes": 4
+      "read_time_minutes": 8
     },
     {
       "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM",
@@ -122,82 +100,10 @@
       "read_time_minutes": 11
     },
     {
-      "title": "Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption",
-      "url": "https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/",
-      "summary": "Today, we\u2019re announcing two new Amazon CloudWatch metrics for Amazon Bedrock, TimeToFirstToken and EstimatedTPMQuotaUsage. In this post, we cover how these work and how to set alarms, establish baselines, and proactively manage capacity using them.",
-      "published": "2026-03-12T21:20:17",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 11
-    },
-    {
-      "title": "Secure AI agents with Policy in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-in-amazon-bedrock-agentcore/",
-      "summary": "In this post, you will understand how Policy in Amazon Bedrock AgentCore creates a deterministic enforcement layer that operates independently of the agent's own reasoning. You will learn how to turn natural language descriptions of your business rules into Cedar policies, then use those policies to enforce fine-grained, identity-aware controls so that agents only access the tools and data that their users are authorized to use. You will also see how to apply Policy through AgentCore Gateway, in",
-      "published": "2026-03-12T21:16:50",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Multimodal embeddings at scale: AI data lake for media and entertainment workloads",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/",
-      "summary": "This post shows you how to build a scalable multimodal video search system that enables natural language search across large video datasets using Amazon Nova models and Amazon OpenSearch Service. You will learn how to move beyond manual tagging and keyword-based searches to enable semantic search that captures the full richness of video content.",
-      "published": "2026-03-12T15:59:35",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Fine-tuning NVIDIA Nemotron Speech ASR on Amazon EC2 for domain adaptation",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-nvidia-nemotron-speech-asr-on-amazon-ec2-for-domain-adaptation/",
-      "summary": "In this post, we explore how to fine-tune a leaderboard-topping, NVIDIA Nemotron Speech Automatic Speech Recognition (ASR) model; Parakeet TDT 0.6B V2. Using synthetic speech data to achieve superior transcription results for specialised applications, we'll walk through an end-to-end workflow that combines AWS infrastructure with the following popular open-source frameworks.",
-      "published": "2026-03-12T15:57:22",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 24
-    },
-    {
-      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
-      "url": "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
-      "summary": "<p>AI automates triage for accessibility feedback, allowing us to focus on fixing barriers\u2014turning a chaotic backlog into continuous, rapid resolutions.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/\">Continuous AI for accessibility: How GitHub transforms feedback into inclusion</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-      "published": "2026-03-12T16:00:00",
-      "source": "The latest on AI & ML - The GitHub Blog",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
       "title": "Scale Synthetic Data and Physical AI Reasoning with NVIDIA Cosmos World Foundation Models",
       "url": "https://developer.nvidia.com/blog/scale-synthetic-data-and-physical-ai-reasoning-with-nvidia-cosmos-world-foundation-models/",
       "summary": "<img alt=\"A GIF showing robotics.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/Cosmos-Data-Reasoning.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-Data-Reasoning\" width=\"600\" />The next generation of AI-driven robots like humanoids and autonomous vehicles depends on high-fidelity, physics-aware training data. Without diverse and...",
       "published": "2026-03-13T16:00:47",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "Build Accelerated, Differentiable Computational Physics Code for AI with NVIDIA Warp",
-      "url": "https://developer.nvidia.com/blog/build-accelerated-differentiable-computational-physics-code-for-ai-with-nvidia-warp/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/decaying-turbulence-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"decaying-turbulence\" width=\"768\" />Computer-aided engineering (CAE) is shifting from human-driven workflows toward AI-driven ones, including physics foundation models that generalize across...",
-      "published": "2026-03-12T17:30:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 16
-    },
-    {
-      "title": "Validate Kubernetes for GPU Infrastructure with Layered, Reproducible Recipes",
-      "url": "https://developer.nvidia.com/blog/validate-kubernetes-for-gpu-infrastructure-with-layered-reproducible-recipes/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/security-social-cve-workflow-3882621-1200x628-1-e1772213795405-768x431.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"security-social-cve-workflow-3882621-1200x628\" width=\"768\" />Every AI cluster running on Kubernetes requires a full software stack that works together, from low-level driver and kernel settings to high-lev",
-      "published": "2026-03-12T16:30:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Build Next-Gen Physical AI with Edge\u2011First LLMs for Autonomous Vehicles and Robotics",
-      "url": "https://developer.nvidia.com/blog/build-next-gen-physical-ai-with-edge%e2%80%91first-llms-for-autonomous-vehicles-and-robotics/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/autonomous-vehicle-backseat-view-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"autonomous-vehicle-backseat-view\" width=\"768\" />Physical AI is rapidly evolving, from next-generation software-defined autonomous vehicles (AVs) to humanoid robots. The challenge is no longer how to run a...",
-      "published": "2026-03-12T16:00:00",
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 7
@@ -230,266 +136,184 @@
       "read_time_minutes": 8
     },
     {
-      "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
-      "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
-      "summary": "The US military might use generative AI systems to rank lists of targets and make recommendations\u2014which would be vetted by humans\u2014about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as the Pentagon faces scrutiny over a strike&#8230;",
-      "published": "2026-03-12T22:23:34",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "The Download: Early adopters cash in on China\u2019s OpenClaw craze, and US batteries slump",
-      "url": "https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Hustlers are cashing in on China\u2019s&#160;OpenClaw&#160;AI craze&#160; In January, Beijing-based software engineer Feng Qingyang started tinkering with&#160;OpenClaw, a new AI tool that can take over a device and autonomously complete tasks.&#8230;",
-      "published": "2026-03-12T13:02:48",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Pragmatic by design: Engineering AI for the real world",
-      "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
-      "summary": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the design of the items that furnish our&#8230;",
-      "published": "2026-03-12T13:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Brutal times for the US battery industry",
-      "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
-      "summary": "Just a few years ago, the battery industry was hot, hot, hot. There was a seemingly infinite number of companies popping up, with shiny new chemistries and massive fundraising rounds. My biggest problem was sifting through the pile to pick the most exciting news to cover. That tide has turned, and in 2026, what seems&#8230;",
-      "published": "2026-03-12T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
-      "url": "https://claude.com/blog/1m-context-ga",
-      "summary": "Score: 602 | 249 comments",
-      "score": 602,
+      "title": "Treasure hunter freed from jail after refusing to turn over shipwreck gold",
+      "url": "https://www.bbc.com/news/articles/cg4g7kn99q3o",
+      "summary": "Score: 70 | 79 comments",
+      "score": 70,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 6
+      "read_time_minutes": 3
     },
     {
-      "title": "Emacs and Vim in the Age of AI",
-      "url": "https://batsov.com/articles/2026/03/09/emacs-and-vim-in-the-age-of-ai/",
-      "summary": "Score: 101 | 35 comments",
-      "score": 101,
+      "title": "Show HN: Han \u2013 A Korean programming language written in Rust",
+      "url": "https://github.com/xodn348/han",
+      "summary": "A few weeks ago I saw a post about someone converting an entire C++ codebase to Rust using AI in under two weeks.<p>That inspired me \u2014 if AI can rewrite a whole language stack that fast, I wanted to try building a programming language from scratch with AI assistance.<p>I&#x27;ve also been noticing g",
+      "score": 161,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 15
+      "read_time_minutes": 12
     },
     {
-      "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
-      "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
-      "summary": "Score: 534 | 467 comments",
-      "score": 534,
+      "title": "Tree Search Distillation for Language Models Using PPO",
+      "url": "https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/",
+      "summary": "Score: 53 | 3 comments",
+      "score": 53,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 6
+      "read_time_minutes": 11
     },
     {
-      "title": "I found 39 Algolia admin keys exposed across open source documentation sites",
-      "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
-      "summary": "Score: 117 | 28 comments",
-      "score": 117,
+      "title": "MCP is dead; long live MCP",
+      "url": "https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/",
+      "summary": "Score: 118 | 121 comments",
+      "score": 118,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 4
+      "read_time_minutes": 16
     },
     {
-      "title": "Mouser: An open source alternative to Logi-Plus mouse software",
-      "url": "https://github.com/TomBadash/MouseControl",
-      "summary": "I discovered this project because all-of-a-sudden Logi Options Plus software updater started taking 40-60% of my Intel Macbook Pro until I killed the process (of course it restarts). In my searches I ended up at a reddit discussion where I found other people with same issues.<p>I&#x27;m a minor cont",
-      "score": 282,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "Optimizing Content for Agents",
-      "url": "https://cra.mr/optimizing-content-for-agents/",
-      "summary": "Score: 34 | 15 comments",
-      "score": 34,
+      "title": "Launching the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "summary": "Score: 133 | 64 comments",
+      "score": 133,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 5
     },
     {
-      "title": "Can I run AI locally?",
-      "url": "https://www.canirun.ai/",
-      "summary": "Score: 1176 | 287 comments",
-      "score": 1176,
+      "title": "Airbus is preparing two uncrewed combat aircraft",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european",
+      "summary": "Score: 125 | 70 comments",
+      "score": 125,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 13
+      "read_time_minutes": 4
     },
     {
-      "title": "Digg is gone again",
-      "url": "https://digg.com/",
-      "summary": "Score: 149 | 117 comments",
-      "score": 149,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "New 'negative light' technology hides data transfers in plain sight",
-      "url": "https://www.unsw.edu.au/newsroom/news/2026/03/New-negative-light-technology-hides-data-transfers-in-plain-sight",
-      "summary": "Score: 83 | 48 comments",
-      "score": 83,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Elon Musk pushes out more xAI founders as AI coding effort falters",
-      "url": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;rP4cb\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;rP4cb</a> (text at bottom)<p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;elonmusk&#x2F;status&#x2F;2032201568335044978\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;elonmusk&#x2F;status&#x2F;20322015683350449",
-      "score": 409,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Launch HN: Spine Swarm (YC S23) \u2013 AI agents that collaborate on a visual canvas",
-      "url": "https://www.getspine.ai/",
-      "summary": "Hey HN! We&#x27;re Ashwin and Akshay from Spine AI (<a href=\"https:&#x2F;&#x2F;www.getspine.ai\">https:&#x2F;&#x2F;www.getspine.ai</a>). Spine Swarm is a multi-agent system that works on an infinite visual canvas to complete complex non-coding projects: competitive analysis, financial modeling, SEO a",
-      "score": 93,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "Show HN: Context Gateway \u2013 Compress agent context before it hits the LLM",
-      "url": "https://github.com/Compresr-ai/Context-Gateway",
-      "summary": "We built an open-source proxy that sits between coding agents (Claude Code, OpenClaw, etc.) and the LLM, compressing tool outputs before they enter the context window.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-vFZ6MPrwjw#t=9s\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#",
-      "score": 74,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 1
-    },
-    {
-      "title": "John Carmack about open source and anti-AI activists",
-      "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
-      "summary": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;id_aa_carmack&#x2F;status&#x2F;2032460578669691171\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;id_aa_carmack&#x2F;status&#x2F;2032460578669691171</a>",
-      "score": 304,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "The Wyden Siren Goes Off Again: We\u2019ll Be \u201cStunned\u201d By What the NSA Is Doing",
-      "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/",
-      "summary": "Score: 450 | 126 comments",
-      "score": 450,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "Launch HN: Captain (YC W26) \u2013 Automated RAG for Files",
-      "url": "https://www.runcaptain.com/",
-      "summary": "Hi HN, we\u2019re Lewis and Edgar, building Captain to simplify unstructured data search (<a href=\"https:&#x2F;&#x2F;runcaptain.com\">https:&#x2F;&#x2F;runcaptain.com</a>). Captain automates the building and maintenance of file-based RAG pipelines. It indexes cloud storage like S3 and GCS, plus SaaS sourc",
-      "score": 50,
+      "title": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net",
+      "url": "https://github.com/groverburger/grobpaint",
+      "summary": "Score: 39 | 5 comments",
+      "score": 39,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 3
     },
     {
-      "title": "microsoft/BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "summary": "Official inference framework for 1-bit LLMs | 2,227 stars today stars today",
+      "title": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "summary": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving. | 1,610 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "langflow-ai/openrag",
-      "url": "https://github.com/langflow-ai/openrag",
-      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. | 905 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "summary": "A collective list of free APIs | 892 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 86
-    },
-    {
-      "title": "fishaudio/fish-speech",
-      "url": "https://github.com/fishaudio/fish-speech",
-      "summary": "SOTA Open Source TTS | 559 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
+      "read_time_minutes": 15
     },
     {
       "title": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins. | 654 stars today stars today",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins. | 411 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
-      "title": "AstrBotDevs/AstrBot",
-      "url": "https://github.com/AstrBotDevs/AstrBot",
-      "summary": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. \u2728 | 1,128 stars today stars today",
+      "title": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "summary": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators). | 72 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "summary": "Hindsight: Agent Memory That Learns | 595 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 8
+      "read_time_minutes": 6
     },
     {
       "title": "p-e-w/heretic",
       "url": "https://github.com/p-e-w/heretic",
-      "summary": "Fully automatic censorship removal for language models | 1,283 stars today stars today",
+      "summary": "Fully automatic censorship removal for language models | 694 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 11
     },
     {
-      "title": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "summary": "The agent that grows with you | 727 stars today stars today",
+      "title": "langflow-ai/openrag",
+      "url": "https://github.com/langflow-ai/openrag",
+      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. | 564 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 5
+      "read_time_minutes": 3
+    },
+    {
+      "title": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "summary": "SOTA Open Source TTS | 381 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
     },
     {
       "title": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
-      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269 | 3,046 stars today stars today",
+      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269 | 2,045 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "Hindsight: Agent Memory That Learns | 448 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 8
+    },
+    {
       "title": "microsoft/BitNet",
       "url": "https://github.com/microsoft/BitNet",
-      "summary": "Official inference framework for 1-bit LLMs | 2,227 stars today stars today",
+      "summary": "Official inference framework for 1-bit LLMs | 1,057 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
+      "title": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "summary": "Knowledge Engine for AI Agent Memory in 6 lines of code | 168 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "summary": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving. | 1,610 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 15
+    },
+    {
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins. | 411 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "summary": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators). | 72 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "summary": "Fully automatic censorship removal for language models | 694 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 11
+    },
+    {
       "title": "langflow-ai/openrag",
       "url": "https://github.com/langflow-ai/openrag",
-      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. | 905 stars today stars today",
+      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. | 564 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
@@ -497,66 +321,58 @@
     {
       "title": "lightpanda-io/browser",
       "url": "https://github.com/lightpanda-io/browser",
-      "summary": "Lightpanda: the headless browser designed for AI and automation | 2,093 stars today stars today",
+      "summary": "Lightpanda: the headless browser designed for AI and automation | 2,069 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 8
     },
     {
-      "title": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works. | 2,106 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "public-apis/public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "summary": "A collective list of free APIs | 892 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 86
-    },
-    {
-      "title": "promptfoo/promptfoo",
-      "url": "https://github.com/promptfoo/promptfoo",
-      "summary": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration. | 1,668 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 2
-    },
-    {
       "title": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 5,745 stars today stars today",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 4,280 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 23
     },
     {
-      "title": "dolthub/dolt",
-      "url": "https://github.com/dolthub/dolt",
-      "summary": "Dolt \u2013 Git for Data | 60 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 25
-    },
-    {
-      "title": "google/A2UI",
-      "url": "https://github.com/google/A2UI",
-      "summary": " | 635 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
       "title": "fishaudio/fish-speech",
       "url": "https://github.com/fishaudio/fish-speech",
-      "summary": "SOTA Open Source TTS | 559 stars today stars today",
+      "summary": "SOTA Open Source TTS | 381 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 6
+    },
+    {
+      "title": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "summary": "Give agents everything they need to ship fullstack apps. The backend built for agentic development. | 482 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works. | 1,439 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "Quoting Jannis Leidel",
+      "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "summary": "<blockquote cite=\"https://jazzband.co/news/2026/03/14/sunsetting-jazzband\"><p>GitHub\u2019s\u00a0<a href=\"https://www.theregister.com/2026/02/18/godot_maintainers_struggle_with_draining/\">slopocalypse</a>\u00a0\u2013 the flood of AI-generated spam PRs and issues \u2013 has made Jazzband\u2019s model of open membership and shared push access untenable.</p>\n<p>Jazzband was designed for a world where the worst case was someone ac",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "summary": "<p>I was a speaker last month at the <a href=\"https://www.pragmaticsummit.com/\">Pragmatic Summit</a> in San Francisco, where I participated in a fireside chat session about <a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">Agentic Engineering</a> hosted by Eric Lui from Statsig.</p>\n\n<p>The video is <a href=\"https://www.youtube.com/watch?v=owmJyKVu5f8\">available on YouTube</",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 17
     },
     {
       "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
@@ -578,22 +394,6 @@
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
       "url": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
       "summary": "<p><strong><a href=\"https://github.com/Shopify/liquid/pull/2056\">Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations</a></strong></p>\nPR from Shopify CEO Tobias L\u00fctke against Liquid, Shopify's open source Ruby template engine that was somewhat inspired by Django when Tobi first created it <a href=\"https://simonwillison.net/2005/Nov/6/liquid/\">back in 2005</a>.</p>\n<p>Tobi f",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "MALUS - Clean Room as a Service",
-      "url": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
-      "summary": "<p><strong><a href=\"https://malus.sh/\">MALUS - Clean Room as a Service</a></strong></p>\nBrutal satire on the whole vibe-porting license washing thing (<a href=\"https://simonwillison.net/2026/Mar/5/chardet/\">previously</a>):</p>\n<blockquote>\n<p>Finally, liberation from open source license obligations.</p>\n<p>Our proprietary AI robots independently recreate any open source project from scratch. The ",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Coding After Coders: The End of Computer Programming as We Know It",
-      "url": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
-      "summary": "<p><strong><a href=\"https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.SlA.DBan.wbQDi-hptjj6\">Coding After Coders: The End of Computer Programming as We Know It</a></strong></p>\nEpic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software developers from companies like Goo",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 3
@@ -628,7 +428,7 @@
       "summary": "Replit Agent 4 lets us reflect on a couple disparate releases.",
       "source": "Latent Space",
       "source_type": "blog",
-      "read_time_minutes": 41
+      "read_time_minutes": 12
     },
     {
       "title": "[AINews] Yann LeCun\u2019s AMI Labs launches with a $1B seed @ $4.5B to build world models around JEPA",
@@ -636,7 +436,7 @@
       "summary": "World Models are what next generation AI needs.",
       "source": "Latent Space",
       "source_type": "blog",
-      "read_time_minutes": 16
+      "read_time_minutes": 61
     },
     {
       "title": "A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026",
