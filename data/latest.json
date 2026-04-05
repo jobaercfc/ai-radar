@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-04",
-  "generated_at": "2026-04-04T08:09:21.123084",
-  "headline": "Codex introduces flexible pricing for enterprise teams, enhancing accessibility and scalability.",
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T08:08:44.317654",
+  "headline": "Microsoft releases a new framework for AI agent orchestration and deployment, supporting Python and .NET.",
   "sections": [
     {
       "id": "must_know",
@@ -9,21 +9,13 @@
       "emoji": "\ud83d\udd25",
       "items": [
         {
-          "title": "Codex now offers more flexible pricing for teams",
-          "summary": "OpenAI's Codex has introduced a new pay-as-you-go pricing model for its ChatGPT Business and Enterprise users. This update provides teams with a more adaptable and scalable approach to adopting Codex, making it easier for companies to integrate AI into their workflows without upfront commitments. The flexible pricing is aimed at increasing accessibility and encouraging broader adoption of Codex\u2019s capabilities across various industries. This change reflects OpenAI's strategy to cater to diverse business needs and optimize resource allocation.",
-          "why_it_matters": "Tech leads can leverage this flexible pricing to experiment with AI integrations without significant financial commitments.",
-          "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
-          "source": "OpenAI News",
-          "published": "2026-04-02T10:00:00"
-        },
-        {
-          "title": "New ways to balance cost and reliability in the Gemini API",
-          "summary": "Google has introduced new features in the Gemini API, known as 'Dials,' allowing developers to optimize cost and reliability during inference. These options enable developers to choose between faster processing times or cost efficiency, tailoring the API usage to specific project needs. Such flexibility is crucial for developers managing large-scale AI deployments, where resource allocation can significantly impact performance and budget.",
-          "why_it_matters": "This update offers tech leads more control over API costs and performance, facilitating better budget management and project scalability.",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-          "source": "AI",
-          "published": "2026-04-02T16:00:00",
-          "read_time_minutes": 3
+          "title": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
+          "summary": "A report highlights significant performance degradation of PostgreSQL on AWS instances running Linux 7.0. The performance drop is attributed to changes in Linux kernel optimizations, potentially impacting database operations. The issue is not straightforward to resolve, requiring coordinated efforts between AWS and the Linux community. This could affect cloud-hosted database services, leading to increased costs or service disruptions.",
+          "why_it_matters": "Tech leads need to be aware of potential performance impacts on cloud-based PostgreSQL deployments, which may require adjustments or alternative solutions.",
+          "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+          "source": "Hacker News",
+          "published": "2026-04-04",
+          "read_time_minutes": 2
         }
       ]
     },
@@ -33,28 +25,20 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "Simulate realistic users to evaluate AI agents in Strands Evals",
-          "summary": "AWS has released ActorSimulator within the Strands Evaluations SDK, a tool designed to simulate realistic user interactions for AI agents. This feature allows developers to integrate structured user simulations into their evaluation pipelines, enhancing the accuracy and reliability of multi-turn agent evaluations. The tool aims to improve the development and fine-tuning of AI systems by providing a more robust testing environment.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/",
-          "source": "Artificial Intelligence",
-          "published": "2026-04-02T17:34:02",
-          "read_time_minutes": 12
+          "title": "microsoft/agent-framework",
+          "summary": "Microsoft has introduced a new framework to build, orchestrate, and deploy AI agents and multi-agent workflows. The framework supports both Python and .NET, providing a versatile solution for integrating AI capabilities into applications. It aims to simplify the process of managing complex AI systems, allowing developers to focus on application logic.",
+          "url": "https://github.com/microsoft/agent-framework",
+          "source": "GitHub Trending",
+          "published": "2026-04-05",
+          "read_time_minutes": 6
         },
         {
-          "title": "Gemma 4: Byte for byte, the most capable open models",
-          "summary": "Google DeepMind has unveiled Gemma 4, their latest open model series focused on advanced reasoning and agent workflows. These models are designed to enhance agentic workflows, offering improvements in processing capabilities and efficiency. Gemma 4 represents a significant leap from its predecessors, emphasizing open access and applicability in various AI-driven tasks.",
-          "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-          "source": "Google DeepMind News",
-          "published": "2026-04-02T16:00:49",
-          "read_time_minutes": 7
-        },
-        {
-          "title": "Run Linux containers on Android, no root required",
-          "summary": "Podroid, an open-source project, now allows developers to run Linux containers on Android devices without requiring root access. This capability opens new possibilities for leveraging Android devices as development platforms and testing environments, particularly for AI applications that benefit from containerization.",
-          "url": "https://github.com/ExTV/Podroid",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 3
+          "title": "scan-for-secrets 0.2",
+          "summary": "The latest release of the scan-for-secrets tool includes streaming results for better handling of large directory scans. The tool helps developers find hidden secrets in code repositories more efficiently, ensuring better security practices. This update enhances usability and performance when dealing with extensive codebases.",
+          "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+          "source": "Simon Willison",
+          "published": "2026-04-05",
+          "read_time_minutes": 2
         }
       ]
     },
@@ -62,31 +46,13 @@
       "id": "deprecations",
       "title": "Deprecations & Changes",
       "emoji": "\ud83d\udcc9",
-      "items": [
-        {
-          "title": "Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
-          "summary": "Anthropic has announced that starting April 4, users will no longer be able to use Claude Code subscription limits for third-party harnesses, including OpenClaw. This change will require users to adhere strictly to usage within the Claude platform, potentially impacting developers relying on third-party integrations.",
-          "url": "https://news.ycombinator.com/item?id=47633396",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 152
-        }
-      ]
+      "items": []
     },
     {
       "id": "research",
       "title": "Research Worth Watching",
       "emoji": "\ud83d\udd2c",
-      "items": [
-        {
-          "title": "Emotion concepts and their function in a large language model",
-          "summary": "Anthropic's latest research explores how emotion concepts function within large language models, providing insights into the cognitive processes underpinning AI text generation. This research could influence how emotion is modeled in AI, enhancing the development of more nuanced and human-like interactions.",
-          "url": "https://www.anthropic.com/research/emotion-concepts-function",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 16
-        }
-      ]
+      "items": []
     },
     {
       "id": "community",
@@ -94,145 +60,22 @@
       "emoji": "\ud83d\udccc",
       "items": [
         {
-          "title": "Post Mortem: axios NPM supply chain compromise",
-          "summary": "A recent security incident involving the axios NPM package highlights vulnerabilities in the supply chain, leading to a detailed post-mortem analysis by the development community. This incident underscores the importance of robust security practices in open-source projects.",
-          "url": "https://github.com/axios/axios/issues/10636",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 6
-        },
-        {
-          "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
-          "summary": "Mintlify shares their experience of enhancing their AI documentation assistant by replacing Retrieval-Augmented Generation (RAG) with a virtual filesystem. This change has improved performance and reliability, showcasing an innovative approach to AI documentation.",
-          "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 7
+          "title": "Components of a Coding Agent",
+          "summary": "An in-depth exploration of how coding agents utilize tools, memory, and repository context to enhance the functionality of large language models (LLMs). This piece discusses practical implementations and the challenges faced in integrating these components to improve LLM performance.",
+          "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+          "source": "Sebastian Raschka",
+          "published": "2026-04-04",
+          "read_time_minutes": 18
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 55,
-    "items_categorized": 9
+    "items_processed": 43,
+    "items_categorized": 4
   },
   "all_items": [
-    {
-      "title": "OpenAI acquires TBPN",
-      "url": "https://openai.com/index/openai-acquires-tbpn",
-      "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-      "published": "2026-04-02T10:30:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Codex now offers more flexible pricing for teams",
-      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
-      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
-      "published": "2026-04-02T10:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "New ways to balance cost and reliability in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-      "summary": "Gemini API Dials",
-      "published": "2026-04-02T16:00:00",
-      "source": "AI",
-      "source_type": "rss",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Create, edit and share videos at no cost in Google Vids",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
-      "summary": "Google Vids logo surrounded by various video editing UI",
-      "published": "2026-04-02T16:00:00",
-      "source": "AI",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
-      "published": "2026-04-02T16:00:49",
-      "source": "Google DeepMind News",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "Simulate realistic users to evaluate multi-turn AI agents in Strands Evals",
-      "url": "https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/",
-      "summary": "In this post, we explore how ActorSimulator in Strands Evaluations SDK addresses the challenge with structured user simulation that integrates into your evaluation pipeline.",
-      "published": "2026-04-02T17:34:02",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
-      "title": "Scaling seismic foundation models on AWS: Distributed training with Amazon SageMaker HyperPod and expanding context windows",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/",
-      "summary": "This post describes how TGS achieved near-linear scaling for distributed training and expanded context windows for their Vision Transformer-based SFM using Amazon SageMaker HyperPod. This joint solution cut training time from 6 months to just 5 days while enabling analysis of seismic volumes larger than previously possible.",
-      "published": "2026-04-02T13:30:57",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 11
-    },
-    {
-      "title": "Control which domains your AI agents can access",
-      "url": "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/",
-      "summary": "In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection \u2014 the first layer of a defense-in-depth approach.",
-      "published": "2026-04-02T13:28:19",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
-      "url": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
-      "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.",
-      "published": "2026-04-02T12:59:31",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 11
-    },
-    {
-      "title": "Persist session state with filesystem configuration and execute shell commands",
-      "url": "https://aws.amazon.com/blogs/machine-learning/persist-session-state-with-filesystem-configuration-and-execute-shell-commands/",
-      "summary": "In this post, we go through how to use managed session storage to persist your agent's filesystem state and how to execute shell commands directly in your agent's environment.",
-      "published": "2026-04-02T12:52:07",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "Accelerating Vision AI Pipelines with Batch Mode VC-6 and NVIDIA Nsight",
-      "url": "https://developer.nvidia.com/blog/accelerating-vision-ai-pipelines-with-batch-mode-vc-6-and-nvidia-nsight/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/blue-square-field-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"blue-square-field\" width=\"768\" />In vision AI systems, model throughput continues to improve. The surrounding pipeline stages must keep pace, including decode, preprocessing, and GPU...",
-      "published": "2026-04-02T20:00:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "Bringing AI Closer to the Edge and On-Device with Gemma 4",
-      "url": "https://developer.nvidia.com/blog/bringing-ai-closer-to-the-edge-and-on-device-with-gemma-4/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Gemma-4-TechBlog-featured-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Gemma 4 TechBlog featured\" width=\"768\" />The Gemmaverse expands with the launch of the latest Gemma 4 multimodal and multilingual models, designed to scale across the full spectrum of deployments, from...",
-      "published": "2026-04-02T16:27:46",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Achieving Single-Digit Microsecond Latency Inference for Capital Markets",
-      "url": "https://developer.nvidia.com/blog/achieving-single-digit-microsecond-latency-inference-for-capital-markets/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/finance-trading-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"finance-trading\" width=\"768\" />In algorithmic trading, reducing response times to market events is crucial. To keep pace with high-speed electronic markets, latency-sensitive firms often use...",
-      "published": "2026-04-02T16:00:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 13
-    },
     {
       "title": "Four things we\u2019d need to put data centers in space",
       "url": "https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/",
@@ -243,258 +86,267 @@
       "read_time_minutes": 11
     },
     {
-      "title": "The Download: plastic\u2019s problem with fuel prices, and SpaceX\u2019s blockbuster IPO",
-      "url": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Fuel prices are soaring. Plastic could be next.&#160; As the war in Iran continues, one of the most visible global economic ripple effects has been fossil-fuel prices.&#160;But looking ahead, further consequences&#160;could&#8230;",
-      "published": "2026-04-02T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Fuel prices are soaring. Plastic could be next.",
-      "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
-      "summary": "As the war in Iran continues to engulf the Middle East and the Strait of Hormuz stays closed, one of the most visible global economic ripple effects has been fossil-fuel prices. In particular, you can\u2019t get away from news about the price of gasoline, which just topped an average of $4 a gallon in the&#8230;",
-      "published": "2026-04-02T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
-      "url": "https://news.ycombinator.com/item?id=47633396",
-      "summary": "Received the following email from Anthropic:<p>Hi,<p>Starting April 4 at 12pm PT &#x2F; 8pm BST, you\u2019ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw. You can still use them with your Claude account, but they will require extra usage, a pay-as-",
-      "score": 603,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 152
-    },
-    {
-      "title": "Artemis II crew take \u201cspectacular\u201d image of Earth",
-      "url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
-      "summary": "<a href=\"https:&#x2F;&#x2F;www.nasa.gov&#x2F;image-detail&#x2F;fd02_for-pao&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nasa.gov&#x2F;image-detail&#x2F;fd02_for-pao&#x2F;</a>",
-      "score": 707,
+      "title": "Zml-smi: universal monitoring tool for GPUs, TPUs and NPUs",
+      "url": "https://zml.ai/posts/zml-smi/",
+      "summary": "Score: 31 | 6 comments",
+      "score": 31,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 4
     },
     {
-      "title": "Emotion concepts and their function in a large language model",
-      "url": "https://www.anthropic.com/research/emotion-concepts-function",
-      "summary": "Score: 31 | 14 comments",
-      "score": 31,
+      "title": "LLM Wiki \u2013 example of an \"idea file\"",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;karpathy&#x2F;status&#x2F;2040470801506541998\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;karpathy&#x2F;status&#x2F;2040470801506541998</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;karpathy&#x2F;status&#x2F;2040470801506541998\" rel=\"nofollow\">https:&#x2F;&",
+      "score": 163,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 16
+      "read_time_minutes": 10
     },
     {
-      "title": "Run Linux containers on Android, no root required",
-      "url": "https://github.com/ExTV/Podroid",
-      "summary": "Score: 95 | 33 comments",
-      "score": 95,
+      "title": "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy",
+      "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+      "summary": "<a href=\"https:&#x2F;&#x2F;lore.kernel.org&#x2F;lkml&#x2F;yr3inlzesdb45n6i6lpbimwr7b25kqkn37qzlvvzgad5hfd7ut@xv4cihno76wu&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;lore.kernel.org&#x2F;lkml&#x2F;yr3inlzesdb45n6i6lpbimwr7b25kqk...</a>",
+      "score": 255,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 3
+      "read_time_minutes": 2
     },
     {
-      "title": "Post Mortem: axios NPM supply chain compromise",
-      "url": "https://github.com/axios/axios/issues/10636",
-      "summary": "Score: 239 | 107 comments",
-      "score": 239,
+      "title": "Show HN: I built a small app for FSI German Course",
+      "url": "https://detawk.com/",
+      "summary": "Hi everyone. I am built a small application on top of FSI German basic course and I need some feedback regarding it.<p>It is a small web app. Currently only Unit 01 is available. I will feed in the rest of the units later down the road as I use it myself.<p>Some of the features includes<p>- Slow and",
+      "score": 22,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 6
     },
     {
-      "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
-      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
-      "summary": "Score: 286 | 116 comments",
-      "score": 286,
+      "title": "Show HN: I made open source, zero power PCB hackathon badges",
+      "url": "https://github.com/KaiPereira/Overglade-Badges",
+      "summary": "I love getting cool swag from hackathons and I also love designing PCB&#x27;s, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down!<p>The theme of overglade was a &quot;The game jam within a game&quot;, pretty cool concept right! Hig",
+      "score": 92,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "Components of a Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "summary": "Score: 228 | 71 comments",
+      "score": 228,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 18
+    },
+    {
+      "title": "Show HN: sllm \u2013 Split a GPU node with other developers, unlimited tokens",
+      "url": "https://sllm.cloud",
+      "summary": "Running DeepSeek V3 (685B) requires 8\u00d7H100 GPUs which is about $14k&#x2F;month. Most developers only need 15-25 tok&#x2F;s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5&#x2F;mo ",
+      "score": 152,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "Show HN: M. C. Escher spiral in WebGL inspired by 3Blue1Brown",
+      "url": "https://static.laszlokorte.de/escher/",
+      "summary": "The latest 3Blue1Brown video [1] about the M. C. Escher print gallery effect inspired me to re-implement the effect as WebGL fragment shader on my own.<p>[1]: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ldxFjLJ3rVY\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ldxFjLJ3rV",
+      "score": 68,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "Electrical transformer manufacturing is throttling the electrified future",
+      "url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.today&#x2F;yn2It\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.today&#x2F;yn2It</a>",
+      "score": 81,
+      "source": "Hacker News",
+      "source_type": "hackernews"
+    },
+    {
+      "title": "Show HN: TurboQuant-WASM \u2013 Google's vector quantization in the browser",
+      "url": "https://github.com/teamchong/turboquant-wasm",
+      "summary": "Score: 152 | 6 comments",
+      "score": 152,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "Training mRNA Language Models Across 25 Species for $165",
+      "url": "https://news.ycombinator.com/item?id=47606244",
+      "summary": "We built an end-to-end protein AI pipeline covering structure prediction, sequence design, and codon optimization. After comparing multiple transformer architectures for codon-level language modeling, CodonRoBERTa-large-v2 emerged as the clear winner with a perplexity of 4.10 and a Spearman CAI corr",
+      "score": 138,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 7
     },
     {
-      "title": "Show HN: Travel Hacking Toolkit \u2013 Points search and trip planning with AI",
-      "url": "https://github.com/borski/travel-hacking-toolkit",
-      "summary": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing i",
-      "score": 62,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
+      "title": "Blaizzy/mlx-vlm",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "summary": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX. | 343 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 13
     },
     {
       "title": "onyx-dot-app/onyx",
       "url": "https://github.com/onyx-dot-app/onyx",
-      "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM | 1,852 stars today stars today",
+      "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM | 1,197 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 4
     },
     {
-      "title": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 916 stars today stars today",
+      "title": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. | 72 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 3
+      "read_time_minutes": 6
     },
     {
       "title": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
-      "summary": "Hunt down social media accounts by username across social networks | 1,192 stars today stars today",
+      "summary": "Hunt down social media accounts by username across social networks | 994 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "hsliuping/TradingAgents-CN",
-      "url": "https://github.com/hsliuping/TradingAgents-CN",
-      "summary": "\u57fa\u4e8e\u591a\u667a\u80fd\u4f53LLM\u7684\u4e2d\u6587\u91d1\u878d\u4ea4\u6613\u6846\u67b6 - TradingAgents\u4e2d\u6587\u589e\u5f3a\u7248 | 350 stars today stars today",
+      "title": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "summary": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\" | 263 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 5
+      "read_time_minutes": 11
     },
     {
-      "title": "yusufkaraaslan/Skill_Seekers",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "summary": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection | 158 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 29
-    },
-    {
-      "title": "microsoft/apm",
-      "url": "https://github.com/microsoft/apm",
-      "summary": "Agent Package Manager | 59 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "vectorize-io/hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "summary": "Hindsight: Agent Memory That Learns | 114 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "summary": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. | 22 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "summary": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw | 55 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 12
-    },
-    {
-      "title": "Blaizzy/mlx-vlm",
-      "url": "https://github.com/Blaizzy/mlx-vlm",
-      "summary": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX. | 499 stars today stars today",
+      "title": "imbue-ai/mngr",
+      "url": "https://github.com/imbue-ai/mngr",
+      "summary": "CLI for managing agents | 34 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
     },
     {
-      "title": "Yeachan-Heo/oh-my-codex",
-      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
-      "summary": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more. | 3,047 stars today stars today",
+      "title": "dgtlmoon/changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "summary": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring\u2014all for free or enjoy our SaaS plan! | 32 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 5
+      "read_time_minutes": 9
+    },
+    {
+      "title": "ml-explore/mlx-lm",
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "summary": "Run LLMs with MLX | 28 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "Blaizzy/mlx-vlm",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "summary": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX. | 343 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 13
     },
     {
       "title": "onyx-dot-app/onyx",
       "url": "https://github.com/onyx-dot-app/onyx",
-      "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM | 1,852 stars today stars today",
+      "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM | 1,197 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 4
     },
     {
-      "title": "google-research/timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 916 stars today stars today",
+      "title": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "summary": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more. | 1,789 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 3
+      "read_time_minutes": 5
     },
     {
       "title": "siddharthvaddem/openscreen",
       "url": "https://github.com/siddharthvaddem/openscreen",
-      "summary": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | 2,771 stars today stars today",
+      "summary": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | 1,591 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "dmtrKovalenko/fff.nvim",
-      "url": "https://github.com/dmtrKovalenko/fff.nvim",
-      "summary": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS | 750 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "f/prompts.chat",
-      "url": "https://github.com/f/prompts.chat",
-      "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy. | 375 stars today stars today",
+      "title": "telegramdesktop/tdesktop",
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "summary": "Telegram Desktop messaging app | 249 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
+      "title": "block/goose",
+      "url": "https://github.com/block/goose",
+      "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 935 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. | 72 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
       "title": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
-      "summary": "Hunt down social media accounts by username across social networks | 1,192 stars today stars today",
+      "summary": "Hunt down social media accounts by username across social networks | 994 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "Quoting Kyle Daigle",
-      "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
-      "summary": "<blockquote cite=\"https://twitter.com/kdaigle/status/2040164759836778878\"><p>[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.)</p>\n<p>GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week.</p></",
+      "title": "scan-for-secrets 0.2",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.2\">scan-for-secrets 0.2</a></p>\n    <ul>\n<li>CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.</li>\n<li><code>-d/--directory</code> option can now be used multiple times to scan multiple directories.</li>\n<li>New <code>-f/--file</cod",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "scan-for-secrets 0.1.1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1.1\">scan-for-secrets 0.1.1</a></p>\n    <blockquote>\n<ul>\n<li>Added documentation of the escaping schemes that are also scanned.</li>\n<li>Removed unnecessary <code>repr</code> escaping scheme, which was already covered by <code>json</code>.</li>\n</ul>\n</blockquote>",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 1
     },
     {
-      "title": "Vulnerability Research Is Cooked",
-      "url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-      "summary": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\">Vulnerability Research Is Cooked</a></strong></p>\nThomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research.</p>\n<blockquote>\n<p>Within the next few months, coding agents will drastically alter both the practice and the economics of",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "The cognitive impact of coding agents",
-      "url": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
-      "summary": "<p>A fun thing about <a href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\">recording a podcast</a> with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's <a href=\"https://x.com/lennysan/status/2039845666680176703\">one he shared on Twitter today</a> which ended up attracting over 1.1m views!</p",
+      "title": "scan-for-secrets 0.1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1\">scan-for-secrets 0.1</a></p>\n    <p>I like publishing transcripts of local Claude Code sessions using my <a href=\"https://github.com/simonw/claude-code-transcripts\">claude-code-transcripts</a> tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in th",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
     },
     {
-      "title": "Quoting Willy Tarreau",
-      "url": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
-      "summary": "<blockquote cite=\"https://lwn.net/Articles/1065620/\"><p>On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days (fridays and tuesdays seem the worst). Now ",
+      "title": "research-llm-apis 2026-04-04",
+      "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/research-llm-apis/releases/tag/2026-04-04\">research-llm-apis 2026-04-04</a></p>\n    <p>I'm working on a <a href=\"https://github.com/simonw/llm/issues/1314\">major change</a> to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different vendors thanks to its plugin syst",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
     },
     {
-      "title": "Quoting Daniel Stenberg",
-      "url": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
-      "summary": "<blockquote cite=\"https://mastodon.social/@bagder/116336957584445742\"><p>The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good.</p>\n<p>I'm spending hours per day on this now. It's intense.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mastodon.socia",
+      "title": "Quoting Kyle Daigle",
+      "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/kdaigle/status/2040164759836778878\"><p>[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.)</p>\n<p>GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week.</p></",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 1
@@ -540,6 +392,14 @@
       "read_time_minutes": 34
     },
     {
+      "title": "Components of A Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+      "source": "Sebastian Raschka",
+      "source_type": "blog",
+      "read_time_minutes": 18
+    },
+    {
       "title": "A Visual Guide to Attention Variants in Modern LLMs",
       "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
       "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
@@ -570,14 +430,6 @@
       "source": "Sebastian Raschka",
       "source_type": "blog",
       "read_time_minutes": 35
-    },
-    {
-      "title": "LLM Research Papers: The 2025 List (July to December)",
-      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2",
-      "summary": "In June, I shared a bonus article with my curated and bookmarked research paper lists to the paid subscribers who make this Substack possible.",
-      "source": "Sebastian Raschka",
-      "source_type": "blog",
-      "read_time_minutes": 2
     }
   ]
 }
