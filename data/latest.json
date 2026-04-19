@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-18",
-  "generated_at": "2026-04-18T08:11:47.234507",
-  "headline": "Amazon Bedrock enhances with granular cost attribution and model distillation for cost-efficient AI.",
+  "date": "2026-04-19",
+  "generated_at": "2026-04-19T08:17:20.129750",
+  "headline": "Amazon Bedrock introduces granular cost tracking and model distillation improvements for efficient AI deployment.",
   "sections": [
     {
       "id": "must_know",
@@ -10,21 +10,12 @@
       "items": [
         {
           "title": "Introducing granular cost attribution for Amazon Bedrock",
-          "summary": "Amazon has introduced granular cost attribution for its Bedrock service, enabling detailed tracking of expenses associated with running AI models. This addition allows developers to better understand and manage costs through various scenarios, offering transparency in resource usage. The post explains the implementation of cost tracking, which is crucial for optimizing AI workflows on the platform.",
-          "why_it_matters": "Tech leads can optimize budget allocation by understanding cost structures for AI model deployment on Amazon Bedrock.",
+          "summary": "Amazon Bedrock has launched granular cost attribution capabilities that allow users to track and allocate costs more precisely across different projects or teams using their AI services. This feature enables users to view detailed cost breakdowns, helping in optimizing resource usage and budgeting for AI deployments. This update is expected to improve financial management and accountability in organizations leveraging Bedrock for machine learning operations.",
+          "why_it_matters": "Precise cost management is crucial for tech leads to optimize AI resource allocation and budget effectively.",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/",
           "source": "Artificial Intelligence",
-          "published": "2026-04-17T22:04:15",
+          "published": "2026-04-17",
           "read_time_minutes": 13
-        },
-        {
-          "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
-          "summary": "Amazon has showcased a new Model Distillation technique on Bedrock that transfers knowledge from a large teacher model to a smaller student model, drastically reducing inference costs by over 95%. This technique allows for efficient semantic search by leveraging a smaller, cost-effective model without sacrificing accuracy.",
-          "why_it_matters": "This innovation is crucial for tech leads aiming to reduce operational costs while maintaining high performance in AI applications.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/",
-          "source": "Artificial Intelligence",
-          "published": "2026-04-17T19:43:38",
-          "read_time_minutes": 10
         }
       ]
     },
@@ -34,19 +25,28 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "Codex for (almost) everything",
-          "summary": "OpenAI has updated its Codex app for macOS and Windows, adding features like computer use, in-app browsing, image generation, memory, and plugins. These enhancements are designed to streamline developer workflows and provide more integrated AI capabilities across various tasks.",
-          "url": "https://openai.com/index/codex-for-almost-everything",
-          "source": "OpenAI News",
-          "published": "2026-04-16T10:00:00"
+          "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
+          "summary": "Amazon has introduced a model customization technique called Model Distillation on Amazon Bedrock, which enables transferring knowledge from a large teacher model to a smaller student model. This process significantly reduces inference costs by over 95% while maintaining performance, making it an attractive solution for cost-effective AI deployments.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/",
+          "source": "Artificial Intelligence",
+          "published": "2026-04-17",
+          "read_time_minutes": 10
         },
         {
-          "title": "Full-Stack Optimizations for Agentic Inference with NVIDIA Dynamo",
-          "summary": "NVIDIA has detailed full-stack optimizations for agentic inference using its Dynamo platform, enhancing performance for AI applications. This includes improvements in efficiency and speed, which are critical for deploying complex AI models in production environments.",
-          "url": "https://developer.nvidia.com/blog/full-stack-optimizations-for-agentic-inference-with-nvidia-dynamo/",
-          "source": "NVIDIA Technical Blog",
-          "published": "2026-04-17T22:52:47",
-          "read_time_minutes": 16
+          "title": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities",
+          "summary": "Amazon has released a guide on using the Nova Forge SDK for fine-tuning Nova models through data mixing techniques. This comprehensive guide covers data preparation, training, and evaluation, providing a repeatable process for customizing models to specific use cases.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nova-forge-sdk-series-part-2-practical-guide-to-fine-tune-nova-models-using-data-mixing-capabilities/",
+          "source": "Artificial Intelligence",
+          "published": "2026-04-17",
+          "read_time_minutes": 14
+        },
+        {
+          "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
+          "summary": "Hugging Face, in collaboration with NVIDIA, has developed a fast multilingual OCR model using synthetic data, enabling efficient text recognition across multiple languages. This advancement leverages synthetic data generation to improve model accuracy and decrease training time, providing a scalable solution for multilingual OCR needs.",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+          "source": "Hugging Face - Blog",
+          "published": "2026-04-17",
+          "read_time_minutes": 12
         }
       ]
     },
@@ -60,47 +60,21 @@
       "id": "research",
       "title": "Research Worth Watching",
       "emoji": "\ud83d\udd2c",
-      "items": [
-        {
-          "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
-          "summary": "Hugging Face, in collaboration with NVIDIA, has released a post on developing a fast multilingual OCR model using synthetic data. This approach aims to enhance OCR capabilities across multiple languages, leveraging synthetic datasets to train robust models efficiently.",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
-          "source": "Hugging Face - Blog",
-          "published": "2026-04-17T16:17:55",
-          "read_time_minutes": 12
-        }
-      ]
+      "items": []
     },
     {
       "id": "community",
       "title": "Community Buzz",
       "emoji": "\ud83d\udccc",
-      "items": [
-        {
-          "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
-          "summary": "A developer has showcased an interval calculator designed to operate over disjoint sets, leveraging interval arithmetic. This tool is aimed at providing more precise calculations in areas where traditional arithmetic falls short.",
-          "url": "https://victorpoughon.github.io/interval-calculator/",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 5
-        }
-      ]
+      "items": []
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 69,
-    "items_categorized": 6
+    "items_processed": 57,
+    "items_categorized": 4
   },
   "all_items": [
-    {
-      "title": "Codex for (almost) everything",
-      "url": "https://openai.com/index/codex-for-almost-everything",
-      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-      "published": "2026-04-16T10:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
     {
       "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
@@ -115,24 +89,6 @@
       "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
       "summary": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
       "published": "2026-04-17T14:00:00",
-      "source": "AI",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "A new way to explore the web with AI Mode in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-      "summary": "AI Mode in Chrome",
-      "published": "2026-04-16T17:00:00",
-      "source": "AI",
-      "source_type": "rss",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "New ways to create personalized images in the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-      "summary": "Example images made with Personal Intelligence",
-      "published": "2026-04-16T16:00:00",
       "source": "AI",
       "source_type": "rss",
       "read_time_minutes": 6
@@ -183,33 +139,6 @@
       "read_time_minutes": 8
     },
     {
-      "title": "Cost-efficient custom text-to-SQL using Amazon Nova Micro and Amazon Bedrock on-demand inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/",
-      "summary": "In this post, we demonstrate two approaches to fine-tune Amazon Nova Micro for custom SQL dialect generation to deliver both cost efficiency and production ready performance.",
-      "published": "2026-04-16T17:43:03",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "Transform retail with AWS generative AI services",
-      "url": "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/",
-      "summary": "Online retailers face a persistent challenge: shoppers struggle to determine the fit and look when ordering online, leading to increased returns and decreased purchase confidence. The cost? Lost revenue, operational overhead, and customer frustration. Meanwhile, consumers increasingly expect immersive, interactive shopping experiences that bridge the gap between online and in-store retail. Retailers implementing virtual try-on [\u2026]",
-      "published": "2026-04-16T17:39:56",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "How Automated Reasoning checks in Amazon Bedrock transform generative AI compliance",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/",
-      "summary": "In this post, you'll learn why probabilistic AI validation falls short in regulated industries and how Automated Reasoning checks use formal verification to deliver mathematically proven results. You'll also see how customers across six industries use this technology to produce formally verified, auditable AI outputs, and how to get started.",
-      "published": "2026-04-16T17:34:42",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 10
-    },
-    {
       "title": "Building an emoji list generator with the GitHub Copilot CLI",
       "url": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
       "summary": "<p>See how we created an emoji list generator during the Rubber Duck Thursday stream.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/\">Building an emoji list generator with the GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
@@ -244,15 +173,6 @@
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 11
-    },
-    {
-      "title": "How to Build Vision AI Pipelines Using NVIDIA DeepStream Coding Agents",
-      "url": "https://developer.nvidia.com/blog/how-to-build-vision-ai-pipelines-using-deepstream-coding-agents/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robotics-key-visual-metropolis-deepstream-gtc26-abstract-code-r2_1920x1080\" width=\"768\" />Developing real-time vision AI applications presents a significant challenge for developers, often demanding intricate da",
-      "published": "2026-04-16T15:00:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 9
     },
     {
       "title": "Pie Day 2026",
@@ -291,213 +211,152 @@
       "read_time_minutes": 12
     },
     {
-      "title": "Making AI operational in constrained public sector environments",
-      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
-      "summary": "The AI boom has hit across industries, and public sector organizations are facing pressure to accelerate adoption. At the same time, government institutions face distinct constraints around security, governance, and operations that set them apart from their business counterparts. For this reason, purpose-built small language models (SLMs) offer a promising path to operationalize AI in&#8230;",
-      "published": "2026-04-16T13:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "Treating enterprise AI as an operating layer",
-      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "summary": "There\u2019s a fault line running through enterprise AI, and it\u2019s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks\u2014GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved.&#8230;",
-      "published": "2026-04-16T13:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "The Download: cyberscammers\u2019 banking bypasses, and carbon removal troubles",
-      "url": "https://www.technologyreview.com/2026/04/16/1136034/the-download-cyberscammers-banking-bypasses-microsoft-carbon-removal-troubles/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Cyberscammers\u00a0are bypassing banks\u2019 security with illicit tools sold on Telegram\u00a0 Inside a money-laundering&#160;center&#160;in Cambodia, an employee opens a banking app on his phone. It asks for a photo linked to the&#8230;",
-      "published": "2026-04-16T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Why having \u201chumans in the loop\u201d in an AI war is an illusion",
-      "url": "https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/",
-      "summary": "The availability of artificial intelligence for use in warfare is at the center of a legal battle between Anthropic and the Pentagon. This debate has become urgent, with AI playing a bigger role than ever before in the current conflict with Iran. AI is no longer just helping humans analyze intelligence. It is now an&#8230;",
-      "published": "2026-04-16T12:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "The noise we make is hurting animals. Can we learn to shut up?",
-      "url": "https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/",
-      "summary": "When the covid-19 pandemic started, Jennifer Phillips thought about the songs of the sparrows. They were easier to hear, because the world had suddenly become quieter. Car traffic plummeted as people sheltered at home and shifted to remote work. Air travel collapsed. Cities\u2014normally filled with the honking, screeching, engine-gunning riot of transportation\u2014became as silent as&#8230;",
-      "published": "2026-04-16T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 17
-    },
-    {
-      "title": "The quest to measure our relationship with nature",
-      "url": "https://www.technologyreview.com/2026/04/16/1135245/measure-relationship-with-nature-index/",
-      "summary": "As a movement, environmentalism has been pretty misanthropic. Understandably so\u2014we humans have done some destructive things to the ecosystems around us. In the 21st century, though, mainstream conservation is learning that humans can be a force for good. Foresters are turning to Indigenous burning practices to prevent wildfires. Biologists are realizing that flower-dotted meadows were&#8230;",
-      "published": "2026-04-16T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
-      "url": "https://victorpoughon.github.io/interval-calculator/",
-      "summary": "I&#x27;ve been studying interval arithmetic for the past few weeks and it&#x27;s a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.<p>One reason for this is that stan",
-      "score": 128,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Claude Design",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "summary": "Related: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458</a> (<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458\" rel=\"nofollow\">ht",
-      "score": 1010,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Measuring Claude 4.7's tokenizer costs",
-      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "summary": "Score: 597 | 421 comments",
-      "score": 597,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "A simplified model of Fil-C",
-      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
-      "summary": "Score: 169 | 87 comments",
-      "score": 169,
+      "title": "Game Devs Explain the Tricks Involved with Letting You Pause a Game",
+      "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
+      "summary": "Score: 44 | 24 comments",
+      "score": 44,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 8
     },
     {
-      "title": "Are the costs of AI agents also rising exponentially? (2025)",
-      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
-      "summary": "Score: 190 | 48 comments",
-      "score": 190,
+      "title": "College instructor turns to typewriters to curb AI-written work",
+      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
+      "summary": "Score: 255 | 237 comments",
+      "score": 255,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 12
+      "read_time_minutes": 5
     },
     {
-      "title": "Show HN: PanicLock \u2013 Close your MacBook lid disable TouchID \u2013> password unlock",
-      "url": "https://github.com/paniclock/paniclock/",
-      "summary": "I wrote this after the case of a Washington Post reporter, Hannah Natanson, was compelled to unlock her computer with her fingerprint. This resulted in access to her Desktop Signal on her computer, revealing sources and their conversations.<p><a href=\"https:&#x2F;&#x2F;www.yahoo.com&#x2F;news&#x2F;a",
-      "score": 186,
+      "title": "Why Japan has such good railways",
+      "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+      "summary": "Score: 387 | 361 comments",
+      "score": 387,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 3
+      "read_time_minutes": 22
     },
     {
-      "title": "lsdefine/GenericAgent",
-      "url": "https://github.com/lsdefine/GenericAgent",
-      "summary": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | 845 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
+      "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+      "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/",
+      "summary": "Score: 69 | 27 comments",
+      "score": 69,
+      "source": "Hacker News",
+      "source_type": "hackernews",
       "read_time_minutes": 8
     },
     {
-      "title": "Tracer-Cloud/opensre",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "summary": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728 | 184 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
+      "title": "Dizzying Spiral Staircase with Single Guardrail Once Led to Top of Eiffel Tower",
+      "url": "https://www.smithsonianmag.com/smart-news/a-dizzying-spiral-staircase-with-a-single-guardrail-once-led-to-the-top-of-the-eiffel-tower-now-you-can-buy-14-of-the-original-steps-180988535/",
+      "summary": "Score: 22 | 8 comments",
+      "score": 22,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "Thoughts and feelings around Claude Design",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
+      "summary": "Score: 294 | 192 comments",
+      "score": 294,
+      "source": "Hacker News",
+      "source_type": "hackernews",
       "read_time_minutes": 7
     },
     {
-      "title": "z-lab/dflash",
-      "url": "https://github.com/z-lab/dflash",
-      "summary": "DFlash: Block Diffusion for Flash Speculative Decoding | 287 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
+      "title": "Scientists discover \u201ccleaner ants\u201d that groom giant ants in Arizona desert",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260414075641.htm",
+      "summary": "<a href=\"https:&#x2F;&#x2F;onlinelibrary.wiley.com&#x2F;doi&#x2F;10.1002&#x2F;ece3.73308\" rel=\"nofollow\">https:&#x2F;&#x2F;onlinelibrary.wiley.com&#x2F;doi&#x2F;10.1002&#x2F;ece3.73308</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;04&#x2F;13&#x2F;science&#x2F;harvester-cone-ants-cl",
+      "score": 96,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 7
     },
     {
       "title": "openai/openai-agents-python",
       "url": "https://github.com/openai/openai-agents-python",
-      "summary": "A lightweight, powerful framework for multi-agent workflows | 625 stars today stars today",
+      "summary": "A lightweight, powerful framework for multi-agent workflows | 470 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "google/magika",
-      "url": "https://github.com/google/magika",
-      "summary": "Fast and accurate AI powered file content types detection | 956 stars today stars today",
+      "title": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "summary": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728 | 460 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
+      "title": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "summary": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | 776 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 8
+    },
+    {
       "title": "nv-tlabs/lyra",
       "url": "https://github.com/nv-tlabs/lyra",
-      "summary": "Project Lyra: Open Generative 3D World Models | 146 stars today stars today",
+      "summary": "Project Lyra: Open Generative 3D World Models | 66 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
-      "title": "NVlabs/GR00T-WholeBodyControl",
-      "url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
-      "summary": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC | 21 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "topoteretes/cognee",
-      "url": "https://github.com/topoteretes/cognee",
-      "summary": "Knowledge Engine for AI Agent Memory in 6 lines of code | 476 stars today stars today",
+      "title": "google/magika",
+      "url": "https://github.com/google/magika",
+      "summary": "Fast and accurate AI powered file content types detection | 545 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
-      "title": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "summary": "Public repository for Agent Skills | 701 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "datalab-to/chandra",
-      "url": "https://github.com/datalab-to/chandra",
-      "summary": "OCR model that handles complex tables, forms, handwriting with full layout. | 199 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "EvoMap/evolver",
-      "url": "https://github.com/EvoMap/evolver",
-      "summary": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai | 737 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "lsdefine/GenericAgent",
-      "url": "https://github.com/lsdefine/GenericAgent",
-      "summary": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | 845 stars today stars today",
+      "title": "AI4Finance-Foundation/FinRL-Trading",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+      "summary": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading | 12 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 8
     },
     {
-      "title": "SimoneAvogadro/android-reverse-engineering-skill",
-      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
-      "summary": "Claude Code skill to support Android app's reverse engineering | 538 stars today stars today",
+      "title": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "summary": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators). | 40 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "summary": "Saleor Core: the high performance, composable, headless commerce API. | 4 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "summary": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. | 115 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "CadQuery/cadquery",
+      "url": "https://github.com/CadQuery/cadquery",
+      "summary": "A python parametric CAD scripting framework based on OCCT | 36 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 10
+    },
+    {
+      "title": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "summary": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in. | 447 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
@@ -505,63 +364,95 @@
     {
       "title": "BasedHardware/omi",
       "url": "https://github.com/BasedHardware/omi",
-      "summary": "AI that sees your screen, listens to your conversations and tells you what to do | 824 stars today stars today",
+      "summary": "AI that sees your screen, listens to your conversations and tells you what to do | 609 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
+      "title": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "summary": "A lightweight, powerful framework for multi-agent workflows | 470 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "summary": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai | 1,131 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 15
+    },
+    {
+      "title": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "summary": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling | 31 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 9
+    },
+    {
       "title": "Lordog/dive-into-llms",
       "url": "https://github.com/Lordog/dive-into-llms",
-      "summary": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b | 944 stars today stars today",
+      "summary": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b | 547 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
-      "title": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "summary": "Turn Claude Code into a full game dev studio \u2014 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. | 311 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "jamiepine/voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "summary": "The open-source voice synthesis studio | 797 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "lukilabs/craft-agents-oss",
-      "url": "https://github.com/lukilabs/craft-agents-oss",
-      "summary": " | 110 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 16
-    },
-    {
-      "title": "Tracer-Cloud/opensre",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "summary": "Build your own AI SRE agents. The open source toolkit for the AI era \u2728 | 184 stars today stars today",
+      "title": "aaddrick/claude-desktop-debian",
+      "url": "https://github.com/aaddrick/claude-desktop-debian",
+      "summary": "Claude Desktop for Debian-based Linux distributions | 44 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
-      "title": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works. | 1,713 stars today stars today",
+      "title": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "summary": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. | 393 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 5
     },
     {
+      "title": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "summary": "Claude Code skill to support Android app's reverse engineering | 403 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "tractorjuice/arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "summary": "Enterprise Architecture Governance & Vendor Procurement Toolkit | 135 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 42
+    },
+    {
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
+      "summary": "<p>Anthropic are the only major AI lab to <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts\">publish the system prompts</a> for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models.</p>\n<p>Opus 4.7 shipped the other day (Apri",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "Claude system prompts as a git timeline",
+      "url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
+      "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/extract-system-prompts#readme\">Claude system prompts as a git timeline</a></p>\n    <p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts\">publish the system prompts</a> for Claude chat and make that page <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts.md\">a",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
+    },
+    {
       "title": "Adding a new content type to my blog-to-newsletter tool",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
-      "summary": "<p><em><a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">Agentic Engineering Patterns</a> &gt;</em></p>\n    <p>Here's an example of a deceptively short prompt that got a <em>lot of work</em> done in a single shot.</p>\n<p>First, some background. I send out a <a href=\"https://simonw.substack.com/\">free Substack newsletter</a> around once a week containing content copied-and-pa",
+      "summary": "<p><em><a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">Agentic Engineering Patterns</a> &gt;</em></p>\n    <p>Here's an example of a deceptively short prompt that got a quite a lot of work done in a single shot.</p>\n<p>First, some background. I send out a <a href=\"https://simonw.substack.com/\">free Substack newsletter</a> around once a week containing content copied-and-pas",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 6
@@ -581,22 +472,6 @@
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
-    },
-    {
-      "title": "llm-anthropic 0.25",
-      "url": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
-      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.25\">llm-anthropic 0.25</a></p>\n    <blockquote>\n<ul>\n<li>New model: <code>claude-opus-4.7</code>, which supports <code>thinking_effort</code>: <code>xhigh</code>. #66</li>\n<li>New <code>thinking_display</code> and <code>thinking_adaptive</code> boolean options. <code>thinking_display</code> summarized outp",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
-      "summary": "<p>For anyone who has been (inadvisably) taking my <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">pelican riding a bicycle benchmark</a> seriously as a robust way to test models, here are pelicans from this morning's two big model releases - <a href=\"https://qwen.ai/blog?id=qwen3.6-35b-a3b\">Qwen3.6-35B-A3B from Alibaba</a> and <a href=\"https://www.anthropic.com/news/claude-opus",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 4
     },
     {
       "title": "[AINews] The Two Sides of OpenClaw",
@@ -639,6 +514,14 @@
       "read_time_minutes": 111
     },
     {
+      "title": "My Workflow for Understanding LLM Architectures",
+      "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+      "source": "Sebastian Raschka",
+      "source_type": "blog",
+      "read_time_minutes": 2
+    },
+    {
       "title": "Components of A Coding Agent",
       "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
       "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
@@ -669,14 +552,6 @@
       "source": "Sebastian Raschka",
       "source_type": "blog",
       "read_time_minutes": 4
-    },
-    {
-      "title": "The State Of LLMs 2025: Progress, Problems, and Predictions",
-      "url": "https://magazine.sebastianraschka.com/p/state-of-llms-2025",
-      "summary": "A 2025 review of large language models, from DeepSeek R1 and RLVR to inference-time scaling, benchmarks, architectures, and predictions for 2026.",
-      "source": "Sebastian Raschka",
-      "source_type": "blog",
-      "read_time_minutes": 35
     }
   ]
 }
