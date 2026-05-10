@@ -1,7 +1,7 @@
 {
-  "date": "2026-05-09",
-  "generated_at": "2026-05-09T08:30:19.202365",
-  "headline": "OpenAI expands Trusted Access with GPT-5.5 and GPT-5.5-Cyber for enhanced cybersecurity.",
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10T08:34:49.991707",
+  "headline": "OpenAI details secure operation methods for Codex with sandboxing and telemetry.",
   "sections": [
     {
       "id": "must_know",
@@ -10,19 +10,11 @@
       "items": [
         {
           "title": "Running Codex safely at OpenAI",
-          "summary": "OpenAI has implemented a secure environment for running Codex, utilizing sandboxing, approval processes, network policies, and agent-native telemetry. These measures ensure that Codex operates safely and complies with adoption standards for coding agents. This approach is part of OpenAI's efforts to maintain high-security standards while allowing developers to leverage Codex for enhanced coding capabilities without compromising safety.",
-          "why_it_matters": "Ensuring the safe and compliant use of Codex is critical for developers integrating AI coding agents into secure environments.",
+          "summary": "OpenAI has released detailed guidelines on securely running Codex, emphasizing sandboxing, network policies, and agent-native telemetry. These measures ensure that Codex is compliant with security standards and safe for coding agent adoption. The implementation includes a robust approval mechanism for each code execution, minimizing the risk of unauthorized actions. This approach aims to foster trust and facilitate wider adoption of AI coding tools by addressing security concerns upfront.",
+          "why_it_matters": "Ensuring secure execution of AI models like Codex is crucial for developers aiming to integrate AI safely into production environments.",
           "url": "https://openai.com/index/running-codex-safely",
           "source": "OpenAI News",
-          "published": "2026-05-08"
-        },
-        {
-          "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-          "summary": "OpenAI has expanded its Trusted Access initiative by introducing GPT-5.5 and GPT-5.5-Cyber, two models designed to enhance cybersecurity capabilities. These models assist verified defenders in accelerating vulnerability research and protecting critical infrastructure. The new models are tailored for cybersecurity experts, enabling them to conduct more effective and efficient investigations and offer robust protection measures.",
-          "why_it_matters": "Incorporating AI models into cybersecurity workflows can significantly boost a developer's ability to safeguard systems against emerging threats.",
-          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-          "source": "OpenAI News",
-          "published": "2026-05-07"
+          "published": "2026-05-08T12:30:00"
         }
       ]
     },
@@ -32,35 +24,22 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "Advancing voice intelligence with new models in the API",
-          "summary": "OpenAI has released new real-time voice models in its API, which can perform reasoning, translation, and transcription of speech. These models aim to provide more natural and intelligent voice interactions, enhancing user experiences in applications that rely on voice input and processing.",
-          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-          "source": "OpenAI News",
-          "published": "2026-05-07"
-        },
-        {
-          "title": "Secure short-term GPU capacity for ML workloads with EC2 Capacity Blocks for ML and SageMaker training plans",
-          "summary": "Amazon has introduced EC2 Capacity Blocks for ML and SageMaker training plans, providing a solution to secure short-term GPU capacity for machine learning workloads. This service addresses the challenge of GPU availability, allowing users to reserve capacity for load testing and short-duration projects.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/",
-          "source": "Artificial Intelligence",
-          "published": "2026-05-07",
+          "title": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
+          "summary": "NVIDIA has introduced a new method to enhance Bash script generation in small language models using grammar-constrained decoding. This technique ensures that generated scripts are syntactically correct, improving the reliability of AI-generated code. The approach significantly reduces errors in script outputs, making it more feasible for developers to use AI-generated Bash scripts in real-world applications.",
+          "url": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
+          "source": "NVIDIA Technical Blog",
+          "published": "2026-05-08T17:13:33",
           "read_time_minutes": 12
         },
         {
           "title": "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
-          "summary": "NVIDIA has enhanced its Dynamo platform with multi-turn agentic harness support, enabling complex agent interactions and efficient token streaming. This update facilitates the development of more interactive and responsive AI systems, particularly in applications requiring continuous dialogue and interaction.",
+          "summary": "NVIDIA Dynamo introduces support for multi-turn agentic exchanges with streaming tokens, enhancing interaction capabilities for AI agents. This update allows for more dynamic and context-aware dialogues, improving the adaptability of AI systems in conversational applications. The framework supports complex dialogue management, making it an attractive tool for developers working on advanced AI communication interfaces.",
           "url": "https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/",
           "source": "NVIDIA Technical Blog",
-          "published": "2026-05-08",
+          "published": "2026-05-08T15:59:16",
           "read_time_minutes": 19
         }
       ]
-    },
-    {
-      "id": "deprecations",
-      "title": "Deprecations & Changes",
-      "emoji": "\ud83d\udcc9",
-      "items": []
     },
     {
       "id": "research",
@@ -69,19 +48,11 @@
       "items": [
         {
           "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-          "summary": "Researchers at Berkeley introduce adaptive parallel reasoning, a novel approach to enhance the efficiency of inference scaling in AI models. This method allows for the distribution of computational tasks across multiple processors, improving speed and accuracy in AI reasoning processes.",
+          "summary": "The Berkeley Artificial Intelligence Research Blog discusses a new paradigm in inference scaling called Adaptive Parallel Reasoning. This research explores methods to optimize reasoning processes in AI by leveraging parallel computing techniques. The approach promises to enhance the efficiency and scalability of AI models, particularly in applications requiring complex reasoning and decision-making.",
           "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
           "source": "The Berkeley Artificial Intelligence Research Blog",
-          "published": "2026-05-08",
+          "published": "2026-05-08T09:00:00",
           "read_time_minutes": 19
-        },
-        {
-          "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
-          "summary": "The BALAR framework proposes a Bayesian loop model that enhances active reasoning in AI systems. This model enables interactive AI agents to engage in multi-round information exchange, improving their ability to reason about tasks and adapt to user interactions.",
-          "url": "https://arxiv.org/abs/2605.05386",
-          "source": "arXiv cs.AI",
-          "published": "2026-05-09",
-          "read_time_minutes": 4
         }
       ]
     },
@@ -91,20 +62,20 @@
       "emoji": "\ud83d\udccc",
       "items": [
         {
-          "title": "Improving token efficiency in GitHub Agentic Workflows",
-          "summary": "GitHub has shared methods for enhancing token efficiency in agentic workflows, which are crucial for reducing API costs in production environments. By optimizing these workflows, developers can mitigate large API bills accumulated from frequent pull request runs.",
-          "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
-          "source": "The latest on AI & ML - The GitHub Blog",
-          "published": "2026-05-07",
-          "read_time_minutes": 15
+          "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+          "summary": "A developer on Hacker News showcases 'ymawky', a static file web server built entirely in ARM64 assembly for MacOS. The server supports several HTTP request types and can handle video streaming through byte range headers. This project highlights the potential of building performant tools using low-level programming languages, intriguing the developer community.",
+          "url": "https://github.com/imtomt/ymawky",
+          "source": "Hacker News",
+          "published": null,
+          "read_time_minutes": 9
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 92,
-    "items_categorized": 8
+    "items_processed": 55,
+    "items_categorized": 5
   },
   "all_items": [
     {
@@ -116,37 +87,13 @@
       "source_type": "rss"
     },
     {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "published": "2026-05-07T13:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Parloa builds service agents customers want to talk to",
-      "url": "https://openai.com/index/parloa",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "published": "2026-05-07T11:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Advancing voice intelligence with new models in the API",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "published": "2026-05-07T10:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
       "summary": "",
-      "published": "2026-05-08T17:41:05",
+      "published": "2026-05-09T18:09:28",
       "source": "Hugging Face - Blog",
       "source_type": "rss",
-      "read_time_minutes": 9
+      "read_time_minutes": 15
     },
     {
       "title": "EMO: Pretraining mixture of experts for emergent modularity",
@@ -185,51 +132,6 @@
       "read_time_minutes": 8
     },
     {
-      "title": "Secure short-term GPU capacity for ML workloads with EC2 Capacity Blocks for ML and SageMaker training plans",
-      "url": "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/",
-      "summary": "In this post, you will learn how to secure reserved GPU capacity for short-term workloads using Amazon Elastic Compute Cloud (Amazon EC2) Capacity Blocks for ML and Amazon SageMaker training plans. These solutions can address GPU availability challenges when you need short-term capacity for load testing, model validation, time-bound workshops, or preparing inference capacity ahead of a release.",
-      "published": "2026-05-07T15:59:50",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
-      "title": "Overcoming reward signal challenges: Verifiable rewards-based reinforcement learning with GRPO on SageMaker AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/overcoming-reward-signal-challenges-verifiable-rewards-based-reinforcement-learning-with-grpo-on-sagemaker-ai/",
-      "summary": "In this post, you will learn how to implement reinforcement learning with verifiable rewards (RLVR) to introduce verification and transparency into reward signals to improve training performance. This approach works best when outputs can be objectively verified for correctness, such as in mathematical reasoning, code generation, or symbolic manipulation tasks. You will also learn how to layer techniques like Group Relative Policy Optimization (GRPO) and few-shot examples to further improve resul",
-      "published": "2026-05-07T15:53:30",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 18
-    },
-    {
-      "title": "Agents that transact: Introducing Amazon Bedrock AgentCore payments, built with Coinbase and Stripe",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/",
-      "summary": "Today, we're announcing a preview of Amazon Bedrock AgentCore Payments, a new set of features in Amazon Bedrock AgentCore that enables AI agents to instantly access and pay for what they use. AgentCore Payments was developed in partnership with Coinbase and Stripe.",
-      "published": "2026-05-07T12:55:17",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "Improving token efficiency in GitHub Agentic Workflows",
-      "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
-      "summary": "<p>Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/\">Improving token efficiency in GitHub Agentic Workflows</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-      "published": "2026-05-07T23:00:00",
-      "source": "The latest on AI & ML - The GitHub Blog",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Agent pull requests are everywhere. Here\u2019s how to review them.",
-      "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
-      "summary": "<p>A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/\">Agent pull requests are everywhere. Here&#8217;s how to review them.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-      "published": "2026-05-07T19:00:00",
-      "source": "The latest on AI & ML - The GitHub Blog",
-      "source_type": "rss",
-      "read_time_minutes": 1
-    },
-    {
       "title": "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
       "url": "https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/",
       "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"person-desk-three-computers\" width=\"768\" />Bash is one of the most flexible and powerful interfaces exposed to AI agents. In the right system, a model that emits grep, curl, tar, or a shell pipeline is...",
@@ -246,33 +148,6 @@
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 19
-    },
-    {
-      "title": "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling",
-      "url": "https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-gb200-nvl72\" width=\"768\" />NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables...",
-      "published": "2026-05-07T21:20:14",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
-      "title": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
-      "url": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-column\" width=\"768\" />Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...",
-      "published": "2026-05-07T21:18:06",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
-      "url": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring\" width=\"768\" />Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When trai",
-      "published": "2026-05-07T16:02:58",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 9
     },
     {
       "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
@@ -311,46 +186,55 @@
       "read_time_minutes": 6
     },
     {
-      "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
-      "url": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What\u2019s next for IVF IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive\u2014and far from guaranteed&#8230;",
-      "published": "2026-05-07T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 7
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "url": "https://github.com/imtomt/ymawky",
+      "summary": "This is ymawky, a static file web server for MacOS written entirely in ARM64 assembly. It supports GET, PUT, DELETE, HEAD, and OPTIONS requests, and supports Range: bytes=X-Y headers (which allows scrubbing for video streaming). It decodes percent-encoded URLs, strictly enforces docroot, serves cust",
+      "score": 246,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 9
     },
     {
-      "title": "The balcony solar boom is coming to the US",
-      "url": "https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/",
-      "summary": "Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills. Balcony solar is already popular in Europe, and proponents say that the systems could make solar power more accessible for&#8230;",
-      "published": "2026-05-07T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 5
+      "title": "Gemini API File Search is now multimodal",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "summary": "Score: 78 | 8 comments",
+      "score": 78,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 3
     },
     {
-      "title": "What\u2019s next for IVF",
-      "url": "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/",
-      "summary": "MIT Technology Review\u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them\u00a0here. Forty-eight years ago this July, Louise Joy Brown became the world\u2019s first person born with the help of in vitro fertilization. Millions more IVF babies have entered&#8230;",
-      "published": "2026-05-07T09:04:50",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
+      "title": "I\u2019ve banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "summary": "Related: <a href=\"https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html\" rel=\"nofollow\">https:&#x2F;&#x2F;susam.net&#x2F;no-query-strings.html</a>",
+      "score": 386,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "url": "https://github.com/nooga/let-go",
+      "summary": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that&#x27;s about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-ba",
+      "score": 159,
+      "source": "Hacker News",
+      "source_type": "hackernews",
       "read_time_minutes": 12
     },
     {
       "title": "A recent experience with ChatGPT 5.5 Pro",
       "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
       "summary": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;wtgowers&#x2F;status&#x2F;2052830948685676605\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;wtgowers&#x2F;status&#x2F;2052830948685676605</a><p><a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;wtgowers&#x2F;status&#x2F;2052830948685676605\" rel=\"nofollow\">h",
-      "score": 237,
+      "score": 629,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 35
+      "read_time_minutes": 47
     },
     {
-      "title": "All my clients wanted a carousel, now it's an AI chatbot",
-      "url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
-      "summary": "Score: 43 | 11 comments",
-      "score": 43,
+      "title": "LLMs corrupt your documents when you delegate",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "summary": "Score: 400 | 156 comments",
+      "score": 400,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 4
@@ -359,240 +243,178 @@
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
       "url": "https://twitter.com/trq212/status/2052809885763747935",
       "summary": "Examples: <a href=\"https:&#x2F;&#x2F;thariqs.github.io&#x2F;html-effectiveness&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;thariqs.github.io&#x2F;html-effectiveness&#x2F;</a><p>Related: <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2026&#x2F;May&#x2F;8&#x2F;unreasonable-effectiveness-of-html&#x2F;\" ",
-      "score": 106,
+      "score": 453,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
       "title": "OpenAI\u2019s WebRTC problem",
       "url": "https://moq.dev/blog/webrtc-is-the-problem/",
-      "summary": "Score: 283 | 76 comments",
-      "score": 283,
+      "summary": "Score: 485 | 143 comments",
+      "score": 485,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 14
     },
     {
-      "title": "AI is breaking two vulnerability cultures",
-      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
-      "summary": "Score: 320 | 132 comments",
-      "score": 320,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "AWS North Virginia data center outage \u2013 recovery to take hours",
-      "url": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
-      "summary": "<a href=\"https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status?t=2026-05-07\" rel=\"nofollow\">https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status?t=2026-05-07</a><p><a href=\"https:&#x2F;&#x2F;www.theregister.com&#x2F;off-prem&#x2F;2026&#x2F;05&#x2F;08&#x2F;aws-warns-of-ec2-impair",
-      "score": 211,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Teaching Claude Why",
-      "url": "https://www.anthropic.com/research/teaching-claude-why",
-      "summary": "Score: 155 | 77 comments",
-      "score": 155,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 11
-    },
-    {
-      "title": "Can LLMs model real-world systems in TLA+?",
-      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
-      "summary": "Score: 76 | 16 comments",
-      "score": 76,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "The Soul of Maintaining a New Machine",
-      "url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3",
-      "summary": "Score: 43 | 5 comments",
-      "score": 43,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 46
-    },
-    {
-      "title": "All means are fair except solving the problem",
-      "url": "https://yosefk.com/blog/all-means-are-fair-except-solving-the-problem.html",
-      "summary": "Score: 52 | 46 comments",
-      "score": 52,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "US Government releases first batch of UAP documents and videos",
-      "url": "https://www.war.gov/UFO/",
-      "summary": "<a href=\"https:&#x2F;&#x2F;apnews.com&#x2F;article&#x2F;trump-ufos-uap-aliens-pentagon-records-investigation-3e658d2cf3742465127c0049c872240a\" rel=\"nofollow\">https:&#x2F;&#x2F;apnews.com&#x2F;article&#x2F;trump-ufos-uap-aliens-pentagon-re...</a><p><a href=\"https:&#x2F;&#x2F;www.war.gov&#x2F;UFO&#x2F",
-      "score": 289,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
       "title": "anthropics/financial-services",
       "url": "https://github.com/anthropics/financial-services",
-      "summary": " | 3,660 stars today stars today",
+      "summary": " | 3,281 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 9
-    },
-    {
-      "title": "z-lab/dflash",
-      "url": "https://github.com/z-lab/dflash",
-      "summary": "DFlash: Block Diffusion for Flash Speculative Decoding | 379 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "CloakHQ/CloakBrowser",
-      "url": "https://github.com/CloakHQ/CloakBrowser",
-      "summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. | 526 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 31
-    },
-    {
-      "title": "awslabs/aidlc-workflows",
-      "url": "https://github.com/awslabs/aidlc-workflows",
-      "summary": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents | 58 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 18
-    },
-    {
-      "title": "HKUDS/AI-Trader",
-      "url": "https://github.com/HKUDS/AI-Trader",
-      "summary": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\" | 202 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "LearningCircuit/local-deep-research",
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "summary": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted. | 559 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 16
     },
     {
       "title": "datawhalechina/hello-agents",
       "url": "https://github.com/datawhalechina/hello-agents",
-      "summary": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b | 667 stars today stars today",
+      "summary": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b | 1,197 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "cheahjs/free-llm-api-resources",
-      "url": "https://github.com/cheahjs/free-llm-api-resources",
-      "summary": "A list of free LLM inference resources accessible via API. | 177 stars today stars today",
+      "title": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" | 108 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "PaddlePaddle/PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | 134 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "openai/plugins",
-      "url": "https://github.com/openai/plugins",
-      "summary": "OpenAI Plugins | 20 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 1
-    },
-    {
-      "title": "anthropics/financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "summary": " | 3,660 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Production-grade engineering skills for AI coding agents. | 1,893 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "Hmbown/DeepSeek-TUI",
-      "url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "summary": "Coding agent for DeepSeek models that runs in your terminal | 3,731 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 16
-    },
-    {
-      "title": "z-lab/dflash",
-      "url": "https://github.com/z-lab/dflash",
-      "summary": "DFlash: Block Diffusion for Flash Speculative Decoding | 379 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "decolua/9router",
-      "url": "https://github.com/decolua/9router",
-      "summary": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. | 1,052 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 21
+      "read_time_minutes": 8
     },
     {
       "title": "CloakHQ/CloakBrowser",
       "url": "https://github.com/CloakHQ/CloakBrowser",
-      "summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. | 526 stars today stars today",
+      "summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. | 1,167 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 31
     },
     {
-      "title": "awslabs/aidlc-workflows",
-      "url": "https://github.com/awslabs/aidlc-workflows",
-      "summary": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents | 58 stars today stars today",
+      "title": "freemocap/freemocap",
+      "url": "https://github.com/freemocap/freemocap",
+      "summary": "Free Motion Capture for Everyone \ud83d\udc80\u2728 | 107 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 18
+      "read_time_minutes": 2
     },
     {
-      "title": "HKUDS/AI-Trader",
-      "url": "https://github.com/HKUDS/AI-Trader",
-      "summary": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\" | 202 stars today stars today",
+      "title": "NVlabs/GR00T-WholeBodyControl",
+      "url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
+      "summary": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC | 19 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 7
+    },
+    {
+      "title": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | 90 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 10
+    },
+    {
+      "title": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "summary": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | 538 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 10
+    },
+    {
+      "title": "anthropics/claude-agent-sdk-python",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "summary": " | 14 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "summary": "\ud83e\udde0\u300c\u5927\u6a21\u578b\u300d2\u5c0f\u65f6\u5b8c\u5168\u4ece0\u8bad\u7ec364M\u7684\u5c0f\u53c2\u6570LLM\uff01Train a 64M-parameter LLM from scratch in just 2h! | 112 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 30
+    },
+    {
+      "title": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "summary": " | 3,281 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 552 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks | 533 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 22
+    },
+    {
+      "title": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "summary": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b | 1,197 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "datawhalechina/easy-vibe",
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "summary": "\ud83d\udcbb vibe coding 2026 | Your first modern programming course for beginners to master step by step. | 294 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 12
+    },
+    {
+      "title": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Open-source AI coworker, with memory | 144 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 4
     },
     {
-      "title": "LearningCircuit/local-deep-research",
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "summary": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted. | 559 stars today stars today",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "summary": "Chrome DevTools for coding agents | 107 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 16
+      "read_time_minutes": 18
     },
     {
-      "title": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "summary": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. | 125 stars today stars today",
+      "title": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "summary": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed. | 597 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 20
+      "read_time_minutes": 42
+    },
+    {
+      "title": "playcanvas/supersplat",
+      "url": "https://github.com/playcanvas/supersplat",
+      "summary": "3D Gaussian Splat Editor | 514 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "summary": "\u300a\u52a8\u624b\u5b66\u5927\u6a21\u578bDive into LLMs\u300b\u7cfb\u5217\u7f16\u7a0b\u5b9e\u8df5\u6559\u7a0b | 160 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
     },
     {
       "title": "Quoting Luke Curley",
@@ -712,206 +534,6 @@
       "summary": "And an Overview of Recent Inference-Scaling Papers",
       "source": "Sebastian Raschka",
       "source_type": "blog",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Understanding Annotator Safety Policy with Interpretability",
-      "url": "https://arxiv.org/abs/2605.05329",
-      "summary": "arXiv:2605.05329v1 Announce Type: new  Abstract: Safety policies define what constitutes safe and unsafe AI outputs, guiding data annotation and model development. However, annotation disagreement is pervasive and can stem from multiple sources such as operational failures (annotators misunderstand or misexecute the task), policy ambiguity (policy wording leaves room for interpretation), or value pluralism (different annotators hold different perspectives on safety). Distinguishing these sources",
-      "authors": "Alex Oesterling, Donghao Ren, Yannick Assogba, Dominik Moritz, Sunnie S. Y. Kim, Leon Gatys, Fred Hohman",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "ZAYA1-8B Technical Report",
-      "url": "https://arxiv.org/abs/2605.05365",
-      "summary": "arXiv:2605.05365v1 Announce Type: new  Abstract: We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture. ZAYA1-8B's core pretraining, midtraining, and supervised fine-tuning (SFT) were performed on a full-stack AMD compute, networking, and software platform. With under 1B active parameters, ZAYA1-8B matches or exceeds DeepSeek-R1-0528 on several challenging mathematics and coding benchmarks, and remai",
-      "authors": "Robert Washbourne, Rishi Iyer, Tomas Figliolia, Henry Zheng, Ryan Lorig-Roach, Sungyeon Yang, Pritish Yuvraj, Quentin Anthony, Yury Tokpanov, Xiao Yang, Ganesh Nanduru, Stephen Ebert, Praneeth Medepalli, Skyler Szot, Srivatsan Rajagopal, Alex Ong, Bhavana Mehta, Beren Millidge",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems",
-      "url": "https://arxiv.org/abs/2605.05379",
-      "summary": "arXiv:2605.05379v1 Announce Type: new  Abstract: Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these settings, access control can be enforced correctly while the system still produces an answer that appears complete even though material evidence lies outside the caller's authorization boundary. This paper introduces Partial Evidence Bench, a deterministic benchmark for measuring that failure mode. The",
-      "authors": "Krti Tallam",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
-      "url": "https://arxiv.org/abs/2605.05386",
-      "summary": "arXiv:2605.05386v1 Announce Type: new  Abstract: Large language models increasingly operate in interactive settings where solving a task requires multiple rounds of information exchange with a user. However, most current systems treat dialogue reactively and lack a principled mechanism to reason about what information is missing and which question should be asked next. We propose BALAR (Bayesian Agentic Loop for Active Reasoning), a task-agnostic outer-loop algorithm that requires no fine-tuning",
-      "authors": "Aymen Echarghaoui, Dongxia Wu, Emily B. Fox",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Intelligent CCTV for Urban Design: AI-Based Analysis of Soft Infrastructure at Intersections",
-      "url": "https://arxiv.org/abs/2605.05402",
-      "summary": "arXiv:2605.05402v1 Announce Type: new  Abstract: Artificial intelligence (AI) and computer vision are transforming transportation data collection. This study introduces an AI-enabled analytics framework leveraging existing CCTV infrastructure to evaluate the impact of soft interventions, such as temporary pedestrian refuges and curb extensions, on vehicle speed and safety. Using deep learning and perspective-based speed estimation, we evaluated driver behavior before and after interventions, wit",
-      "authors": "Vinit Katariya, Seungjin Kim, Curtis Craig, Nichole Morris, Hamed Tabkhi",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "When Helpfulness Becomes Sycophancy: Sycophancy is a Boundary Failure Between Social Alignment and Epistemic Integrity in Large Language Models",
-      "url": "https://arxiv.org/abs/2605.05403",
-      "summary": "arXiv:2605.05403v1 Announce Type: new  Abstract: This position paper argues that sycophancy in LLMs is a boundary failure between social alignment and epistemic integrity. Existing work often operationalizes sycophancy through external behavior such as agreement with incorrect user beliefs, position reversals, or deviation from an objective standard of correctness. These formulations capture only overt forms of the phenomenon and leave subtler boundary failures involving epistemic integrity and",
-      "authors": "Jiechen Li, Catherine A. Barry, Rishika Randev, Janet Chen, Ella Jorgensen, Brinnae Bent",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "PRISM: Perception Reasoning Interleaved for Sequential Decision Making",
-      "url": "https://arxiv.org/abs/2605.05407",
-      "summary": "arXiv:2605.05407v1 Announce Type: new  Abstract: Scaling LLM-based embodied agents from text-only environments to complex multimodal settings remains a major challenge. Recent work identifies a perception-reasoning-decision gap in standalone Vision-Language Models (VLMs), which often overlook task-critical information. In this paper, we introduce PRISM, a framework that tightly couples perception (VLM) and decision (LLM) through a dynamic question-answer (DQA) pipeline. Instead of passively acce",
-      "authors": "Mohamed Salim Aissi, Clemence Grislain, Clement Romac, Laure Soulier, Mohamed Chetouani, Olivier Sigaud, Nicolas Thome",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Agentic Retrieval-Augmented Generation for Financial Document Question Answering",
-      "url": "https://arxiv.org/abs/2605.05409",
-      "summary": "arXiv:2605.05409v1 Announce Type: new  Abstract: Financial document question answering (QA) demands complex multi-step numerical reasoning over heterogeneous evidence--structured tables, textual narratives, and footnotes--scattered across corporate filings. Existing retrieval-augmented generation (RAG) approaches adopt a single-pass retrieve-then-generate paradigm that struggles with the compositional reasoning chains prevalent in financial analysis. We propose FinAgent-RAG, an agentic RAG frame",
-      "authors": "Yang Shu, Yingmin Liu, Zequn Xie",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "LaTA: A Drop-in, FERPA-Compliant Local-LLM Autograder for Upper-Division STEM Coursework",
-      "url": "https://arxiv.org/abs/2605.05410",
-      "summary": "arXiv:2605.05410v1 Announce Type: new  Abstract: Large-language-model (LLM) graders promise to relieve the grading burden of upper-division STEM courses, but most deployments to date send student work to third-party APIs, violating FERPA and exposing institutions to data risk while requiring substantial assignment modification. We present $\\textbf{LaTA}\\ (\\textit{LaTeX Teaching Assistant})$, a drop-in, open-source autograder that runs entirely on commodity on-premises hardware and assumes a LaTe",
-      "authors": "Jesse A. Rodr\\'iguez",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
-      "url": "https://arxiv.org/abs/2605.05413",
-      "summary": "arXiv:2605.05413v1 Announce Type: new  Abstract: Large language model (LLM) agents are increasingly used to operate browsers, files, code and tools, making personal assistants a natural deployment target. Yet personal agents face a privacy-cost-capability tension: cloud models execute multi-step workflows well but expose sensitive intermediate context to external APIs, while local models preserve privacy but remain less reliable. Both settings also pay repeatedly for long skill prompts and growi",
-      "authors": "Haoyang Xie, Xinyuan Wang, Yancheng Wang, Puda Zhao, Feng Ju",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias",
-      "url": "https://arxiv.org/abs/2605.05427",
-      "summary": "arXiv:2605.05427v1 Announce Type: new  Abstract: As Large Language Models (LLMs) are integrated into global software systems, ensuring equitable safety guardrails is a critical requirement. Current fairness evaluations predominantly measure bias observationally, a methodology confounded by the inherent toxicity of topics naturally paired with specific demographics in testing datasets. This study introduces a Probabilistic Graphical Model (PGM) framework to audit LLM safety mechanisms causally. B",
-      "authors": "Alif Al Hasan",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure",
-      "url": "https://arxiv.org/abs/2605.05440",
-      "summary": "arXiv:2605.05440v1 Announce Type: new  Abstract: The security discussion around agentic AI focuses heavily on prompt injection. This paper argues that multi-agent systems also create a distinct authorization problem: maintaining authorization invariants as non-human principals retrieve data, delegate tasks, and synthesize results across changing boundaries. We call this problem authorization propagation. It is not reducible to prompt injection and is not fully addressed by classical access-contr",
-      "authors": "Krti Tallam",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Agentic Discovery of Exchange-Correlation Density Functionals",
-      "url": "https://arxiv.org/abs/2605.05460",
-      "summary": "arXiv:2605.05460v1 Announce Type: new  Abstract: The development of accurate exchange-correlation (XC) functionals remains a longstanding challenge in density functional theory (DFT). The vast majority of XC functionals have been hand designed by human researchers combining physical insight, exact constraints, and empirical fitting. Recent advances in large language models enable a systematic, automated alternative to this human-driven design loop. This report presents an agentic search system i",
-      "authors": "Titouan Duston, Jiashu Liang, Yuanheng Wang, Weihao Gao, Xuelan Wen, Nan Sheng, Weiluo Ren, Yang Sun, Yixiao Chen",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Intentionality is a Design Decision: Measuring Functional Intentionality for Accountable AI Systems",
-      "url": "https://arxiv.org/abs/2605.05475",
-      "summary": "arXiv:2605.05475v1 Announce Type: new  Abstract: As AI systems increasingly exhibit autonomous, goal-directed, and long-horizon behavior, users lack a standardized way to detect the degree to which a system functions like an intentional actor for governance and accountability purposes. This position paper defines intentionality not as consciousness, but as a behavioral profile characterized by purpose, foresight, volition, temporal commitment, and coherence - criteria long used in legal and phil",
-      "authors": "Allessia Chiappetta, Robert Mahari",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "LANTERN: LLM-Augmented Neurosymbolic Transfer with Experience-Gated Reasoning Networks",
-      "url": "https://arxiv.org/abs/2605.05478",
-      "summary": "arXiv:2605.05478v1 Announce Type: new  Abstract: Transfer learning in reinforcement learning (RL) seeks to accelerate learning in new tasks by leveraging knowledge from related sources. Existing neurosymbolic transfer methods, however, typically rely on manually specified task automata, assume a single source task, and use fixed knowledge-integration mechanisms that cannot adapt to varying source relevance. We propose LANTERN, a unified framework for multi-source neurosymbolic transfer that addr",
-      "authors": "Mahyar Alinejad, Yue Wang, Amrit Singh Bedi, George Atia",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "FinRAG-12B: A Production-Validated Recipe for Grounded Question Answering in Banking",
-      "url": "https://arxiv.org/abs/2605.05482",
-      "summary": "arXiv:2605.05482v1 Announce Type: new  Abstract: Large language models (LLMs) are rapidly being adopted across various domains. However, their adoption in banking industry faces resistance due to demands for high accuracy, regulatory compliance, and the need for verifiable and grounded responses. We present a unified, data-efficient framework for training grounded domain-specific LLMs that optimizes answer quality, citation grounding, and calibrated refusal under real-world deployment constraint",
-      "authors": "Denys Katerenchuk, Pablo Duboue, Keelan Evanini, David Gondek, Nithin Govindugari, Olivier Allauzen, Joshua Baptiste, David J More, Joshua Schechter",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "FoodCHA: Multi-Modal LLM Agent for Fine-Grained Food Analysis",
-      "url": "https://arxiv.org/abs/2605.05499",
-      "summary": "arXiv:2605.05499v1 Announce Type: new  Abstract: The widespread adoption of camera-equipped mobile devices and wearables has enabled convenient capture of meal images, making food recognition a key component for real time dietary monitoring. However, real-world food images present challenges due to high intra-class similarity and the frequent presence of multiple food items within a single image. While deep learning models achieve strong performance in coarse grained classification, they often s",
-      "authors": "Woojin Lee, Pranav Mekkoth, Ye Tian, Onat Gungor, Tajana Rosing",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Housing Potential Common Data Model and City Digital Twin",
-      "url": "https://arxiv.org/abs/2605.05535",
-      "summary": "arXiv:2605.05535v1 Announce Type: new  Abstract: The evaluation of housing potential requires consideration of a location from multiple perspectives, ranging from zoning and land use to population characteristics and access to services. This research introduces the Housing Potential Common Data Model (HPCDM) to overcome existing data silos, serving as a standard to support integration and interoperability across the diverse range of datasets that are required for housing potential analysis. This",
-      "authors": "Megan Katsumi, Mark Fox, Anderson Wong, Divnoor Chatha",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "AgenticRAG: Agentic Retrieval for Enterprise Knowledge Bases",
-      "url": "https://arxiv.org/abs/2605.05538",
-      "summary": "arXiv:2605.05538v1 Announce Type: new  Abstract: We present AgenticRAG, a practical agentic harness for retrieval and analysis over enterprise knowledge bases. Standard RAG pipelines place significant burden of grounding on the search stack, constraining the language model to a fixed candidate set chosen deep in the retrieval process. Our approach reduces this overdependence by layering a lightweight harness on top of existing enterprise search infrastructure, equipping a reasoning LLM with sear",
-      "authors": "Susheel Suresh, Hazel Mak, Shangpo Chou, Fred Kroon, Sahil Bhatnagar",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "SPARK: Self-Play with Asymmetric Reward from Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2605.05546",
-      "summary": "arXiv:2605.05546v1 Announce Type: new  Abstract: Self-play reinforcement learning has shown strong performance in domains with formally verifiable structure, such as mathematics and coding, where both problem generation and reward computation can be grounded in explicit rules. Extending this paradigm to scientific literature is more challenging: the relationships among multi-modal elements within and across documents are rarely made explicit in text, which makes automatic generation of relationa",
-      "authors": "Hyobin Park, Taeseop Kim, Dong-Geol Choi",
-      "published": "2026-05-09T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
       "read_time_minutes": 4
     }
   ]
