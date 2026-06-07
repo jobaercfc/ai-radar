@@ -1,7 +1,7 @@
 {
-  "date": "2026-06-06",
-  "generated_at": "2026-06-06T08:50:18.926754",
-  "headline": "NVIDIA's Nemotron 3 Ultra now available on Amazon SageMaker JumpStart for rapid AI deployments.",
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T08:59:47.238098",
+  "headline": "Meta confirms thousands of Instagram accounts hacked via AI chatbot vulnerability.",
   "sections": [
     {
       "id": "must_know",
@@ -9,13 +9,13 @@
       "emoji": "\ud83d\udd25",
       "items": [
         {
-          "title": "Meta's AI customer support agent exploited in security breach",
-          "summary": "Attackers used Meta's AI customer support agent to compromise Instagram accounts by associating them with attacker-controlled email addresses. The breach highlights significant vulnerabilities in AI agent security, allowing unauthorized access to high-profile accounts, including potentially dormant ones like the Obama White House account.",
-          "why_it_matters": "Ensuring AI security is crucial for developers to protect user data and maintain trust in AI systems.",
-          "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-          "source": "MIT Technology Review",
-          "published": "2026-06-05T09:00:00",
-          "read_time_minutes": 6
+          "title": "Meta confirms thousands of Instagram accounts were hacked by abusing its AI chatbot",
+          "summary": "On June 5, reports confirmed that attackers exploited Meta's AI chatbot to hack thousands of Instagram accounts. The method involved using the AI to link user accounts to email addresses controlled by the attackers. This breach highlights significant vulnerabilities in AI-driven customer support systems and has raised concerns about the security of AI integrations in social media platforms.",
+          "why_it_matters": "This incident underscores the importance of securing AI systems against misuse, which is crucial for developers integrating AI into customer services.",
+          "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+          "source": "Hacker News",
+          "published": "2026-06-05",
+          "read_time_minutes": 4
         }
       ]
     },
@@ -25,20 +25,28 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "NVIDIA Nemotron 3 Ultra available on Amazon SageMaker JumpStart",
-          "summary": "NVIDIA's Nemotron 3 Ultra model is now deployable via Amazon SageMaker JumpStart, offering a 5x boost in inference speed and a 30% cost reduction for agentic AI workloads. This model is designed for efficient reasoning and long-running AI agents, enhancing both performance and cost-effectiveness.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/",
-          "source": "Artificial Intelligence",
-          "published": "2026-06-04T16:59:08",
-          "read_time_minutes": 5
-        },
-        {
-          "title": "MicroPython-WASM 0.1a2 released",
-          "summary": "The new alpha release of MicroPython-WASM introduces a CLI for executing Python code in a WebAssembly sandbox. This allows developers to securely run Python code in a constrained environment, useful for building applications that require script execution with minimized risk.",
+          "title": "micropython-wasm 0.1a2",
+          "summary": "The new release of micropython-wasm 0.1a2 introduces a command-line interface for running Python code in a WebAssembly sandbox. This release aims to enhance the security and portability of Python applications by providing a lightweight, sandboxed environment for execution.",
           "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
           "source": "Simon Willison",
-          "published": null,
+          "published": "2026-06-06",
           "read_time_minutes": 2
+        },
+        {
+          "title": "PaddleOCR - A powerful, lightweight OCR toolkit",
+          "summary": "PaddleOCR has been updated to bridge the gap between images/PDFs and LLMs, supporting over 100 languages. It allows developers to convert any document into structured data, enhancing the integration of OCR with AI models.",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "source": "GitHub Trending",
+          "published": null,
+          "read_time_minutes": 11
+        },
+        {
+          "title": "VibeVoice by Microsoft",
+          "summary": "Microsoft has released VibeVoice, an open-source frontier voice AI project. This tool is designed to advance voice recognition technology, offering developers a robust platform for building voice-enabled applications.",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "source": "GitHub Trending",
+          "published": null,
+          "read_time_minutes": 5
         }
       ]
     },
@@ -46,7 +54,16 @@
       "id": "deprecations",
       "title": "Deprecations & Changes",
       "emoji": "\ud83d\udcc9",
-      "items": []
+      "items": [
+        {
+          "title": "OpenAI Help: Lockdown Mode",
+          "summary": "OpenAI has officially rolled out 'Lockdown Mode' for its services. This feature is designed to enhance security by restricting the capabilities of AI models in sensitive situations. It is now available to users and aims to mitigate risks associated with AI usage.",
+          "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+          "source": "Simon Willison",
+          "published": "2026-06-05",
+          "read_time_minutes": 3
+        }
+      ]
     },
     {
       "id": "research",
@@ -54,79 +71,30 @@
       "emoji": "\ud83d\udd2c",
       "items": [
         {
-          "title": "Understanding evolving memes through open-world knowledge",
-          "summary": "This research explores the dynamic interpretation of multimodal memes, highlighting the importance of incorporating up-to-date background knowledge in AI systems. The study suggests methods to enhance meme understanding using non-static, open-world data acquisition.",
-          "url": "https://arxiv.org/abs/2606.05316",
-          "source": "arXiv cs.AI",
-          "published": "2026-06-06T04:00:00",
-          "read_time_minutes": 3
-        }
-      ]
-    },
-    {
-      "id": "community",
-      "title": "Community Buzz",
-      "emoji": "\ud83d\udccc",
-      "items": [
-        {
-          "title": "Gemma 4 QAT Models for Mobile Efficiency",
-          "summary": "Google's Gemma 4 models introduce quantization-aware training (QAT) to optimize compression for mobile and laptop devices. This advancement aims to reduce computational overhead while maintaining performance, particularly for lightweight AI applications.",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-          "source": "Hacker News",
+          "title": "Recent Developments in LLM Architectures",
+          "summary": "Sebastian Raschka discusses new developments in LLM architectures, including KV Sharing, mHC, and Compressed Attention. These innovations aim to reduce long-context costs in large language models, making them more efficient and scalable.",
+          "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+          "source": "Sebastian Raschka",
           "published": null,
-          "read_time_minutes": 5
+          "read_time_minutes": 29
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 81,
-    "items_categorized": 5
+    "items_processed": 53,
+    "items_categorized": 6
   },
   "all_items": [
     {
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "2026-06-04T12:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "published": "2026-06-04T09:00:00",
-      "source": "OpenAI News",
-      "source_type": "rss"
-    },
-    {
-      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "title": "Five labs, five minds: building a multi-model finance drama on small models",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
       "summary": "",
-      "published": "2026-06-05T22:18:46",
+      "published": "2026-06-06T19:02:33",
       "source": "Hugging Face - Blog",
       "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "summary": "",
-      "published": "2026-06-04T18:57:45",
-      "source": "Hugging Face - Blog",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "summary": "",
-      "published": "2026-06-04T12:24:58",
-      "source": "Hugging Face - Blog",
-      "source_type": "rss",
-      "read_time_minutes": 10
+      "read_time_minutes": 6
     },
     {
       "title": "The latest AI news we announced in May 2026",
@@ -136,24 +104,6 @@
       "source": "AI",
       "source_type": "rss",
       "read_time_minutes": 7
-    },
-    {
-      "title": "NVIDIA Nemotron 3 Ultra now available on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/",
-      "summary": "Deploy NVIDIA Nemotron 3 Ultra on Amazon SageMaker JumpStart. Get 5x faster inference and 30% lower cost for agentic AI workloads with this frontier reasoning model.",
-      "published": "2026-06-04T16:59:08",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "NVIDIA Nemotron 3 Ultra Powers Faster, More Efficient Reasoning for Long-Running Agents",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
-      "summary": "<img alt=\"Illustration showing Nemtron 3 Ultra.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Nemotron-3-Ultra-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Nemotron-3-Ultra\" width=\"768\" />Single-turn chatbots are evolving into long-running agents that can reason, maintain context, use tools, and run efficiently across many turns to complete...",
-      "published": "2026-06-04T13:02:49",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 11
     },
     {
       "title": "The Download: AI hacking beyond Mythos, and chatbots\u2019 impact on our brains",
@@ -183,298 +133,278 @@
       "read_time_minutes": 6
     },
     {
-      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-      "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by&#8230;",
-      "published": "2026-06-04T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
+      "title": "I design with Claude more than Figma now",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "summary": "Score: 130 | 92 comments",
+      "score": 130,
+      "source": "Hacker News",
+      "source_type": "hackernews",
       "read_time_minutes": 6
     },
     {
-      "title": "How courts are coping with a flood of AI-generated lawsuits",
-      "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can\u2019t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mindful of how daunting&#8230;",
-      "published": "2026-06-04T10:50:18",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "How LLMs work",
-      "url": "https://www.0xkato.xyz/how-llms-actually-work/",
-      "summary": "Score: 297 | 84 comments",
-      "score": 297,
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "summary": "Score: 97 | 30 comments",
+      "score": 97,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 24
+      "read_time_minutes": 4
     },
     {
-      "title": "The intracies of modern camera lens repair (2024)",
-      "url": "https://salvagedcircuitry.com/sigma-45mm.html",
-      "summary": "Score: 161 | 54 comments",
-      "score": 161,
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "summary": "Score: 188 | 118 comments",
+      "score": 188,
       "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 18
+      "source_type": "hackernews"
     },
     {
-      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-      "summary": "Score: 357 | 105 comments",
-      "score": 357,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
-      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
-      "summary": "Score: 389 | 249 comments",
-      "score": 389,
+      "title": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "summary": "Score: 103 | 17 comments",
+      "score": 103,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 1
     },
     {
-      "title": "pg_durable: Microsoft open sources in-database durable execution",
-      "url": "https://github.com/microsoft/pg_durable",
-      "summary": "Score: 390 | 88 comments",
-      "score": 390,
+      "title": "Biohub releases a world model of protein biology",
+      "url": "https://biohub.org/news/world-model-of-protein-biology/",
+      "summary": "Score: 65 | 3 comments",
+      "score": 65,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 10
+      "read_time_minutes": 7
     },
     {
-      "title": "The back cover of C++: The Language raises questions not answered by front cover",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
-      "summary": "Score: 83 | 22 comments",
-      "score": 83,
+      "title": "Human-Like Neural Nets by Catapulting",
+      "url": "https://gwern.net/llm-catapult",
+      "summary": "Score: 33 | 6 comments",
+      "score": 33,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 3
+      "read_time_minutes": 67
+    },
+    {
+      "title": "Arithmetic Without Numbers \u2013 How LLMs Do Math",
+      "url": "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html",
+      "summary": "Score: 17 | 5 comments",
+      "score": 17,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "summary": "Score: 574 | 206 comments",
+      "score": 574,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+      "summary": "Score: 237 | 813 comments",
+      "score": 237,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 6
     },
     {
       "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
       "url": "https://news.ycombinator.com/item?id=48406174",
       "summary": "Most of us were amused when DALL-E and its peers went mainstream, and we were quick to point out the obvious flaws.<p>Then ChatGPT hit the scene and again, many of us dismissed it as a parlor trick that would never amount to much.<p>Using LLMs for coding initially was a only small step up from basic",
-      "score": 321,
+      "score": 612,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 263
+      "read_time_minutes": 431
     },
     {
-      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-      "summary": "Score: 344 | 106 comments",
-      "score": 344,
+      "title": "Show HN: TakoVM \u2013 Isolated model and tool execution used by enterprises",
+      "url": "https://github.com/las7/TakoVM",
+      "summary": "Score: 19 | 7 comments",
+      "score": 19,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 5
+      "read_time_minutes": 1
     },
     {
-      "title": "Did Claude increase bugs in rsync?",
-      "url": "https://alexispurslane.github.io/rsync-analysis/",
-      "summary": "Score: 401 | 405 comments",
-      "score": 401,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 28
-    },
-    {
-      "title": "My Agent Skill for Test-Driven Development",
-      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
-      "summary": "Score: 171 | 73 comments",
-      "score": 171,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "Conventional Commits encourages focus on the wrong things",
-      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
-      "summary": "Score: 300 | 231 comments",
-      "score": 300,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "Ask HN: Why is the HN crowd so anti-AI?",
-      "url": "https://news.ycombinator.com/item?id=48420827",
-      "summary": "Genuine question.<p>Over the past six months, there hasn\u2019t been a single day where I\u2019ve checked the HN Best RSS feed without seeing a post about how AI \u201cwrites bad code,\u201d \u201cintroduces bugs,\u201d \u201ccreates technical debt,\u201d or something along those lines.<p>I\u2019ll probably make a lot of enemies by saying this",
-      "score": 137,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 129
-    },
-    {
-      "title": "Transformers are inherently succinct",
-      "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
-      "summary": "This paper is being published at ICLR 2026 (top AI conference), and was selected as one of three outstanding papers.",
-      "score": 118,
+      "title": "Show HN: Free animated icon library for Vue",
+      "url": "https://respeak-io.github.io/lucide-motion-vue/",
+      "summary": "Hi everyone!<p>Tim here, maintainer of the lucide-motion-vue library. I build this as a way to use nice animated icons in my webapps. We were already on lucide, and found animate-ui animated icons as a great collection, unfortunately React only or made to be used with shadcn.<p>So I ported the libra",
+      "score": 21,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
-      "title": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "summary": "The agent that grows with you | 1,845 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "chopratejas/headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. | 2,473 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. | 148 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269 | 320 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 4
+      "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincar\u00e9 disk",
+      "url": "https://uonr.github.io/poincake/",
+      "summary": "Hi!<p>This is an infinite canvas note-taking tool where notes are laid out in a non-Euclidean, hyperbolic geometric space. As you drag and navigate through the view, you\u2019ll experience a unique fluid distortion that naturally leverages your brain&#x27;s spatial memory.<p>I\u2019ve been obsessed with the c",
+      "score": 162,
+      "source": "Hacker News",
+      "source_type": "hackernews"
     },
     {
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | 731 stars today stars today",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | 439 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 17
     },
     {
-      "title": "PaddlePaddle/PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | 747 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 11
-    },
-    {
       "title": "MemPalace/mempalace",
       "url": "https://github.com/MemPalace/mempalace",
-      "summary": "The best-benchmarked open-source AI memory system. And it's free. | 227 stars today stars today",
+      "summary": "The best-benchmarked open-source AI memory system. And it's free. | 446 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "summary": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\uff1a\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + LLM\u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\uff0c\u7eaf\u767d\u5ad6. LLM-powered stock analysis system for A/H/US markets. | 253 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "microsoft/agent-framework",
-      "url": "https://github.com/microsoft/agent-framework",
-      "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. | 26 stars today stars today",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. | 683 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
-      "title": "jundot/omlx",
-      "url": "https://github.com/jundot/omlx",
-      "summary": "LLM inference server with continuous batching & SSD caching for Apple Silicon \u2014 managed from the macOS menu bar | 101 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "summary": "The agent that grows with you | 1,845 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "chopratejas/headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. | 2,473 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "CopilotKit/CopilotKit",
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "summary": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol | 366 stars today stars today",
+      "title": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "summary": "Robust Speech Recognition via Large-Scale Weak Supervision | 150 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 6
     },
     {
-      "title": "lfnovo/open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "summary": "An Open Source implementation of Notebook LM with more flexibility and features | 1,152 stars today stars today",
+      "title": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | 433 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 8
+      "read_time_minutes": 11
     },
     {
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 1,361 stars today stars today",
+      "title": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "summary": "Open-Source Frontier Voice AI | 216 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 49
+      "read_time_minutes": 5
     },
     {
-      "title": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. | 148 stars today stars today",
+      "title": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. | 46 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "NVIDIA/cosmos",
-      "url": "https://github.com/NVIDIA/cosmos",
-      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more. | 479 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 22
+      "read_time_minutes": 3
     },
     {
       "title": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
-      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269 | 320 stars today stars today",
+      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269 | 493 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 4
     },
     {
+      "title": "agentscope-ai/agentscope",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust. | 84 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development | 398 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 21
+    },
+    {
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | 731 stars today stars today",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | 439 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 17
     },
     {
-      "title": "PaddlePaddle/PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | 747 stars today stars today",
+      "title": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "summary": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol | 631 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 11
+      "read_time_minutes": 6
+    },
+    {
+      "title": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "summary": "The best-benchmarked open-source AI memory system. And it's free. | 446 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 7
+    },
+    {
+      "title": "danielmiessler/Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "summary": "Agentic AI Infrastructure for magnifying HUMAN capabilities. | 70 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 16
+    },
+    {
+      "title": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "summary": "OpenAI Plugins | 213 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. | 683 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 7
+    },
+    {
+      "title": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "summary": "web development for the rest of us | 25 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "summary": "The official NGINX Open Source repository. | 20 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 8
+    },
+    {
+      "title": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more | 159 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "golang/go",
+      "url": "https://github.com/golang/go",
+      "summary": "The Go programming language | 30 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 1
     },
     {
       "title": "micropython-wasm 0.1a2",
@@ -557,6 +487,14 @@
       "read_time_minutes": 9
     },
     {
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "summary": "A curated roundup of notable LLM research papers that came out this year",
+      "source": "Sebastian Raschka",
+      "source_type": "blog",
+      "read_time_minutes": 7
+    },
+    {
       "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
       "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
       "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
@@ -587,214 +525,6 @@
       "source": "Sebastian Raschka",
       "source_type": "blog",
       "read_time_minutes": 26
-    },
-    {
-      "title": "A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026",
-      "url": "https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight",
-      "summary": "A Round Up And Comparison of 10 Open-Weight LLM Releases in Spring 2026",
-      "source": "Sebastian Raschka",
-      "source_type": "blog",
-      "read_time_minutes": 28
-    },
-    {
-      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-      "url": "https://arxiv.org/abs/2606.05256",
-      "summary": "arXiv:2606.05256v1 Announce Type: new  Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language",
-      "authors": "Kokil Jaidka, Saifuddin Ahmed",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2606.05304",
-      "summary": "arXiv:2606.05304v1 Announce Type: new  Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strat",
-      "authors": "Chen Huang, Yuhao Wu, Wenxuan Zhang",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
-      "url": "https://arxiv.org/abs/2606.05316",
-      "summary": "arXiv:2606.05316v1 Announce Type: new  Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or rely on fixed parametric knowledge of pretrained models that may be incomplete, outdated, or unavailable for emerging memes. We introduce Query Retrieve Conclude, a zero shot framework that identifies missing knowledge, retrieves open web evidence, and synthesizes evidence grounded background knowledg",
-      "authors": "Shanhong Liu, Rui Cao, Pai Chet Ng, De Wen Soh",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
-      "url": "https://arxiv.org/abs/2606.05332",
-      "summary": "arXiv:2606.05332v1 Announce Type: new  Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot forecast quality. We propose improving TSFM accuracy at inference time by optimizing the input context rather than modifying model weights. We present GITCO (Gated Inference-Time Context Optimization), a lightweight three-component framework: Gate, Router, and Critic that",
-      "authors": "Manya Pandey, Dhruv Kumar, Murari Mandal, Saurabh Deshpande",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
-      "url": "https://arxiv.org/abs/2606.05334",
-      "summary": "arXiv:2606.05334v1 Announce Type: new  Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability. Reuse cannot be decided from the current inspection alone, because future function fulfillment and component integrity may evolve differently under the next service scenario. Existing PHM approaches support degradation prediction, but often target fixed operating conditions or isolated component benchmarks,",
-      "authors": "Nehal Afifi, Mehdi Khabou, Victor Mas, Jonas Hemmerich, Patric Grauberger, Stefan Dietrich, Volker Schulze, Sven Matthiesen",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
-      "url": "https://arxiv.org/abs/2606.05342",
-      "summary": "arXiv:2606.05342v1 Announce Type: new  Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event",
-      "authors": "Matheus Kunzler Maldaner, Adam Fourney, Amanda Swearngin, Hussein Mozzanar, Gagan Bansal, Maya Murad, Rafah Hosn, Saleema Amershi",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "An interpretable and trustworthy AI framework for large-scale longitudinal structure-pain association studies using data from the Osteoarthritis Initiative (OAI)",
-      "url": "https://arxiv.org/abs/2606.05357",
-      "summary": "arXiv:2606.05357v1 Announce Type: new  Abstract: Purpose: To develop an interpretable and trustworthy AI framework that combines deep learning based MRI Osteoarthritis Knee Score (MOAKS) prediction with interpretable statistical modeling to study structure-pain relationships at scale using data from the Osteoarthritis Initiative (OAI). Materials and Methods: We first developed a deep learning framework to predict MOAKS features directly from knee MRIs and incorporated conformal prediction to pro",
-      "authors": "Jincheng Yu, Haoyang Li, Yiwen Liu, Shen Liu, Rachel Yuanbao Chen, C. Kent Kwoh, Hongxu Ding, Xiaoxiao Sun",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Synthetic Contrastive Reasoning for Multi-Table Q&A",
-      "url": "https://arxiv.org/abs/2606.05382",
-      "summary": "arXiv:2606.05382v1 Announce Type: new  Abstract: Multi-table question answering requires models to retrieve relevant evidence, link schemas, and perform compositional reasoning across relational tables. Existing multi-table Q&amp;A resources typically provide questions and final answers but lack reasoning supervision that explains how answers are derived. To address this gap, we construct a synthetic contrastive reasoning-trace dataset for MMQA by generating validated positive traces and plausib",
-      "authors": "Ankit Pratap Singh, Xin Su, Phillip Howard",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges",
-      "url": "https://arxiv.org/abs/2606.05384",
-      "summary": "arXiv:2606.05384v1 Announce Type: new  Abstract: LLM-as-judge evaluation is widely used in benchmarking pipelines, where model outputs are compared and ranked using automated evaluators. These pipelines typically assume that judgments are stable properties of fixed inputs. We show that this assumption does not hold under interaction. We study post-decision manipulability: the extent to which an evaluation outcome can be altered through subsequent conversation with the judge after an initial deci",
-      "authors": "Srimonti Dutta, Akshata Kishore Moharir",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Residual Modeling for High-Fidelity Learned Compression of Scientific Data",
-      "url": "https://arxiv.org/abs/2606.05389",
-      "summary": "arXiv:2606.05389v1 Announce Type: new  Abstract: Lossy compression is essential for massive spatiotemporal data from scientific simulations. Learned compressors can achieve high compression ratios at moderate accuracy targets, but their aggregate reconstruction losses do not guarantee accuracy for each block. Existing Guaranteed Autoencoder (GAE) methods add a per-block residual correction by retaining SVD/PCA-style coefficients until the target is met. This works at moderate tolerances, but in",
-      "authors": "Liangji Zhu, Sanjay Ranka, Anand Rangarajan",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization",
-      "url": "https://arxiv.org/abs/2606.05400",
-      "summary": "arXiv:2606.05400v1 Announce Type: new  Abstract: Long-horizon autoformalization of research mathematics fails not only at hard lemmas, but at scale: statements drift, dependencies tangle, context decays, and local repairs corrupt distant work. We present LeanMarathon, a multi-agent harness for reliable research-level Lean autoformalization. Its core abstraction is an evolving blueprint: a Lean file that serves simultaneously as formal proof skeleton, natural-language proof graph, and shared syst",
-      "authors": "Yuanhe Zhang, Yuekai Sun, Taiji Suzuki, Jason D. Lee, Fanghui Liu",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Harnessing Generalist Agents for Contextualized Time Series",
-      "url": "https://arxiv.org/abs/2606.05404",
-      "summary": "arXiv:2606.05404v1 Announce Type: new  Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully a",
-      "authors": "Zihao Li, Kaifeng Jin, Yuanchen Bei, Jiaru Zou, Avaneesh Kumar, Xuying Ning, Yanjun Zhao, Mengting Ai, Baoyu Jing, Hanghang Tong, Jingrui He",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Agents' Last Exam",
-      "url": "https://arxiv.org/abs/2606.05405",
-      "summary": "arXiv:2606.05405v1 Announce Type: new  Abstract: Recent AI systems have achieved strong results on a wide range of benchmarks, yet these gains have not translated into economically meaningful deployment across many professional domains. We argue that this gap is largely an evaluation problem: widely used benchmarks lack sustained performance measurement on real and economically valuable workflows. This paper introduces Agents' Last Exam (ALE), a benchmark designed to evaluate AI agents on long-h",
-      "authors": "Yiyou Sun, Xinyang Han, Weichen Zhang, Yuanbo Pang, Tianyu Wang, Yuhan Cao, Yixiao Huang, Chris Duroiu, Haoyun Zhang, Jeffrey Lin, Weishu Zhang, Tyler Zeng, Ying Yan, Bo Liu, Hanson Wen, Mingyang Xu, Xiaoyuan Liu, Zimeng Chen, Weiyan Shi, Amanda Dsouza, Vincent Sunn Chen, Patrick Bryant, Carl Boettiger, Yamini Rangan, Bradley Rothenberg, Kyle Steinfeld, Arvind Rao, Tapio Schneider, Georgios Yannakakis, Laure Zanna, Kaan Ozbay, Ida Sim, Tarek Zohdi, George Em Karniadakis, Jack Gallant, Teresa Head-gordon, Yushan Li, Wenxi Deng, Tao Sun, Huiqi Wang, Zhun Wang, Justin Xu, Chris Yuhao Liu, Yafei Cheng, Rongwang Hu, Aras Bacho, Shengcao Cao, Zengyi Qin, Yixiong Chen, Hengduan Fan, Hao Liu, Lin Zeng, Shashank Muralidhar Bharadwaj, Litian Gong, Yingxuan Yang, Maojia Song, Ruheng Wang, Zongzheng Zhang, Honglin Bao, Shuo Lu, Jianhong Tu, Zhonghua Wang, Zheng Zhang, Zijiao Chen, yanqiong Jiang, Zhendong Li, Bohan Lyu, Chang Ma, Peiran Xu, Benran Zhang, Shangding Gu, Haoyue Hua, Haoyang Li, Wanzhe Liao, Chengzhi Liu, Junbo Peng, Haoran Sun, Zechen Xu, Bo Chen, Jiayi Cheng, Yi Jiang, Keying Kuang, Yuan Li, Youbang Pan, Ziyan Rao, Alexander Schubert, Yifan Shen, Vincent Siu, Xiatao Sun, Kangqi Zhang, Xiaopan Zhang, Yuchen Zhu, Ishaan Singh Chandok, Lei Ding, Jingxuan Fan, Andrew Glover, Jiaming Hu, Yiran Hu, Wenbo Huang, Zixin Jiang, Haoran Jin, Lukas Kim, Ming Liu, Yang Liu, Alireza Rafiei, Xuhuan Shen, Kunyang Sun, Sophia Sun, Ting Sun, Eric Wang, Yixin Wang, Hanwen Xing, Sihan Xu, Yuzheng Xu, Zhongxing Xu, Zhiling Yan, Boqin Yuan, Ruiqi Zhang, Yifan Zhang, Zibo Zhao,  Liana, Santanu Bosu Antu, Haoyue Bai, Carlo Bosio, Joseph Cavanagh, Patricia Cavazos-Rehg, Tianxing Chen, Xuewen Chen, Yipu Chen, Zhu Chenyu, Chen Dai, Stefano De Castro, Yunfu Deng, Kaustubh Dhole, Jiayuan Ding, Chenchen Du, Zhehang Du, Hao Fan, Run-ze Fan, Hengyu Fu, Shi Gu, Yifan Gu, Charlie Guo, Baihe Huang, Baixiang Huang, Rimika Jaiswal, Zhihan Jiang, Ran Jin, Erin Kasson, Xin Lan, Joseph Lee, Deren Lei, Chenyu Li, Daofeng Li, Haitao Li, Hongwei Li, Jingyan Li, Xiao Li, Yi Li, Yinsheng Li, Yuangang Li, Zhixu Li, Wenyu Liang, Longtai Liao, Kevin Qinghong Lin, AndyZeyi Liu, Che Liu, Jiaming Liu, Kaiyuan Liu, Xuan Liu, Pan Lu, Wenbo Lv, Yicheng Lv, Qiuyang Mang, Kyle Montgomery, Yuzhou Nie, Ruoxi Ning, Jorin Overwiening, Xu Pan, Layna Paraboschi, Core Francisco Park, Justin Purnomo, Swati Rajwal, Scott Rankin, Bixuan Ren, Yiren Rong, HaoYang Shang, Ventus Shaw, Fiona Shen, Jiawei Shen, Minqi Shi, Qiu Shi, Huaxiu Yao, Tianneng Shi, Jonah So, Vladislav Susoy, Hannah Szlyk, Haocheng Wang, Jialu Wang, Wei Wang, Xinyu Wang, Zehao Wang, Dowling Wong, Angela Wu, Dehao Wu, Fangyu Wu, Mengyuan \"Millie\" Wu, Yu Wu, Yuchen Wu, Yuhao Wu, Qingpo Wuwu, Weihang Xiao, Yongyi Xiong, Fan Xu, Ruiling Xu, Mingxuan Yan, Benjamin Yang, Jirong Yang, Sen Yang, Xiaoli Yang, Yushi Yang, Haoran Ye, Xiaohu Yu, Zhengming Yu, Chenlong Zhang, Chi Zhang, Hanning Zhang, Hanwen Zhang, Junge Zhang, Kunpeng Zhang, Song Zhang, Wenjin Zhang, Wenshuo Zhang, Ying Zhang, Yizhi Zhang, Brian Zhao, Qijian Zhao, Yimin Zhao, Yuhaohua Zheng, Liwei Zhou, Tianyue Zhou, Sichen Zhu, Siqi Zhu, Yan Zhu, Yishu Zhu, Jierui Zuo, Chonghao Cai, Helena Casademunt, Wenjia Chen, Benjamin Cheng, Nawen Deng, Rao Fu, Tianfu Fu, Yifan Han, Ren He, Zhenyu He, Qiao Jin, Lang Lang, Yuetai Li, Sylvia Liu, Lu Lu, Qing Lu, Subhabrata Mukherjee, Yunqi Ouyang, Yin Ren, Dawei Shi, Haoran Wu, Zhiyue Wu, Hannah Yao, Zhuoran Yi, Jenny Yu, Rhea Zhan, Hang Zhou, Blake Zhu, Junfan Zhu, Alan Yuille, Yang Liu, Russell Alan Poldrack, Jiachen Li, Zhenglu Li, Molei Tao, Jing Huang, Wenqi Shi, Costas Spanos, Lichao Sun, Chenguang Wang, Orson Xu, Zhen Dong, Hector Gomez, Aylin Caliskan, Ali Emami, Haimin Hu, Zhi Li, Lihui Liu, Murphy Niu, Yi Shao, Jianxin Sun, Mikko Tolonen, Ting Wang, Sanjiv Das, Yanjun Gao, Wenbo Guo, Erika J Schneider, Zhiyong Lu, Mark Mueller, Radha Poovendran, Somayeh Sojoudi, Dawn Song",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "Mutation Without Variation: Convergence Dynamics in LLM-Driven Program Evolution",
-      "url": "https://arxiv.org/abs/2606.05408",
-      "summary": "arXiv:2606.05408v1 Announce Type: new  Abstract: When an LLM repeatedly mutates a program, does it explore new forms or circle back to the same ones? We study this question by analyzing LLM-driven mutation chains in the absence of selection pressure within a domain-specific language, varying prompt design, model family, and stochastic replication. We find that LLM-based mutation consistently converges toward restricted attractor regions in program space. Convergence is especially severe at the s",
-      "authors": "Can Gurkan, Forrest Stonedahl, Uri Wilensky",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "A Motivational Architecture for Conversational AGI",
-      "url": "https://arxiv.org/abs/2606.05411",
-      "summary": "arXiv:2606.05411v1 Announce Type: new  Abstract: Motivational architectures in cognitive AI have largely been designed for physical agents regulating bodily needs. Conversational agents operate in a different regime: their sensorimotor loop is linguistic, their environment is a user's evolving mental state, and their consequential actions are speech acts, tool invocations, and strategic silences. This paper proposes a conversational reinterpretation of the OpenPsi motivational lineage, coupled t",
-      "authors": "Anna Mikeda, Ben Goertzel",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Assessing the Carbon Emissions and Energy Consumption of U.S. Hyperscale Data Centers",
-      "url": "https://arxiv.org/abs/2606.05420",
-      "summary": "arXiv:2606.05420v1 Announce Type: new  Abstract: The rapid proliferation of hyperscale data centers (HDCs) in the US, mainly driven by the adoption of artificial intelligence, has raised concerns about this industry's environmental footprint. We compiled facility-level information on 403 US hyperscale data centers operating between May 2024 and April 2025 and estimated their electricity consumption, electricity sources, and attributable CO2 emissions. Across different facility-load scenarios, th",
-      "authors": "Gianluca Guidi, Francesca Dominici, Tiziano Squartini, Callaway Sprinkle, Jonathan Gilmour, Kevin Butler, Eric Bell, Scott Delaney, Falco J. Bargagli-Stoffi",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Minimizing the Hidden Cost of Scales: Graph-Guided Ultra-Low-Bit Quantization for Large Language Models",
-      "url": "https://arxiv.org/abs/2606.05429",
-      "summary": "arXiv:2606.05429v1 Announce Type: new  Abstract: Post-training quantization (PTQ) is critical for the efficient deployment of large language models (LLMs). Recent ultra-low-bit PTQ methods rely on rigid weight-saliency assumptions or position heuristics, introducing substantial hidden scaling overhead. We propose SAGE-PTQ (Saliency-Aware Graph-guided Efficient PTQ), a novel ultra-low-bit quantization framework for LLMs that minimizes hidden scaling cost. SAGE-PTQ separates salient and unsalient",
-      "authors": "Rayyan Abdalla, Amir Hussein, Min Wu, Dinesh Manocha",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Zero knowledge verification for frontier AI training is possible",
-      "url": "https://arxiv.org/abs/2606.05433",
-      "summary": "arXiv:2606.05433v1 Announce Type: new  Abstract: Frontier AI governance frameworks increasingly use cumulative training compute as the primary criterion for designating high-impact models, but enforcement rests on self-reporting because no technical verification primitive for training exists. Any future international agreement on frontier AI faces the same problem at higher stakes: coordinated regulation of technologies with significant externalities has historically rested on technical verifica",
-      "authors": "Pierre Peign\\'e, Ky Nguyen, Paul Wang",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Ten Headache Specialists versus Artificial Intelligence for Clinical Literature Summarization: A Critical Evaluation and Comparison",
-      "url": "https://arxiv.org/abs/2606.05436",
-      "summary": "arXiv:2606.05436v1 Announce Type: new  Abstract: Summarizing the latest medical literature to guide clinical decision-making is essential for evidence-based medicine and high-quality patient care. Yet clinicians face increasing challenges due to limited time with patients and a rapidly growing volume of published articles. Although retrieval-augmented large language models (LLMs) have shown promise in clinical summarization, human evaluations of their effectiveness in synthesizing broader scient",
-      "authors": "Alejandro Lozano, Keiko Ihara, Ping-Hao Yang, Carrie E. Robertson, Jennifer Stern, Allan Purdy, Hsiangkuo Yuan, Pengfei Zhang, Yulia Orlova, Olga Fermo, Jennifer Hranilovich, Fred Cohen, Todd J. Schwedt, Jenelle A. Jindal, Serena Yeung-Levy, Chia-Chun Chiang",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Brick-Composer: Using MLLMs for Assembly with Diverse Bricks",
-      "url": "https://arxiv.org/abs/2606.05445",
-      "summary": "arXiv:2606.05445v1 Announce Type: new  Abstract: We dream of AI agents that can read arbitrary designs and construct real-world objects from reusable building blocks. As a first step toward this vision, we study whether multimodal large language models (MLLMs) possess the visual grounding and spatial reasoning capabilities required for brick assembly. We formulate brick assembly as a sequential decision-making problem, where each step involves two subtasks: brick selection, identifying the targe",
-      "authors": "Jiateng Liu, Bingxuan Li, Zhenhailong Wang, Rushi Wang, Kaiwen Hong, Cheng Qian, Jiayu Liu, Denghui Zhang, Katherine Driggs-Campbell, Manling Li, Heng Ji",
-      "published": "2026-06-06T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
     }
   ]
 }
