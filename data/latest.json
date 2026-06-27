@@ -1,7 +1,7 @@
 {
-  "date": "2026-06-26",
-  "generated_at": "2026-06-26T09:01:32.161181",
-  "headline": "Apple skips M6 chips for AI-focused M7 line, signaling a strategic shift.",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T08:52:02.501067",
+  "headline": "OpenAI previews GPT-5.6 Sol, a next-generation model with enhanced capabilities.",
   "sections": [
     {
       "id": "must_know",
@@ -9,12 +9,12 @@
       "emoji": "\ud83d\udd25",
       "items": [
         {
-          "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
-          "summary": "Apple has announced that it will bypass the introduction of high-end M6 Mac chips to launch the M7 Pro, M7 Max, and M7 Ultra instead. These new chips are designed with an emphasis on AI capabilities, suggesting a strategic pivot towards enhancing machine learning and AI performance. The M7 line is expected to incorporate more advanced neural engines and enhanced GPU capabilities to support demanding AI workloads. This move underlines Apple's commitment to integrating AI more deeply into their hardware offerings, potentially setting a new standard for AI performance in consumer electronics.",
-          "why_it_matters": "For tech leads, this signifies a major shift in hardware optimization, emphasizing the importance of AI-ready infrastructure in future software development.",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-          "source": "Hacker News",
-          "published": "2026-06-25T12:00:00"
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "summary": "OpenAI has unveiled GPT-5.6 Sol, a next-generation AI model that emphasizes improvements in coding, scientific reasoning, and cybersecurity. It is integrated with OpenAI's most advanced safety mechanisms to date, aiming to offer a robust solution for complex AI tasks. The preview indicates significant enhancements over its predecessor, potentially setting a new standard in AI model capabilities. The model is currently in a limited preview phase to select partners.",
+          "why_it_matters": "This release could redefine AI-powered tool capabilities, offering enhanced efficiency and security features that developers can leverage.",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI News",
+          "published": "2026-06-26T10:00:00"
         }
       ]
     },
@@ -25,27 +25,33 @@
       "items": [
         {
           "title": "Run a vLLM Server on HF Jobs in One Command",
-          "summary": "Hugging Face has released a new feature that allows developers to run a vLLM server on Hugging Face Jobs with a single command. This streamlines the deployment process for large language models, enabling quicker experimentation and scaling. The feature integrates deeply with Hugging Face's infrastructure, allowing seamless access to various model configurations and datasets. This aims to reduce the overhead in setting up and managing model deployment environments.",
+          "summary": "Hugging Face has introduced a streamlined method to deploy vLLM servers using their Jobs platform with a single command. This development simplifies the setup of high-throughput, memory-efficient language model serving processes, enhancing accessibility for developers managing large-scale AI deployments.",
           "url": "https://huggingface.co/blog/vllm-jobs",
           "source": "Hugging Face - Blog",
           "published": "2026-06-26T00:00:00",
           "read_time_minutes": 9
         },
         {
-          "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
-          "summary": "A new open-source tool, OpenKnowledge, offers a markdown editor with direct integrations to AI models like Claude, Codex, and other agents. It is available as a MacOS app, providing a 'what you see is what you get' interface. This tool aims to provide a seamless integration of AI capabilities into personal knowledge management systems, potentially enhancing productivity and data handling.",
-          "url": "https://github.com/inkeep/open-knowledge",
-          "source": "Hacker News",
-          "published": "2026-06-25T00:00:00",
-          "read_time_minutes": 2
-        },
+          "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+          "summary": "NVIDIA has launched a new AI-Q Blueprint, designed for deployment on Oracle Cloud Infrastructure. This production-ready blueprint aims to optimize AI model workflows and reduce deployment time, offering a robust framework for developers to build scalable AI solutions.",
+          "url": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
+          "source": "NVIDIA Technical Blog",
+          "published": "2026-06-26T19:00:45",
+          "read_time_minutes": 10
+        }
+      ]
+    },
+    {
+      "id": "deprecations",
+      "title": "Deprecations & Changes",
+      "emoji": "\ud83d\udcc9",
+      "items": [
         {
-          "title": "aws/agent-toolkit-for-aws",
-          "summary": "AWS has released an official toolkit supporting MCP servers, skills, and plugins to facilitate AI agent development on AWS infrastructure. This toolkit aids developers in building robust AI applications by providing necessary resources and support for agent-based systems, enhancing the development lifecycle on AWS.",
-          "url": "https://github.com/aws/agent-toolkit-for-aws",
-          "source": "GitHub Trending",
-          "published": "2026-06-25T00:00:00",
-          "read_time_minutes": 6
+          "title": "U.S. government will decide who gets to use GPT-5.6",
+          "summary": "The U.S. government has announced that it will vet users who can access OpenAI's latest model, GPT-5.6. This decision underscores the increasing regulatory scrutiny on advanced AI models, aiming to ensure responsible deployment and mitigate potential misuse.",
+          "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "source": "Hacker News",
+          "published": null
         }
       ]
     },
@@ -55,27 +61,27 @@
       "emoji": "\ud83d\udd2c",
       "items": [
         {
-          "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
-          "summary": "A new research paper explores methods to interpret and control model behavior by using activation steering methods. The study focuses on sycophancy, or the model's tendency to agree with user inputs, and presents cascading linear features as a technique to mitigate this behavior.",
-          "url": "https://arxiv.org/abs/2606.26155",
-          "source": "arXiv cs.AI",
-          "published": "2026-06-26T04:00:00",
-          "read_time_minutes": 4
+          "title": "Which tokens does a hybrid model predict better?",
+          "summary": "A new study from Hugging Face explores the token prediction accuracy of hybrid models, analyzing their efficiency and effectiveness compared to traditional models. The research could inform future model architectures, focusing on improving token-level predictions.",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face - Blog",
+          "published": "2026-06-25T16:11:42",
+          "read_time_minutes": 8
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 151,
+    "items_processed": 68,
     "items_categorized": 5
   },
   "all_items": [
     {
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "published": "2026-06-25T02:00:00",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published": "2026-06-26T10:00:00",
       "source": "OpenAI News",
       "source_type": "rss"
     },
@@ -98,15 +104,6 @@
       "read_time_minutes": 8
     },
     {
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "summary": "",
-      "published": "2026-06-24T16:00:13",
-      "source": "Hugging Face - Blog",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
       "title": "Our latest Google Finance upgrades, including a new app",
       "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
       "summary": "The Google Finance logo, surrounded by elements of the user interface",
@@ -116,13 +113,31 @@
       "read_time_minutes": 3
     },
     {
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "summary": "",
-      "published": "2026-06-24T16:30:01",
-      "source": "Google DeepMind News",
+      "title": "Build interactive PDF text extraction from Amazon S3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-pdf-text-extraction-from-amazon-s3/",
+      "summary": "In this post, you\u2019ll build a server that extracts text from PDF files in Amazon S3 in real time. This protocol-based approach provides programmatic document access. You\u2019ll walk through the architecture, set up the server, and run interactive document queries. Along the way, you\u2019ll compare this approach with Amazon Textract so you can decide which tool fits your workload.",
+      "published": "2026-06-26T14:47:45",
+      "source": "Artificial Intelligence",
       "source_type": "rss",
-      "read_time_minutes": 3
+      "read_time_minutes": 15
+    },
+    {
+      "title": "How Cara pioneers domain-specific AI for enterprise insurance brokerages with AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-cara-pioneers-domain-specific-ai-for-enterprise-insurance-brokerages-with-aws/",
+      "summary": "In this post, we explore how Cara, built in cooperation with AWS, addresses these challenges. We walk through the technical design decisions and the AWS services that support the solution. We also share measurable outcomes Cara has delivered for enterprise brokerages.",
+      "published": "2026-06-26T14:42:20",
+      "source": "Artificial Intelligence",
+      "source_type": "rss",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "Production-grade AI agents for financial compliance: Lessons from Stripe",
+      "url": "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/",
+      "summary": "In this post, you learn how Stripe built a production-grade AI agent system for financial compliance. We cover the technical architecture of Stripe\u2019s ReAct agent framework and the infrastructure decisions behind a dedicated agent service. We also discuss the role of human oversight in maintaining accountability, and key lessons about task decomposition, orchestration patterns, and cost optimization through prompt caching. By the end, you will understand how to design agentic systems that scale c",
+      "published": "2026-06-26T14:38:01",
+      "source": "Artificial Intelligence",
+      "source_type": "rss",
+      "read_time_minutes": 15
     },
     {
       "title": "Retrofit, don\u2019t rebuild: Agentic overlays for transforming legacy enterprise services",
@@ -170,42 +185,6 @@
       "read_time_minutes": 21
     },
     {
-      "title": "Huntington Bank: Redacting sensitive data from 400M+ documents with AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/huntington-bank-redacting-sensitive-data-from-400m-documents-with-aws/",
-      "summary": "In this post, we walk through how Huntington built a scalable AWS solution to detect and redact Personally Identifiable Information (PII) and Payment Card Industry (PCI) data from over 400 million documents, reducing processing time from years to just a few months while achieving 95%+ redaction accuracy.",
-      "published": "2026-06-24T18:24:50",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Build a healthcare appointment agent with Amazon Nova 2 Sonic",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-healthcare-appointment-agent-with-amazon-nova-2-sonic/",
-      "summary": "In this post, you will learn how to build a voice agent that handles appointment reminder conversations using Amazon Nova 2 Sonic and Amazon Bedrock AgentCore. The agent authenticates patients by voice, manages appointments (confirm, cancel, or reschedule), collects pre-visit health information, and escalates to human staff when needed. You handle routine calls at scale, which can help reduce no-show rates. This sample focuses on the agentic side of the problem: voice conversation and tool orche",
-      "published": "2026-06-24T18:20:27",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "AI-powered BI with Snowflake and Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-bi-with-snowflake-and-amazon-quick/",
-      "summary": "In this post, you will learn how to build an end-to-end integration between Snowflake semantic views and Amazon Quick. The sample data is user review data for a media company. You start by loading movie review data from Amazon Simple Storage Service (Amazon S3) into Snowflake, define a semantic view in SQL to add business meaning, explore it with natural-language queries through Cortex Analyst, and then generate an Amazon Quick dataset and dashboard. The dataset can be created manually or with a",
-      "published": "2026-06-24T18:19:35",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "How Loka Built a Natural, Low-Latency Voice Agent with Amazon Nova 2 Sonic",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-loka-built-a-natural-low-latency-voice-agent-with-amazon-nova-2-sonic/",
-      "summary": "In this post, we demonstrate the architecture and approach Loka used to solve a common frustration: robotic, slow voice assistants that cause customers to hang up, damaging brand reputation and driving up support costs.",
-      "published": "2026-06-24T16:56:24",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 10
-    },
-    {
       "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
       "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
       "summary": "<p>Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/\">Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks</a> appeared first on <a href=",
@@ -213,6 +192,24 @@
       "source": "The latest on AI & ML - The GitHub Blog",
       "source_type": "rss",
       "read_time_minutes": 8
+    },
+    {
+      "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+      "url": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
+      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/genai-press-project-aiq-3503101-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-project-aiq-3503101-1920x1080\" width=\"768\" />AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep...",
+      "published": "2026-06-26T19:00:45",
+      "source": "NVIDIA Technical Blog",
+      "source_type": "rss",
+      "read_time_minutes": 10
+    },
+    {
+      "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+      "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" />As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...",
+      "published": "2026-06-26T16:00:35",
+      "source": "NVIDIA Technical Blog",
+      "source_type": "rss",
+      "read_time_minutes": 18
     },
     {
       "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
@@ -233,13 +230,31 @@
       "read_time_minutes": 13
     },
     {
-      "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
-      "url": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" />An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...",
-      "published": "2026-06-24T16:30:00",
+      "title": "Q&amp;A: How KRAFTON Built PUBG Ally, a Co-Playable Character Powered by NVIDIA ACE",
+      "url": "https://developer.nvidia.com/blog/how-krafton-built-pubg-ally-a-co-playable-character-powered-by-nvidia-ace/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-14-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />AI companions in games have long been constrained by fixed dialogue. PUBG Ally is a different kind of system. Built by KRAFTON for PUBG: BATTLEGROUNDS, this AI...",
+      "published": "2026-06-25T16:38:18",
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
-      "read_time_minutes": 17
+      "read_time_minutes": 13
+    },
+    {
+      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. \u2014Jessica Hamzelou It\u2019s been hot in London this week. Really hot. A dangerous heat wave has hit Western&#8230;",
+      "published": "2026-06-26T12:10:00",
+      "source": "MIT Technology Review",
+      "source_type": "rss",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+      "summary": "It\u2019s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 \u00b0C (about 97 \u00b0F). But as the weather app on my phone confirmed, it felt like 39 \u00b0C. It\u2019s frightening that we are seeing such temperatures in&#8230;",
+      "published": "2026-06-26T09:00:00",
+      "source": "MIT Technology Review",
+      "source_type": "rss",
+      "read_time_minutes": 6
     },
     {
       "title": "Repositioning retail for the AI era",
@@ -278,319 +293,291 @@
       "read_time_minutes": 7
     },
     {
-      "title": "Europe\u2019s extreme heat is shutting down power plants",
-      "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
-      "summary": "Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won\u2019t be online to help handle the load. On June 23, France saw its hottest day since record-keeping began in 1947.&#8230;",
-      "published": "2026-06-24T15:25:28",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 5
+      "title": "Previewing GPT\u20115.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "summary": "System card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6-preview\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-5-6-preview</a>",
+      "score": 983,
+      "source": "Hacker News",
+      "source_type": "hackernews"
     },
     {
-      "title": "The Download: introducing the Engineering issue",
-      "url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Engineering issue We can\u2019t fix everything, but we can be ambitious. We can take on the challenge of making the world better through human ingenuity. That\u2019s what the new&#8230;",
-      "published": "2026-06-24T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
-      "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
-      "summary": "The common cold comes for us all\u2014often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now the payment company Stripe, founded by brothers Patrick and John Collison, says it will fund a new&#8230;",
-      "published": "2026-06-24T12:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "The emergence of the web data infrastructure layer for AI",
-      "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-      "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology\u2019s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundation of the web itself. The web was not designed&#8230;",
-      "published": "2026-06-24T11:59:54",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "Why current LLM costs are not sustainable",
-      "url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "summary": "Score: 51 | 34 comments",
-      "score": 51,
+      "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.md&#x2F;ArXuF\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.md&#x2F;ArXuF</a><p><a href=\"https:&#x2F;&#x2F;www.nbcnews.com&#x2F;tech&#x2F;tech-news&#x2F;us-government-gives-anthropic-green-light-limited-re-release-mythos-5-rcna352018\" rel=\"nofollow\">https:&#x2F;&#x2F;w",
+      "score": 414,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 5
+      "read_time_minutes": 3
     },
     {
-      "title": "An entire Herculaneum scroll has been read for the first time",
-      "url": "https://scrollprize.org/firstscroll",
-      "summary": "Preprint: <a href=\"https:&#x2F;&#x2F;scrollprize.org&#x2F;pdf&#x2F;main.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;scrollprize.org&#x2F;pdf&#x2F;main.pdf</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;ScrollPrize&#x2F;villa\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ScrollPrize&#x2F;villa</a>",
-      "score": 1283,
+      "title": "AI in mathematics is forcing big questions",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "summary": "Score: 115 | 82 comments",
+      "score": 115,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 7
+      "read_time_minutes": 16
     },
     {
-      "title": "We All Depend on Open Source. We Will Defend It Together",
-      "url": "https://akrites.org/letter/",
-      "summary": "Score: 62 | 20 comments",
-      "score": 62,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "What happened after 2k people tried to hack my AI assistant",
-      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
-      "summary": "Score: 133 | 50 comments",
-      "score": 133,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Doing a masters while working in Spain",
-      "url": "https://jan-herlyn.com/blog/doing-a-masters-while-working/",
-      "summary": "Score: 41 | 17 comments",
-      "score": 41,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
-      "url": "https://github.com/inkeep/open-knowledge",
-      "summary": "Hi HN, Nick here. We\u2019re launching OpenKnowledge (<a href=\"https:&#x2F;&#x2F;openknowledge.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openknowledge.ai&#x2F;</a>), a \u201cwhat you see is what you get\u201d markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app",
-      "score": 268,
+      "title": "Show HN: Hacker News on a train station-style flip board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "summary": "Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I&#x27;ve been working on. The recent flip board back and forth&#x27;s on Twitter (X) are what inspired me.<p>The idea here",
+      "score": 67,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 2
     },
     {
-      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-      "summary": "Giftlink: <a href=\"https:&#x2F;&#x2F;www.bloomberg.com&#x2F;news&#x2F;articles&#x2F;2026-06-25&#x2F;apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MjQwNTU2MCwiZX",
-      "score": 250,
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;PCQQl\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;PCQQl</a>",
+      "score": 1008,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
-      "title": "Apple raises prices of MacBooks, iPads",
-      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
-      "summary": "<a href=\"https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;06&#x2F;25&#x2F;apple-price-increases-mac-ipad-more&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;06&#x2F;25&#x2F;apple-price-increases-mac-ipa...</a>",
-      "score": 712,
-      "source": "Hacker News",
-      "source_type": "hackernews"
-    },
-    {
-      "title": "Record type inference for dummies",
-      "url": "http://haskellforall.com/2026/06/record-type-inference-for-dummies",
-      "summary": "Score: 41 | 1 comments",
-      "score": 41,
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "summary": "Score: 196 | 160 comments",
+      "score": 196,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 19
-    },
-    {
-      "title": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. | 3,434 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 22
-    },
-    {
-      "title": "xbtlin/ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "summary": "AI \u65f6\u4ee3\u7684\u4f2f\u514b\u5e0c\u5c14\uff1a\u57fa\u4e8e Claude Code \u7684\u4ef7\u503c\u6295\u8d44\u7814\u7a76\u6846\u67b6\u3002\u5df4\u83f2\u7279\u00b7\u8292\u683c\u00b7\u6bb5\u6c38\u5e73\u00b7\u674e\u5f55\u56db\u5927\u5e08\u65b9\u6cd5\u8bba + \u591aAgent\u5e76\u884c\u7814\u7a76\u3002| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis. | 309 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 47 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "summary": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0 | 571 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "opendatalab/MinerU",
-      "url": "https://github.com/opendatalab/MinerU",
-      "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | 644 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Free-TV/IPTV",
-      "url": "https://github.com/Free-TV/IPTV",
-      "summary": "M3U Playlist for free TV channels | 139 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "NanmiCoder/MediaCrawler",
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "summary": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0 | \u8bc4\u8bba\u722c\u866b\u3001\u6296\u97f3\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001\u5feb\u624b\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001B \u7ad9\u89c6\u9891 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u5fae\u535a\u5e16\u5b50 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u767e\u5ea6\u8d34\u5427\u5e16\u5b50 \uff5c \u767e\u5ea6\u8d34\u5427\u8bc4\u8bba\u56de\u590d\u722c\u866b | \u77e5\u4e4e\u95ee\u7b54\u6587\u7ae0\uff5c\u8bc4\u8bba\u722c\u866b | 398 stars today stars today",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "summary": "Score: 49 | 7 comments",
+      "score": 49,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "Ultrasound imaging of the brain",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "summary": "Score: 275 | 113 comments",
+      "score": 275,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "summary": "We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here&#x27;s a quick demo of running it locally: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=isKhAyivtfM\" rel=\"nofollow\">https:&#",
+      "score": 167,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 5
+    },
+    {
+      "title": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "summary": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. | 80 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 4
     },
     {
-      "title": "cheahjs/free-llm-api-resources",
-      "url": "https://github.com/cheahjs/free-llm-api-resources",
-      "summary": "A list of free LLM inference resources accessible via API. | 80 stars today stars today",
+      "title": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | 960 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "scikit-learn/scikit-learn",
-      "url": "https://github.com/scikit-learn/scikit-learn",
-      "summary": "scikit-learn: machine learning in Python | 59 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "summary": "LLM \u9a71\u52a8\u7684\u591a\u5e02\u573a\u80a1\u7968\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff1a\u591a\u6e90\u884c\u60c5\u3001\u5b9e\u65f6\u65b0\u95fb\u3001\u51b3\u7b56\u770b\u677f\u4e0e\u81ea\u52a8\u63a8\u9001\uff0c\u652f\u6301\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\u3002 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 1,209 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "google-labs-code/design.md",
-      "url": "https://github.com/google-labs-code/design.md",
-      "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. | 1,475 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. | 3,434 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 22
+      "read_time_minutes": 15
     },
     {
       "title": "xbtlin/ai-berkshire",
       "url": "https://github.com/xbtlin/ai-berkshire",
-      "summary": "AI \u65f6\u4ee3\u7684\u4f2f\u514b\u5e0c\u5c14\uff1a\u57fa\u4e8e Claude Code \u7684\u4ef7\u503c\u6295\u8d44\u7814\u7a76\u6846\u67b6\u3002\u5df4\u83f2\u7279\u00b7\u8292\u683c\u00b7\u6bb5\u6c38\u5e73\u00b7\u674e\u5f55\u56db\u5927\u5e08\u65b9\u6cd5\u8bba + \u591aAgent\u5e76\u884c\u7814\u7a76\u3002| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis. | 309 stars today stars today",
+      "summary": "AI \u65f6\u4ee3\u7684\u4f2f\u514b\u5e0c\u5c14\uff1a\u57fa\u4e8e Claude Code \u7684\u4ef7\u503c\u6295\u8d44\u7814\u7a76\u6846\u67b6\u3002\u5df4\u83f2\u7279\u00b7\u8292\u683c\u00b7\u6bb5\u6c38\u5e73\u00b7\u674e\u5f55\u56db\u5927\u5e08\u65b9\u6cd5\u8bba + \u591aAgent\u5e76\u884c\u7814\u7a76\u3002| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis. | 1,274 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 7
     },
     {
+      "title": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. | 1,754 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 22
+    },
+    {
+      "title": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 243 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 6
+    },
+    {
+      "title": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "summary": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0 | \u8bc4\u8bba\u722c\u866b\u3001\u6296\u97f3\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001\u5feb\u624b\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001B \u7ad9\u89c6\u9891 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u5fae\u535a\u5e16\u5b50 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u767e\u5ea6\u8d34\u5427\u5e16\u5b50 \uff5c \u767e\u5ea6\u8d34\u5427\u8bc4\u8bba\u56de\u590d\u722c\u866b | \u77e5\u4e4e\u95ee\u7b54\u6587\u7ae0\uff5c\u8bc4\u8bba\u722c\u866b | 673 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. | 1,194 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 7
+    },
+    {
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "summary": "LLM \u9a71\u52a8\u7684\u591a\u5e02\u573a\u80a1\u7968\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff1a\u591a\u6e90\u884c\u60c5\u3001\u5b9e\u65f6\u65b0\u95fb\u3001\u51b3\u7b56\u770b\u677f\u4e0e\u81ea\u52a8\u63a8\u9001\uff0c\u652f\u6301\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\u3002 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 637 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs | 178 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "SimplifyJobs/Summer2026-Internships",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC. | 17 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 20
+    },
+    {
+      "title": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1! | 432 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 19
+    },
+    {
+      "title": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. | 2,407 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "summary": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. | 80 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "summary": "git push no-mistakes | 398 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 4
+    },
+    {
+      "title": "grafana/grafana",
+      "url": "https://github.com/grafana/grafana",
+      "summary": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. | 32 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "summary": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev | 90 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 147
+    },
+    {
+      "title": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | 960 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 15
+    },
+    {
+      "title": "alchaincyf/zhangxuefeng-skill",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "summary": "\u5f20\u96ea\u5cf0.skill \u2014 \u5f20\u96ea\u5cf0\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u9ad8\u8003\u5fd7\u613f/\u8003\u7814/\u804c\u4e1a\u89c4\u5212\u7684\u5b9e\u6218\u601d\u7ef4\u6846\u67b6\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002 | 160 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
       "title": "mauriceboe/TREK",
       "url": "https://github.com/mauriceboe/TREK",
-      "summary": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more. | 241 stars today stars today",
+      "summary": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more. | 1,060 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
     },
     {
-      "title": "apple/container",
-      "url": "https://github.com/apple/container",
-      "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. | 1,351 stars today stars today",
+      "title": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "summary": "AI \u65f6\u4ee3\u7684\u4f2f\u514b\u5e0c\u5c14\uff1a\u57fa\u4e8e Claude Code \u7684\u4ef7\u503c\u6295\u8d44\u7814\u7a76\u6846\u67b6\u3002\u5df4\u83f2\u7279\u00b7\u8292\u683c\u00b7\u6bb5\u6c38\u5e73\u00b7\u674e\u5f55\u56db\u5927\u5e08\u65b9\u6cd5\u8bba + \u591aAgent\u5e76\u884c\u7814\u7a76\u3002| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis. | 1,274 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 3
+      "read_time_minutes": 7
     },
     {
-      "title": "JCodesMore/ai-website-cloner-template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "summary": "Clone any website with one command using AI coding agents | 1,024 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "every-app/open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "summary": "Open source alternative to Semrush and Ahrefs | 57 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 9
-    },
-    {
-      "title": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | 767 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 31
-    },
-    {
-      "title": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 47 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "summary": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0 | 571 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "AI and Liability",
-      "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-      "summary": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p>\nBruce Schneier on the recent <a href=\"https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/\">German ruling</a> that Google be held liable for errors introduced in their AI overviews:</p>\n<bloc",
+      "title": "Quoting Dean W. Ball",
+      "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+      "summary": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>\n<ol>\n<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, compet",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
     },
     {
-      "title": "datasette-export-database 0.3a2",
-      "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
-      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p>\n        <p>An embarrassingly tiny release. The <code>pyproject.toml</code> had pinned to <code>datasette==1.0a27</code>, inadvertently making this plugin incompatible with all other Datasette versions. It's now <code>datasette&gt;=1.0a27</code> in",
+      "title": "Quoting Timothy B. Lee",
+      "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+      "summary": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/binarybits/status/2070527944817053862\">Timothy B. Lee</a>, on the idea that LLMs take no skill and have no learning cur",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 1
     },
     {
-      "title": "simonw/browser-compat-db",
-      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-      "summary": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=\"https://github.com/mdn/browser-compat-data\">mdn/b",
+      "title": "What happened after 2,000 people tried to hack my AI assistant",
+      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+      "summary": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p>\nFernando Irarr\u00e1zaval ran a challenge on <a href=\"https://hackmyclaw.com/\">hackmyclaw.com</a> to see if anyone could leak secrets held by his OpenClaw test instance by sending it email.</p>\n<p>Surprisingly, after 6,000 attempts (and $500 in token spend and ",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
     },
     {
-      "title": "Quoting Tom MacWright",
-      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
-      "summary": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction is that <em>I don't know anything about these peopl",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+      "summary": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p>\nSpectacular hypothetical incident report by Andrew Nesbitt.</p>\n<blockquote>\n<p><strong>Day 2, 16:00 UTC</strong> --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping <code>foxhole-lz4</code>, enter a disagreement loop ",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
     },
     {
-      "title": "datasette 1.0a35",
-      "url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
-      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a35\">datasette 1.0a35</a></p>\n        <p>I'll write more about this one soon, but it's a big release. Three highlights from the release notes:</p>\n<blockquote>\n<ul>\n<li>New \"Create table\" interface in the database actions menu, backed by the <code>/&lt;database&gt;/-/create</code> <a href=\"https://docs.datase",
+      "title": "Quoting OpenAI",
+      "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+      "summary": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT\u20115.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT\u20115.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...]</p>\n<p>We believe in broad access, an",
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
+    },
+    {
+      "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna \u2014 restricted to trusted partners",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
+      "summary": "Oddly tiered releases to both OAI and ANT on the same day.",
+      "source": "Latent Space",
+      "source_type": "blog",
+      "read_time_minutes": 20
     },
     {
       "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
@@ -623,14 +610,6 @@
       "source": "Latent Space",
       "source_type": "blog",
       "read_time_minutes": 18
-    },
-    {
-      "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
-      "url": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
-      "summary": "a quiet day lets us reflect on some numbers from Jamin Ball.",
-      "source": "Latent Space",
-      "source_type": "blog",
-      "read_time_minutes": 14
     },
     {
       "title": "LLM Research Papers: The 2026 List (January to May)",
@@ -671,806 +650,6 @@
       "source": "Sebastian Raschka",
       "source_type": "blog",
       "read_time_minutes": 26
-    },
-    {
-      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
-      "url": "https://arxiv.org/abs/2606.26155",
-      "summary": "arXiv:2606.26155v1 Announce Type: new  Abstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks can reliably detect model features responsible for a behavior, and therefore the ability to steer models toward or away from such behavior. In this work, we present an iterative data generation pipeli",
-      "authors": "Maty Bohacek, Rishub Jain, Nicholas Dufour, Thomas Leung, Chris Bregler, Roma Patel",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
-      "url": "https://arxiv.org/abs/2606.26158",
-      "summary": "arXiv:2606.26158v1 Announce Type: new  Abstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other key dimensions of agent performance: construct validity issues such as shortcuts, out-of-distribution generalizability, efficiency, reliability, the relative importance of the model versus the scaffold, and uplift from human-agent collaboration. We use",
-      "authors": "Nitya Nadgir, Sayash Kapoor, Kangheng Liu, Peter Kirgis, Matilda Orona, Stephan Rabanser, Tilman Bayer, Abhishek Shetty, Yue Ling, Derrick Chan-Sew, Rumi Nakagawa, Saiteja Utpala, Zachary S. Siegel, Arvind Narayanan",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Refusal Lives Downstream of Persona in Chat Models",
-      "url": "https://arxiv.org/abs/2606.26161",
-      "summary": "arXiv:2606.26161v1 Announce Type: new  Abstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they interact: a compliant persona gates refusal. In Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct, we extract a compliant model-persona direction and a refusal direction and intervene on both. Compliant persona steering suppresses refusal -- in Llama, the ref",
-      "authors": "Viola Zhong, Qirui Li",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
-      "url": "https://arxiv.org/abs/2606.26173",
-      "summary": "arXiv:2606.26173v1 Announce Type: new  Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic trading. This domain is uniquely challenging because it is noisy, non-stationary, and highly discontinuous. We present AlgoEvolve, an LLM-driven evolutionary framework that generates, evaluates, and iterat",
-      "authors": "Dhruv Sharma, Gautam Shroff",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
-      "url": "https://arxiv.org/abs/2606.26203",
-      "summary": "arXiv:2606.26203v1 Announce Type: new  Abstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating automated annotation, neural topic modeling, and multi-layer network analysis to study socio-technical power structures at scale. We validate it on two contrasting standards for agent interoperability: ERC-8",
-      "authors": "Yutian Wang, Luyao Zhang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
-      "url": "https://arxiv.org/abs/2606.26205",
-      "summary": "arXiv:2606.26205v1 Announce Type: new  Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalidated. Integrating them without conflating evidence and anecdote is especially consequential in psychiatry, where poorly contextualised information can amplify fear, nocebo responses, and non-adherence",
-      "authors": "Huizi Yu, Jian Liu, Wenkong Wang, Lingyao Li, Jiayan Zhou, Zhaoqian Xue, Xiang Li, Xinxin Lin, Zhiying Liang, Zhuoru Wu, Siyuan Ma, Xin Ma, Lizhou Fan",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Accelerating Skill Assessment in Chess: A Drift-Diffusion-Enhanced Elo Rating System",
-      "url": "https://arxiv.org/abs/2606.26267",
-      "summary": "arXiv:2606.26267v1 Announce Type: new  Abstract: Rating systems such as Elo serve as the gold standard for matchmaking in competitive chess. However, they inherently suffer from response lag due to their exclusive reliance on match outcomes, neglecting the granular quality of gameplay. Nevertheless, incorporating move-by-move information into rating adjustments presents a significant challenge given the substantial noise and the vastness of the game-state space. To address this, we propose the D",
-      "authors": "Tianyuan Zhou, Zhizheng Fu, Tianming Yang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
-      "url": "https://arxiv.org/abs/2606.26298",
-      "summary": "arXiv:2606.26298v1 Announce Type: new  Abstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their reasoning but by requiring independently attested evidence at the point of consequential action. We formalise this institutional pattern as a computational governance model for AI agent systems. Unde",
-      "authors": "Jakob Salfeld-Nebgen",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
-      "url": "https://arxiv.org/abs/2606.26299",
-      "summary": "arXiv:2606.26299v1 Announce Type: new  Abstract: While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics remains a challenge. This paper presents an approach to tackle these difficulties in the domain of computational origami, a mathematically rigid environment that grounds artistic design within the equations of flat foldability. We present COrigam",
-      "authors": "Tom Zahavy, Shaobo Hou, Thomas Tumiel, James Doran, Francesco Faccio, Xidong Feng, Alex Havrilla, Igor Khytryi, Chenglei Li, Lisa Schut, Vivek Veeriah, Arijan Abrashi, Micha{\\l} Kosmulski, Robert J. Lang, Nick Robinson, Brandon Wong, Marcus Chiam, Gloria Fang, Satinder Singh",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
-      "url": "https://arxiv.org/abs/2606.26300",
-      "summary": "arXiv:2606.26300v1 Announce Type: new  Abstract: A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning capabilities and engineering harnesses grow more sophisticated, generating complex candidate solutions is no longer difficult -- reliably verifying them has become the harder problem. Every verifier we can build is only a proxy for human intent, never the in",
-      "authors": "Binghai Wang, Chenlong Zhang, Dayiheng Liu, Jiajun Zhang, Jiawei Chen, Mouxiang Chen, Rongyao Fang, Siyuan Zhang, Xuwu Wang, Yuheng Jing, Zeyao Ma, Zeyu Cui",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
-      "url": "https://arxiv.org/abs/2606.26346",
-      "summary": "arXiv:2606.26346v1 Announce Type: new  Abstract: Agentic benchmarks have emerged across general-purpose and domain-specific settings, including finance, coding, law, and drug discovery, yet energy-domain evaluations remain largely limited to static knowledge recall. This is a critical gap for a sector that requires live data retrieval, specialized regulatory and market knowledge, and multi-step quantitative reasoning under real-world constraints.   We present an empirical study of tool-augmented",
-      "authors": "David Akinpelu, Akintonde Abbas, Rereloluwa Alimi, Ayodeji Lana",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "What We are Missing in Multimodal LLM Evaluation?",
-      "url": "https://arxiv.org/abs/2606.26348",
-      "summary": "arXiv:2606.26348v1 Announce Type: new  Abstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evaluation benchmarks are limited to isolated tasks and reveal little about whether a model integrates information across modalities. We examine current means for evaluating MLLMs and review the existing b",
-      "authors": "Po-han Li, Shenghui Chen, Sandeep Chinchali, Ufuk Topcu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
-      "url": "https://arxiv.org/abs/2606.26350",
-      "summary": "arXiv:2606.26350v1 Announce Type: new  Abstract: Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of benchmark tasks is often overlooked. Yet financial workflows are inherently multi-stage, spanning interdependent tasks such as forecasting, strategy construction, risk management, and trading. Existing platforms typically focus on a single task, and can therefor",
-      "authors": "Kaicheng Zhang, Wen Ge, Lei Jiang, Weixin Yang, Jordan Langham-Lopez, Jialin Yu, Lukasz Szpruch, Hao Ni",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems",
-      "url": "https://arxiv.org/abs/2606.26356",
-      "summary": "arXiv:2606.26356v1 Announce Type: new  Abstract: Practitioners of prompt-composed agentic systems report a recurring failure mode: editing one prompt module silently shifts the behavior of others despite no shared variable or executable dependency. We formalize this as compositional behavioral leakage (CBL): interference between modules sharing a context window. CBL is enabled by architectural non-isolation: transformer self-attention provides no formal boundary between concatenated modules. We",
-      "authors": "Ching-Yu Lin, Yifan Liu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Accelerating Returns and the Qualitative Engine for Science",
-      "url": "https://arxiv.org/abs/2606.26359",
-      "summary": "arXiv:2606.26359v1 Announce Type: new  Abstract: Ray Kurzweil described a thesis of accelerating returns, which is the most influential narratives in discussions of technological progress. Its central claim is that advances in multiple technological fields, especially compute, artificial intelligence, brain science, and biotechnology, interact in such a way that progress becomes self-amplifying and approximately exponential. This paper gives a simple mathematical interpretation of that claim and",
-      "authors": "Guojun Liao (Department of Mathematics, The University of Texas at Arlington)",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Narration-of-Thought: Inference-Time Scaffolding for Defeasible Ethical Reasoning in Large Language Models",
-      "url": "https://arxiv.org/abs/2606.26366",
-      "summary": "arXiv:2606.26366v1 Announce Type: new  Abstract: Standard chain-of-thought on moral dilemmas exhibits two failure modes: stakeholder collapse (the trace names at most one party with a stake in the outcome) and uncertainty suppression (no explicit unknowns or hedges before committing to an action). We introduce narration-of-thought (NoT), a system prompt that structures chain-of-thought into five sections: protagonist, stakeholders, two-step consequences, uncertainty, then commitment. NoT adds no",
-      "authors": "Patrick Cooper, Alvaro Velasquez",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Geometry-Aware MCTS for Extremal Problems in Combinatorial Geometry",
-      "url": "https://arxiv.org/abs/2606.26399",
-      "summary": "arXiv:2606.26399v1 Announce Type: new  Abstract: We study certain extremal problems in combinatorial geometry that ask about configurations of points in an $n \\times n$ grid that satisfy strict, global geometric constraints. Classical exact solvers suffer from combinatorial explosion for these types of problems, and standard reinforcement learning and transformer-based models struggle with the sparse reward \"validity cliff\" and quadratic token-consumption limits. To overcome these bottlenecks, w",
-      "authors": "Luoning Zhang, Xu Zhuang, Tianhao Wang, Nathan Kaplan",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "When Agents Meet Electric Bus Fleet Operations: Pricing Behavior, Trade-offs, and Policy Implications in an Aggregator Framework",
-      "url": "https://arxiv.org/abs/2606.26400",
-      "summary": "arXiv:2606.26400v1 Announce Type: new  Abstract: Agentic systems are changing how complex operational tasks are coordinated, introducing a new paradigm for connecting heterogeneous data sources and automating processes. Electric bus fleets provide a relevant test case. Their operation requires continuous coordination between service reliability, battery state-of-charge, charger availability, electricity prices, route-energy uncertainty, and vehicle-to-grid (V2G) opportunities. This paper propose",
-      "authors": "J\\^onatas Augusto Manzolli, Ali Eslami, Luis Miranda-Moreno, Jiangbo Yu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Unbiased Canonical Set-Valued Oracles Via Lattice Theory",
-      "url": "https://arxiv.org/abs/2606.26418",
-      "summary": "arXiv:2606.26418v1 Announce Type: new  Abstract: A non-agentic \"oracle\" AI that estimates probabilities of future events faces a self-reference problem: once its answer is learned and acted upon, it can change the very probability it was asked to report. One response, advocated for the Scientist AI programme, is to ask only counterfactual questions, evaluated as if the answer had no influence. We observe that such answers tend to become irrelevant the moment they are learned, precisely because t",
-      "authors": "Jobst Heitzig",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Estimating Uncertainty in Classifier Performance with Applications to Large Language Models and Nested Data",
-      "url": "https://arxiv.org/abs/2606.26422",
-      "summary": "arXiv:2606.26422v1 Announce Type: new  Abstract: Researchers increasingly use text classification--supervised models or large language models--to measure constructs from natural language, providing metrics such as recall and precision as evidence of their validity. Yet, though these metrics are point estimates subject to sampling variation, measures of uncertainty are inconsistently reported alongside them. Further, when they are reported, they are often estimated with methods that are not appro",
-      "authors": "Kylie Anglin",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.AI",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Physics-guided Convolutional Neural Network for Domain Growth Prediction in Systems with Conserved Kinetics",
-      "url": "https://arxiv.org/abs/2606.26128",
-      "summary": "arXiv:2606.26128v1 Announce Type: new  Abstract: The spatiotemporal evolution of many physical, chemical, and biological systems is described by nonlinear partial differential equations (PDEs). Recently, deep neural network-based surrogate models have gained increasing interest as efficient alternatives to computationally expensive traditional numerical solvers. In this work, we propose an attention-based, physics-guided convolutional neural network as a surrogate model to learn the microstructu",
-      "authors": "Vijay Yadav, Madhu Priya, Manish Dev Shrimali, Prabhat K. Jaiswal",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "\\chisao{}: A GPU-Native Parallel Optimizer for Multimodal Black-Box Functions via Convergence-Anticonvergence Oscillation",
-      "url": "https://arxiv.org/abs/2606.26164",
-      "summary": "arXiv:2606.26164v1 Announce Type: new  Abstract: Finding all modes of a multimodal black-box function is a fundamental challenge in optimization, Bayesian inference, and scientific computing. Existing approaches -- basin-hopping, CMA-ES, multistart gradient descent -- operate sequentially and cannot exploit the massive parallelism of modern GPU hardware. We introduce \\chisao{} (\\textbf{C}onvergence-\\textbf{H}alt-\\textbf{I}nvert-\\textbf{S}tick-\\textbf{A}nd-\\textbf{O}scillate), a GPU-native popula",
-      "authors": "Ira Wolfson",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Implementation of reinforcement learning in chemical reaction networks: application to phototaxis as curiosity-driven exploration",
-      "url": "https://arxiv.org/abs/2606.26168",
-      "summary": "arXiv:2606.26168v1 Announce Type: new  Abstract: Living systems navigate environments using noisy and incomplete sensory signals. In unicellular algae, phototaxis is often modeled as a mechanistic run--tumble process driven by stimulus--response rules. However, such descriptions overlook how organisms actively sample their environment to reduce sensory ambiguity. From a minimal cognition perspective, we reframe this navigation as a subjective, information-driven sensorimotor process. To this end",
-      "authors": "Ruyi Tang (LCQB-AG), Gr\\'egoire Sergeant-Perthuis (LCQB-AG), David Colliaux",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Neural Architecture Search for Generative Adversarial Networks: A Comprehensive Review and Critical Analysis",
-      "url": "https://arxiv.org/abs/2606.26169",
-      "summary": "arXiv:2606.26169v1 Announce Type: new  Abstract: Neural Architecture Search (NAS) has emerged as a pivotal technique in optimizing the design of Generative Adversarial Networks (GANs), automating the search for effective architectures while addressing the challenges inherent in manual design. This paper provides a comprehensive review of NAS methods applied to GANs, categorizing and comparing various approaches based on criteria such as search strategies, evaluation metrics, and performance outc",
-      "authors": "Abrar Alotaibi, Moataz Ahmed",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction",
-      "url": "https://arxiv.org/abs/2606.26179",
-      "summary": "arXiv:2606.26179v1 Announce Type: new  Abstract: While WGS-based AMR prediction has reached high accuracy, existing models lack a mechanism to ground neural attributions in established biological pathways. We present KG-TRACE, a novel neuro-symbolic framework that integrates the WHO mutation knowledge graph (KG) as a structured biological constraint on a neural genomic model. Unlike existing methods that learn statistical patterns in isolation, KG-TRACE fuses genomic features and RotatE-based KG",
-      "authors": "Naman Garg, Sarika Jain, Sourav Yadav, Bharat K. Bhargava, Ghanapriya Singh, Abhishek Srivastava, Parimal Kar",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Necessary but Not Sufficient: Temperature Control and Reproducibility in LLM-as-Judge Safety Evaluations",
-      "url": "https://arxiv.org/abs/2606.26185",
-      "summary": "arXiv:2606.26185v1 Announce Type: new  Abstract: LLM-as-judge (\"grader\") components are now standard in evaluation harnesses, including safety evaluations where a pass/fail verdict may gate downstream deployment decisions. A widespread assumption is that setting the grader's sampling temperature to 0 makes grading deterministic. We test this assumption against a real safety-evaluation codebase (Japan AISI's open-source aisev) and show it fails on two levels. First, the harness invokes its grader",
-      "authors": "Hiroki Tamba",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Clue-Guided Money Laundering Group Discovery",
-      "url": "https://arxiv.org/abs/2606.26189",
-      "summary": "arXiv:2606.26189v1 Announce Type: new  Abstract: Money Laundering Group Discovery (MLGD) aims to identify hidden criminal groups and recover their complete structures in large-scale financial networks. Existing graph anomaly detection methods mainly produce node-level risk alerts, while global group discovery methods passively search for suspicious groups over the whole network. Both are mismatched with real Anti-money-laundering (AML) investigations, where analysts usually start from a concrete",
-      "authors": "Boyang Wang, Jianing Cao",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Federated Hash Projected Latent Factor Learning",
-      "url": "https://arxiv.org/abs/2606.26192",
-      "summary": "arXiv:2606.26192v1 Announce Type: new  Abstract: Hash Learning (HL) is an efficient representation learning approach that maps real-valued data into compact binary representations. Traditional HL methods typically require users to upload personal data to a central server, which is incompatible with increasingly stringent data security regulations. Federated Learning (FL) provides a decentralized paradigm for learning globally optimal models without centralizing private data. However, most FL met",
-      "authors": "Jialan He",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Statistical and Structural Approaches to Algorithmic Fairness",
-      "url": "https://arxiv.org/abs/2606.26200",
-      "summary": "arXiv:2606.26200v1 Announce Type: new  Abstract: Modern machine learning systems have outgrown their origins as isolated predictive constructs, evolving into complex socio-technical architectures that actively mediate human opportunity. As algorithms increasingly determine access to economic and social opportunities, it has become widely recognized that these systems are deeply embedded with the structural inequalities and prejudices of their environments. The field of algorithmic fairness emerg",
-      "authors": "Antonio Ferrara",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Topology-Informed Neural Networks for Flood Detection in Optical and Synthetic Aperture Radar Imagery",
-      "url": "https://arxiv.org/abs/2606.26204",
-      "summary": "arXiv:2606.26204v1 Announce Type: new  Abstract: Floods frequently impact regions around the world. Rapid and accurate flood detection is crucial for emergency response and timely mitigation of human and economic loss. The expanding availability of satellite data and advances in artificial intelligence have enhanced monitoring of environmental hazards, but many flood events remain challenging to detect because cloud cover obscures optical satellite imagery. Rambour et al. introduced the SEN12-FL",
-      "authors": "Sophia Li, Max Zhao, Raghu G. Raj, Tianyu Chen",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "A General Framework for Learning Algebraic Properties from Cayley Graphs using Graph Neural Networks",
-      "url": "https://arxiv.org/abs/2606.26212",
-      "summary": "arXiv:2606.26212v1 Announce Type: new  Abstract: A Graph Neural Network (GNN) framework for predicting the solvability of finite groups from their Cayley graph representations was introduced in [1]. In the present work, we generalize this approach and develop a property-independent framework for learning algebraic properties of finite groups directly from Cayley graphs. As representative case studies, we consider abelianity, nilpotency, and solvability. Using a common GNN architecture and traini",
-      "authors": "Tal Weissblat",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Fast LeWorldModel",
-      "url": "https://arxiv.org/abs/2606.26217",
-      "summary": "arXiv:2606.26217v1 Announce Type: new  Abstract: Joint-Embedding Predictive Architectures (JEPAs), including recent LeWorldModel (LeWM), have become a promising foundation for reconstruction-free visual world models. For visual planning, however, LeWM evaluates candidate action sequences by repeatedly applying a local one-step latent transition model. This autoregressive rollout makes planning computationally expensive and exposes the predicted trajectory to accumulated latent errors as the hori",
-      "authors": "Yuntian Gao, Xiangyu Xu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Dataset Usage Inference without Shadow Models or Held-out Data",
-      "url": "https://arxiv.org/abs/2606.26257",
-      "summary": "arXiv:2606.26257v1 Announce Type: new  Abstract: How much of my data was used to train a machine learning model? Dataset Usage Inference (DUI) aims to answer this by estimating what fraction of a dataset contributed to a model's training. However, existing DUI methods rely on assumptions that rarely hold in practice: they require training expensive shadow models to imitate the target model, and they assume access to both known training samples and an in-distribution held-out set confirmed to be",
-      "authors": "Wojciech {\\L}apacz, Stanis{\\l}aw Pawlak, Jan Dubi\\'nski, Franziska Boenisch, Adam Dziedzic",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Equivariance and Augmentation for Bayesian Neural Networks",
-      "url": "https://arxiv.org/abs/2606.26273",
-      "summary": "arXiv:2606.26273v1 Announce Type: new  Abstract: Symmetries are important for many deep learning tasks, ranging from applications in the sciences to medical imaging. However, there is an ongoing debate about whether to impose symmetry constraints on the neural network architecture (yielding equivariant neural networks) or learn them from augmented training data. Although equivariant networks are well-studied theoretically, much less is known about data augmentation, since analyzing augmentation",
-      "authors": "Miaowen Dong, Axel Flinth, Jan E. Gerken",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
-      "url": "https://arxiv.org/abs/2606.26290",
-      "summary": "arXiv:2606.26290v1 Announce Type: new  Abstract: While parameter-efficient fine-tuning (PEFT) typically targets attention projectors, its efficacy for tasks requiring sequential state accumulation remains under-explored. We examine if PEFT for such tasks can benefit from state space model (SSMs) adapters, and if MLP blocks are better injection sites. We introduce Hankel Reduced order Model (HRM) adapter, an SSM-based residual module initialized via Balanced Truncation of empirical Hankel Grammia",
-      "authors": "Omanshu Thapliyal",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "The Red Queen G\\\"odel Machine: Co-Evolving Agents and Their Evaluators",
-      "url": "https://arxiv.org/abs/2606.26294",
-      "summary": "arXiv:2606.26294v1 Announce Type: new  Abstract: Self-improving agents are state-of-the-art (SOTA) on agentic coding benchmarks and have recently been extended to general domains. However, their search methods generally assume a stationary evaluation criterion: a fixed verifier, benchmark, or labeled dataset that remains valid as the agent improves. This ignores a central feature of evolution: species adapt as their environments change with them. We aim to bring the same principle to recursive s",
-      "authors": "Alex Iacob, Andrej Jovanovi\\'c, William F. Shen, Daniel Burkhardt, Meghdad Kurmanji, Nurbek Tastan, Lorenzo Sani, Niccol\\`o Alberto Elia Venanzi, Ambroise Odonnat, Zeyu Cao, Bill Marino, Xinchi Qiu, Nicholas D. Lane",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "High-Probability PL-SGD with Markovian Noise: Optimal Mixing and Tail Dependence",
-      "url": "https://arxiv.org/abs/2606.26316",
-      "summary": "arXiv:2606.26316v1 Announce Type: new  Abstract: We study first-order methods for smooth objectives satisfying the Polyak-\\L{}ojasiewicz (PL) condition when gradient samples are generated by an exogenous Markov chain. In the light-tailed setting, prior uniform-in-time high-probability bounds for ordinary Stochastic Gradient Descent (SGD) under a standard growth envelope scale as $\\widetilde{O}(t_{mix}^2/k)$, leaving a gap with the $\\widetilde{O}(t_{mix}/k)$ expectation bounds. We close this gap",
-      "authors": "Dhruv Sarkar, Aprameyo Chakrabartty, Vaneet Aggarwal",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "EVOM: Agentic Meta-Evolution of Actor-Critic Architectures for Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2606.26327",
-      "summary": "arXiv:2606.26327v1 Announce Type: new  Abstract: In actor-critic reinforcement learning, network architectures are typically manually designed. Automating this design is challenging because each candidate must be trained before evaluation, and the design space is open-ended. To address these challenges, we introduce EVOM, an agentic meta-evolution framework for discovering high-performance actor-critic architectures. We frame architecture search as a bi-level optimization: an inner loop trains w",
-      "authors": "Boyun Zhang, Chao Wang, Kai Wu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Mesh-RL: Coupled subgrid reinforcement learning",
-      "url": "https://arxiv.org/abs/2606.26333",
-      "summary": "arXiv:2606.26333v1 Announce Type: new  Abstract: Reinforcement learning in large or sparse-reward environments suffers from slow temporal-difference reward propagation, as value information spreads only locally across the state space. We propose Mesh-RL, a spatial domain-decomposition framework inspired by the finite element method and domain decomposition theory, which partitions the environment into overlapping subgrids and enforces boundary-consistent temporal-difference updates. Such an appr",
-      "authors": "Behnam Gheshlaghi, Bahador Rashidi, Shahin Atakishiyev",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "EMA-FS: Accelerating GBDT Training via Gain-Informed Feature Screening",
-      "url": "https://arxiv.org/abs/2606.26337",
-      "summary": "arXiv:2606.26337v1 Announce Type: new  Abstract: Gradient Boosted Decision Trees (GBDT), exemplified by LightGBM, spend a dominant fraction of training time -- typically 65-70% -- constructing per-feature histograms. Existing approaches such as random feature subsampling (feature_fraction) discard features without regard for their predictive utility. We propose EMA-based Feature Screening (EMA-FS), an algorithm-level optimization that maintains an exponential moving average (EMA) of per-feature",
-      "authors": "Yan Song",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.LG",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "HierBias: Context-Conditioned Hierarchical Media Bias Detection with Multi-Task Type Classification",
-      "url": "https://arxiv.org/abs/2606.26100",
-      "summary": "arXiv:2606.26100v1 Announce Type: new  Abstract: Media bias detection is a critical task for ensuring fair and balanced information dissemination, yet existing sentence-level approaches classify each sentence independently, ignoring inter-sentence contextual signals that human annotators naturally exploit. We present \\textbf{HierBias}, a hierarchical context-conditioned media bias detector that formally models document context in bias prediction. We introduce the \\emph{context-conditioned bias p",
-      "authors": "Kaining Li, Ruichen Yan, Yuxin Dong",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Know2Guess: A Contamination-Aware Multi-Zone Benchmark for Knowledge-Boundary Evaluation in Large Language Models",
-      "url": "https://arxiv.org/abs/2606.26101",
-      "summary": "arXiv:2606.26101v1 Announce Type: new  Abstract: Reliable evaluation of large language models should separate supported answering from unsupported guessing without conflating either with data contamination, prompt idiosyncrasy, or generic refusal behavior. We present a contamination-aware, multi-zone benchmark for measuring the transition from answerable knowledge to abstention-expected unknowns under frozen build-time labels. The benchmark contains 1,200 items across five domains, explicit abst",
-      "authors": "Renwei Meng, Bowen Zhang, Jian Wang, Xican Wang, Haoyi Wu, Xuanyan Qiu, Shengan Yang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Helpfulness Hurts: Domain-Dependent Degradation of Mid-Trained Compassion Values Under Post-Training",
-      "url": "https://arxiv.org/abs/2606.26102",
-      "summary": "arXiv:2606.26102v1 Announce Type: new  Abstract: Standard post-training pipelines apply supervised fine-tuning (SFT) and reinforcement learning (RL) to make language models helpful, but these processes may inadvertently degrade values instilled during pre-training. We investigate whether the domain of post-training data differentially affects the retention of animal compassion values in a Llama 3.1 8B model mid-trained on compassion-oriented synthetic data, using both SFT (helpfulness via Dolly-",
-      "authors": "Jasmine Brazilek, Juliana Seawell",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Investigating LLM's Problem Solving Capability -- a Study on Statics Questions",
-      "url": "https://arxiv.org/abs/2606.26103",
-      "summary": "arXiv:2606.26103v1 Announce Type: new  Abstract: Large Language Models (LLMs) have rapidly influenced many aspects of society, particularly education, due to their demonstrated ability to complete assignments and examinations across a wide range of subjects. Although prior studies have examined the educational impact of LLMs, much of the existing work relies on public or open problem datasets and lacks topic-specific analysis. In engineering education, especially within mechanical engineering, s",
-      "authors": "Tanner Culleton, Hung-Fu Chang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Assert, don't describe: Linguistic features that shift LLM reasoning about animal welfare",
-      "url": "https://arxiv.org/abs/2606.26104",
-      "summary": "arXiv:2606.26104v1 Announce Type: new  Abstract: Animal-welfare advocates produce a lot of writing, and increasingly that writing trains the language models that millions of people then ask about animal welfare. Using vocabulary-matched stance-contrast probes on a held-out animal-welfare benchmark, we measure how each of ten linguistic features changes Llama-3.2-1B's preference for pro-animal-welfare reasoning when used as fine-tuning data. Eight of the ten features produce statistically signifi",
-      "authors": "Jasmine Brazilek, Harper Dunn",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Context Recycling for Long-Horizon LLM Inference",
-      "url": "https://arxiv.org/abs/2606.26105",
-      "summary": "arXiv:2606.26105v1 Announce Type: new  Abstract: Large language models (LLMs) exhibit strong capabilities in short-context reasoning but degrade in performance over long conversational horizons due to context window limitations and inefficient token usage. We introduce ContextForge, a system for context recycling that maintains task-relevant information across turns by combining structured query generation, external memory retrieval, and controlled synthesis. The system enables efficient reuse o",
-      "authors": "Derek Thomas",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Reducing Conversational Escalation in Large Language Model Dialogue with Nonviolent Communication Constraints",
-      "url": "https://arxiv.org/abs/2606.26106",
-      "summary": "arXiv:2606.26106v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly used in emotionally charged situations involving interpersonal conflict, frustration, and distress. While prior safety research has focused on preventing explicit harms such as toxic or policy-violating content, less attention has been paid to conversational behaviors that may unintentionally escalate conflict. In this paper, we investigate whether LLMs can be guided toward more de-escalating dialogue",
-      "authors": "Zhixing Sun, Shenghe Xu, Tao Li",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Low Resource Multimodal Translation of Nepali Spoken Words into Emotion-Conditioned Sign Language Avatars",
-      "url": "https://arxiv.org/abs/2606.26107",
-      "summary": "arXiv:2606.26107v1 Announce Type: new  Abstract: Sign language communication systems, that integrate emotional expression remain underexplored, particularly for low-resource languages. This pilot study presents NEST-V1 (Nepali Emotion and Speech Transformer - Version 1), a proof-of-concept multimodal framework that demonstrates the feasibility of generating emotion-conditioned Nepali Sign Language avatars from spoken input. As a preliminary investigation, we focus on four common Nepali words (\"t",
-      "authors": "Jatin Bhusal, Salma Tamang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Where Larger Models Excel: The Primacy of Constraint-Guided Reasoning",
-      "url": "https://arxiv.org/abs/2606.26108",
-      "summary": "arXiv:2606.26108v1 Announce Type: new  Abstract: Larger language models consistently outperform smaller ones on reasoning benchmarks, yet the reasoning differences underlying this gap remain underexplored. Across benchmarks in mathematics, physics, chemistry, and programming, we observe stable performance gaps: averaged over datasets, Qwen3-32B outperforms Qwen3-8B by 6.43%, while GPT-OSS-120B exceeds GPT-OSS-20B by 7.38%. To study the reasoning differences behind these gains, we develop AdvClus",
-      "authors": "Guan-Yi Lin, Hen-Hsen Huang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "From Lexicon to AI: A Structured-Data Pipeline for Specialized Conversational Systems in Low-Resource Languages",
-      "url": "https://arxiv.org/abs/2606.26112",
-      "summary": "arXiv:2606.26112v1 Announce Type: new  Abstract: Low-resource languages face a critical challenge in AI development: creating specialized conversational systems without access to massive training corpora. We present a systematic methodology for transforming structured linguistic resources into specialized AI systems, demonstrating that expert-curated lexical databases can serve as effective foundations for conversational AI development. Our approach converts Hindi WordNet into 1.25 million diver",
-      "authors": "Siddhant Hitesh Mantri, Dhara Gorasiya, Malhar Kulkarni, Pushpak Bhattacharya",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
-      "url": "https://arxiv.org/abs/2606.26120",
-      "summary": "arXiv:2606.26120v1 Announce Type: new  Abstract: Diffusion Large Language Models (dLLMs) offer a promising alternative to autoregressive models, excelling in text generation tasks due to their bidirectional attention mechanisms. However, their computational complexity scales on the order of L cubed with the sequence length L. This poses significant challenges for long-sequence and real-time applications, primarily due to the lack of compatibility with key-value caching and the non-autoregressive",
-      "authors": "Tianyi Wu, Xiaoxi Sun, Yanhua Jiao, Yulin Li, Yixin Chen, YunHao Cao, YiQi Hu, Zhuotao Tian",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods",
-      "url": "https://arxiv.org/abs/2606.26130",
-      "summary": "arXiv:2606.26130v1 Announce Type: new  Abstract: Large Language Models (LLMs) are increasingly used to guide research methodology, yet their default methodological tendencies under minimal prompting remain unclear. Here, we prompt GPT-5.1, Gemini 3 Pro, and DeepSeek-V3.2 with an LLM-extracted research question from each of 1,000 recent arXiv computer-science papers and compare the resulting methodology suggestions against a paper-derived experimental inventory. Since we provide only the research",
-      "authors": "Francesca Carlon, Brecht Verbeken, Vincent Ginis, Andres Algaba",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "From Structure to Synergy: A Survey of Vision-Language Perception Paradigm Evolution in Multimodal Large Language Models",
-      "url": "https://arxiv.org/abs/2606.26196",
-      "summary": "arXiv:2606.26196v1 Announce Type: new  Abstract: Multimodal Large Language Models (MLLMs) have recently made remarkable progress in unifying vision-language understanding and reasoning, especially following the introduction of models such as OpenAI's O-series and DeepSeek's R-series, which have driven a paradigm shift toward perception-centric intelligence. However, there remains a lack of systematic surveys that examine perception from a truly unified vision-language perspective -- one that tre",
-      "authors": "Haoxiang Sun, Tao Wang, Li Yuan, Jian Zhao, Jiancheng Lv",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Phonetic and semantic analyses of spoken corpora of Beijing and Taiwan Mandarin indicate that the neutral tone is a lexical tone",
-      "url": "https://arxiv.org/abs/2606.26360",
-      "summary": "arXiv:2606.26360v1 Announce Type: new  Abstract: The neutral, or floating, tone of Mandarin Chinese is a tone with an enigmatic set of properties. It has been described as a reduced tone, or as a tone that sometimes is lexically fixed but that can also be toneless. In two-syllable words, it is found only on the second syllable, but single-syllable words can also have the neutral tone. We present a corpus-based study of the phonetic realization of the neutral tone in spontaneous conversational sp",
-      "authors": "Yuxin Lu, Zhexuan Li, R. Harald Baayen",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Charting the Growth of Social-Physical HRI (spHRI): A Systematic Review Pipeline Augmented by Small Language Models",
-      "url": "https://arxiv.org/abs/2606.26382",
-      "summary": "arXiv:2606.26382v1 Announce Type: new  Abstract: Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics. Yet, fragmented terminology and inconsistent methodologies make systematic synthesis difficult. To support scalable review practices, we evaluated the extent to which small language models (SLMs; < 1.5B parameters) can assist with title and abstract screening for a large spHRI systematic review. While",
-      "authors": "Mayumi Mohan, Ju-Hung Chen, Alexis E. Block",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent",
-      "url": "https://arxiv.org/abs/2606.26403",
-      "summary": "arXiv:2606.26403v1 Announce Type: new  Abstract: Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. Real user data is difficult to share, perturb, audit, or redistribute responsibly, while independently generated fake fields rarely preserve the cross-field and temporal consistency needed for controlled evaluation. We present PROFILEFOUNDRY, a deterministic generator and fixed ref",
-      "authors": "Sriram Selvam, Anneswa Ghosh",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "ConflictScore: Identifying and Measuring How Language Models Handle Conflicting Evidence",
-      "url": "https://arxiv.org/abs/2606.26437",
-      "summary": "arXiv:2606.26437v1 Announce Type: new  Abstract: Existing metrics for factuality and faithfulness evaluate whether an answer is supported or contradicted by its grounding documents, but they fail to capture when both supporting and contradicting evidence coexist. We introduce ConflictScore, a novel metric that quantifies how well a model's response acknowledges conflicting evidence in its grounding documents. Our framework decomposes responses into atomic claims, labels each claim against each g",
-      "authors": "Siyi Liu, Aaron Halfaker, Dan Roth, Patrick Xia",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "ProvenAI: Provenance-Native Traces of Evidence in Generated Answers",
-      "url": "https://arxiv.org/abs/2606.26449",
-      "summary": "arXiv:2606.26449v1 Announce Type: new  Abstract: Retrieval-augmented systems routinely present citations alongside generated answers, yet a citation does not confirm that the corresponding source meaningfully shaped the output. This paper introduces ProvenAI, a framework that decomposes transparency in multi-hop question answering into three independently measurable layers: answer correctness, citation fidelity against benchmark supporting evidence, and per-document influence under leave-one-res",
-      "authors": "Mohammad Faizan, Dalal Alharthi",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "AnySimLite: A Lightweight Few-Shot Similarity Encoder for On-Device Speech-Adjacent Classification",
-      "url": "https://arxiv.org/abs/2606.26452",
-      "summary": "arXiv:2606.26452v1 Announce Type: new  Abstract: To minimize privacy concerns and inference latency on edge devices like smartphones, lightweight on-device models remain important for end-user applications. Many of these applications involve natural language classification, but deploying multiple specialized models creates a memory footprint challenge. We investigate: Can a single lightweight architecture solve multiple Speech-Adjacent (SA) classification tasks through reduction to a nuanced tex",
-      "authors": "Sourav Ghosh, Yash Bhatia, Keshav Goyal, Sahil Singh Bagri, Mohamed Akram Ulla Shariff, Saravana Balaji Shanmugam",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Soft Token Alignment for Cross-Lingual Reasoning",
-      "url": "https://arxiv.org/abs/2606.26466",
-      "summary": "arXiv:2606.26466v1 Announce Type: new  Abstract: Multilingual large language models often produce inconsistent reasoning and answers for semantically equivalent prompts in different languages. Prior work suggests that intermediate representations can be relatively language-agnostic, but generation becomes increasingly language-specific as models commit to discrete output tokens. This is problematic because language-specific lexical choices can cause semantically equivalent reasoning paths to div",
-      "authors": "Jiayi He, Jungsoo Park, Wei Xu, Alan Ritter",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CL",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "DocArena: Turning Raw Documents into Controllable Training Environments for Document Search Agents",
-      "url": "https://arxiv.org/abs/2606.26122",
-      "summary": "arXiv:2606.26122v1 Announce Type: new  Abstract: Recent methods train search agents via reinforcement learning from (question, answer, evidence) tuples without requiring expert trajectories. The tuples serve as the training environment, and whose properties directly shape what search strategies and generalization abilities the agent can develop. While prior works have made encouraging progress in improving training data quality, existing environments remain predominantly text-based and existing",
-      "authors": "Jiamian Wang, Ruiyi Zhang, Tong Yu, Jing Shi, Samyadeep Basu, Rajiv Jain, Zhiqiang Tao, Tong Sun",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Predicting Fruit Quality with a Hybrid Machine Learning and Image Processing Approach",
-      "url": "https://arxiv.org/abs/2606.26165",
-      "summary": "arXiv:2606.26165v1 Announce Type: new  Abstract: Fruit spoilage is a significant issue in agriculture, leading to substantial economic losses. Addressing this, our study introduces a hybrid approach combining image processing and deep learning to assess fruit freshness. We developed an image processing algorithm that quantifies spoilage on a scale from 0 (fully fresh) to 100 (fully rotten). Alongside, we trained a convolutional neural network (CNN) to perform binary classification (fresh or rott",
-      "authors": "Amir Reza Hashemi, Shahram Amiri",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "LCG: Long-Context Consistent Image Generation with Sparse Relational Attention",
-      "url": "https://arxiv.org/abs/2606.26171",
-      "summary": "arXiv:2606.26171v1 Announce Type: new  Abstract: Recent image generation models achieve impressive quality in single-image synthesis, but often fail to maintain consistency across sequential outputs, as required in comics, storyboards, and visual narratives. We propose Long-Context Generation (LCG), a framework for long-context multi-image text-to-image generation, to improve consistency and scalability in long-context multi-image generation. LCG employs the Sparse Relational Attention (SRA) mec",
-      "authors": "Zihao Wang, Yijia Xu, Haoze Zheng, Xuran Ma, Haokun Gui, Harry Yang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Self-Supervised Tree-level Biomass Estimation in Urban Environments From Airborne LiDAR and Optical Observations",
-      "url": "https://arxiv.org/abs/2606.26194",
-      "summary": "arXiv:2606.26194v1 Announce Type: new  Abstract: Urban tree biomass remains less spatially explicitly quantified than biomass in managed forests because many estimates rely on inventories or coarse products that cannot resolve individual crowns or fine-scale heterogeneity. We present a crown-level above-ground biomass (AGB) framework for an 810~km$^2$ landscape in Ontario, Canada, using leaf-off airborne LiDAR (8--10~pulses~m$^{-2}$) and near-infrared RGB orthophotography (0.16--0.20~m) from 201",
-      "authors": "Jose Bermudez (McMaster University, Hamilton, Ontario, Canada), Zilong Zhong (McMaster University, Hamilton, Ontario, Canada), Dominic Cyr (, Environment and Climate Change Canada, Montreal, Quebec, Canada), Camile Sothe (Planet Labs PBC, San Francisco, California, USA), Alemu Gonsamo (McMaster University, Hamilton, Ontario, Canada)",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding",
-      "url": "https://arxiv.org/abs/2606.26260",
-      "summary": "arXiv:2606.26260v1 Announce Type: new  Abstract: In laser penetration welding, the assessment of penetration state and weld seam morphology plays a crucial role in determining the weld quality. This paper presents a comprehensive introduction of the innovative muti-task deep learning model that has the capability to predict penetration state, depth, and weld seam morphology with high accuracy. The monitoring platform relies on weld pool images captured during the laser welding process using a co",
-      "authors": "Sen Li, Haichao Cui, Chendong Shao, Yaqi Wang, Xinhua Tang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Beyond Single-Source Cognitive Taskonomy:Multi-Source Task Relations through fMRI Transfer Learning",
-      "url": "https://arxiv.org/abs/2606.26279",
-      "summary": "arXiv:2606.26279v1 Announce Type: new  Abstract: Cognitive tasks are organized by shared and specialized neural processes. Masked fMRI reconstruction provides a common self-supervised objective for quantifying transfer relations among task states, but existing reconstruction-based taskonomies mainly study one-to-one transfer from a single source task to a target. Here, we extend an fMRI cognitive taskonomy from single-source to multi-source transfer across 23 Human Connectome Project task states",
-      "authors": "Junfeng Xia, Wendu Li, Mengjiao Zhang, Jie Guo",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "GeMoE: Gating Entropy is All You Need for Uncertainty-aware Adaptive Routing in MoE-based Large Vision-Language Models",
-      "url": "https://arxiv.org/abs/2606.26287",
-      "summary": "arXiv:2606.26287v1 Announce Type: new  Abstract: With the increase in model parameters and training data, the instruction following and generalization capabilities of Large VisionLanguage Models (LVLMs) have been significantly improved. Based on the Mixture of Experts (MoE) architecture, LVLMs expand their parameter capacity while maintaining the inference cost. However, traditional MoE methods employ a Top-k static routing strategy, which fails to account for variations in the input and adaptiv",
-      "authors": "Chaoxiang Cai, Minghe Weng, Jie Li, Yibo Jiang, Longrong Yang, Zequn Qin, Xi Li",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Beyond Aesthetics: Quantifying Information Loss in Turbid Scenes",
-      "url": "https://arxiv.org/abs/2606.26295",
-      "summary": "arXiv:2606.26295v1 Announce Type: new  Abstract: Visibility in underwater environments degrades rapidly under turbid conditions, yet the effects on computer-vision models remain unclear. This issue is compounded by reliance on synthetic turbidity datasets, which may misrepresent real-world information loss. To address this gap, we introduce the Turbid Underwater Baseline (TUB) dataset, comprising 1,320 images captured under extreme turbidity and over 16,000 high-confidence ground-truth segmentat",
-      "authors": "Vasiliki Ismiroglou, Stefan H. Bengtson, Tasos Benos, Thomas B. Moeslund, Malte Pedersen",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "url": "https://arxiv.org/abs/2606.26379",
-      "summary": "arXiv:2606.26379v1 Announce Type: new  Abstract: Visual prompt tuning has emerged as a parameter-efficient fine-tuning approach for adapting large-scale Vision Transformers (ViTs) to downstream tasks. As its learnable prompts are applied in input and feature spaces, prior to jointly going through attention in transformer layers, the most commonly used scheme for fusing image and prompt tokens is concatenation or addition. In this paper, we aim to study a fundamental yet essential problem in visu",
-      "authors": "Xi Xiao, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "What Do Deepfake Benchmarks Measure? An Audit Using Frozen Self-Supervised Representations",
-      "url": "https://arxiv.org/abs/2606.26384",
-      "summary": "arXiv:2606.26384v1 Announce Type: new  Abstract: As deepfake generators approach perceptual indistinguishability, reliable detection becomes critical. Yet, detectors that score well on benchmarks routinely fail in the wild. A concerning feedback loop has emerged: benchmarks drive increasingly complex, engineered detectors, yet if those benchmarks do not reflect real-world deepfakes, this complexity may be solving the wrong problem entirely. This raises a prior question: what are these benchmarks",
-      "authors": "Samuel Pagon, Yixuan Shen, Vishal Asnani, Feng Liu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "url": "https://arxiv.org/abs/2606.26387",
-      "summary": "arXiv:2606.26387v1 Announce Type: new  Abstract: Multimodal large language models (MLLMs) extend large language models (LLMs) with visual perception, enabling joint reasoning over images and text. Despite inheriting strong reasoning capabilities from LLMs, they remain prone to hallucinations that contradict their visual inputs. Mechanistic studies indicate that this weakness stems from visual laziness: MLLMs encode the correct visual evidence internally, but overly rely on strong language priors",
-      "authors": "Xi Xiao, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "DinoLink: A Token-Centric Representation Compression Framework for Bandwidth-Constrained Collaborative V2X Perception",
-      "url": "https://arxiv.org/abs/2606.26398",
-      "summary": "arXiv:2606.26398v1 Announce Type: new  Abstract: High-precision remote perception is often hindered by the severe bandwidth constraints of Vehicle-to-Everything (V2X) networks. We propose \\textit{DinoLink}, a token-centric compression framework that replaces raw pixel streaming with discrete semantic communication for vehicle-cloud collaborative inference. DinoLink employs a dual-sparsity architecture: a saliency-aware selector prunes redundant background tokens, while a Residual Vector Quantiza",
-      "authors": "Tianle Zhu, Haohua Que, Handong Yao, Hongyi Xu, Zhipeng Bao",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Neural Voxel Dynamics: Learning Implicit 3D Physics via Volumetric Feature Advection",
-      "url": "https://arxiv.org/abs/2606.26410",
-      "summary": "arXiv:2606.26410v1 Announce Type: new  Abstract: We present a self-supervised framework for learning implicit 3D physical dynamics directly from video-derived supervisory signals. While current generative video models achieve high visual fidelity, they lack a 3D geometric foundation, often resulting in physical inconsistencies and a failure to maintain object permanence. We address this by shifting the predictive bottleneck from 2D image space to a `lifted' 3D Volumetric Latent Space. Our method",
-      "authors": "Zican Wang, Niloy Mitra",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Methane-Plume Segmentation From Hyperspectral Satellite Imagery Via Multimodal Deep Learning",
-      "url": "https://arxiv.org/abs/2606.26416",
-      "summary": "arXiv:2606.26416v1 Announce Type: new  Abstract: Efficient detection of methane plumes is crucial for understanding and mitigating global warming, as accurately identifying and segmenting them in earth observation imagery remain essential for large-scale monitoring. In this work, we propose a multimodal deep learning model that integrates a feature-guided methane enhancement (FGME) mechanism which injects physically meaningful methane cues into transformer-based RGB representations at multiple s",
-      "authors": "Brayan Quintero, Jeferson Acevedo, Samuel Traslavi\\~na, Hoover Rueda-Chac\\'on",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Active Adversarial Perturbation-driven Associative Memory Retrieval for RGB-Event Visual Object Tracking",
-      "url": "https://arxiv.org/abs/2606.26455",
-      "summary": "arXiv:2606.26455v1 Announce Type: new  Abstract: RGB-Event tracking improves localization robustness by fusing RGB appearance textures and dense temporal motion cues from event sensors. While this multi-modal scheme broadens tracking applicability, real-world scenes suffer diverse structured signal degradations that hinder traditional multi-modal fusion. In harsh environments, either modality can lose reliability drastically, and targets frequently appear incomplete due to occlusion, edge trunca",
-      "authors": "Xiao Wang, Xufeng Lou, Zikang Yan, Lan Chen, Sibao Chen, Yaowei Wang, Yonghong Tian, Jin Tang",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Forget, Anticipate and Adapt: Test Time Training for Long Videos",
-      "url": "https://arxiv.org/abs/2606.26515",
-      "summary": "arXiv:2606.26515v1 Announce Type: new  Abstract: Test Time Training (TTT) is a mechanism in which a model adapts to an incoming test-sample by performing some self-supervised (SSL) task and updating its weights even during inference. This procedure does not require labels at test-time. This paper focuses on TTT for long-videos. A major concern with existing approaches is: 1) they perform TTT updates using a sliding window containing frames in the past, whose compute increases linearly with the s",
-      "authors": "Rajat Modi, Sebastian Noel, Xin Liang, Yogesh Singh Rawat",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "From Hallucination to Grounding: Diagnosing Visual Spatial Intelligence via CRISP",
-      "url": "https://arxiv.org/abs/2606.26535",
-      "summary": "arXiv:2606.26535v1 Announce Type: new  Abstract: Current VLM evaluations often conflate language priors with genuine spatial reasoning. To address this, we introduce CRISP, a novel structural-diagnostic evaluation paradigm that assesses visual spatial intelligence through consistency, the alignment between implicit perception and explicit reasoning. Unlike traditional black-box QA, CRISP utilizes metric 3D Scene Graphs and an oracle intervention protocol to decouple latent reasoning capabilities",
-      "authors": "Zhixing Li, Yinan Yu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "PhyEditBench: A Real-World Multi-Stage Benchmark for Physics-Aware Image Editing",
-      "url": "https://arxiv.org/abs/2606.26551",
-      "summary": "arXiv:2606.26551v1 Announce Type: new  Abstract: While instruction-based image editing, enabled by multi-modal generative models, has advanced significantly, existing benchmarks lack a comprehensive evaluation of physics-based reasoning, a critical capability for handling real-world scenarios. To address this, we introduce PhyEditBench, a benchmark designed to assess the physical understanding of editing models. Guided by a hierarchical taxonomy, we establish 4 primary classes and 12 subclasses.",
-      "authors": "Shengbin Guo, Shaokang He, Chaoyue Meng, Shengpeng Xiao, Xunzhi Xiang, Shaofeng Zhang, Qi Fan",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Perception, Verdict, and Evolution: Hindsight-Driven Self-Refining Forensics Agent for AI-Generated Image Detection",
-      "url": "https://arxiv.org/abs/2606.26552",
-      "summary": "arXiv:2606.26552v1 Announce Type: new  Abstract: The rapid advancement of generative models presents a significant challenge to existing deepfake detection methods, particularly given the widespread dissemination of highly realistic AI-generated images. Although Multimodal Large Language Models (MLLMs) show strong potential for this task, existing approaches suffer from two key limitations: insufficient sensitivity to fine-grained forensic artifacts and reliance on static synthetic supervision f",
-      "authors": "Yangjun Wu, Keyu Yan, Yu Liu, Jingren Zhou, Fei Huang, Rong Zhang, Zhou Zhao, Fei Wu",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
-    },
-    {
-      "title": "Coarse-to-Fine: A Hybrid Self-Supervised Method for Non-rigid 3D Shape Matching",
-      "url": "https://arxiv.org/abs/2606.26557",
-      "summary": "arXiv:2606.26557v1 Announce Type: new  Abstract: Non-rigid 3D shape matching is a fundamental task in computer vision and graphics. In this paper, we propose a hybrid self-supervised method based on a coarse-to-fine strategy, which ensures consistency between the coarse mapping and the refined correspondence produced by our refinement module. The architecture features a dual-branch design, consisting of two symmetric functional map learning streams: one based on the Laplacian basis and the other",
-      "authors": "Feifan Luo, Ting Li, Zhao Li, Hongyang Chen",
-      "published": "2026-06-26T04:00:00",
-      "source": "arXiv cs.CV",
-      "source_type": "arxiv",
-      "read_time_minutes": 4
     }
   ]
 }
