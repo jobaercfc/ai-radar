@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-22",
-  "generated_at": "2026-08-22T08:15:37.076120",
-  "headline": "AWS introduces cross-Region inference for OpenAI GPT-5.6 models, boosting accessibility.",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T08:16:23.414109",
+  "headline": "Amazon's new Agentic Data Operations Platform (ADOP) revolutionizes data engineering with sophisticated AI agents.",
   "sections": [
     {
       "id": "must_know",
@@ -9,13 +9,22 @@
       "emoji": "\ud83d\udd25",
       "items": [
         {
-          "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models across more than 25 AWS Regions with cross-Region inference capabilities. This enhancement allows for higher throughput by routing requests based on geographic profiles, significantly improving access to powerful AI models globally. Developers can leverage the OpenAI and Converse APIs to call these models and configure inference profiles to optimize performance. This development marks a substantial improvement in the deployment flexibility of AI models, facilitating more efficient global operations.",
-          "why_it_matters": "This increases the accessibility and performance of AI applications, allowing developers to efficiently deploy and manage AI solutions across various regions.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "summary": "The Agentic Data Operations Platform (ADOP) is a new reference architecture on Amazon Bedrock that employs specialized AI agents to automate the entire data pipeline lifecycle from Bronze to Silver to Gold stages. It significantly reduces the time for new-source onboarding from weeks to mere hours, while maintaining essential data governance and compliance controls. The platform leverages AI to streamline processes, enhance efficiency, and ensure data integrity across operations.",
+          "why_it_matters": "This advancement drastically shortens data integration times, empowering developers to focus on building innovative AI solutions faster.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
           "source": "Artificial Intelligence",
-          "published": "2026-08-20T21:46:03",
-          "read_time_minutes": 18
+          "published": "2026-08-21T17:06:17",
+          "read_time_minutes": 12
+        },
+        {
+          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "summary": "Amazon introduces the Bedrock AgentCore Gateway for providing governed, auditable access to enterprise tools without requiring infrastructure consolidation. The system uses a four-scope maturity model: Connect, Control, Catalog, and Harden, to ensure robust governance over tool access and usage in AI environments.",
+          "why_it_matters": "This development enhances security and governance in AI deployments, crucial for enterprises managing complex AI systems.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
+          "source": "Artificial Intelligence",
+          "published": "2026-08-21T17:02:35",
+          "read_time_minutes": 28
         }
       ]
     },
@@ -25,20 +34,20 @@
       "emoji": "\ud83d\udce6",
       "items": [
         {
-          "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-          "summary": "The Agentic Data Operations Platform (ADOP) introduces a reference architecture on Amazon Bedrock, utilizing specialized AI agents to automate the entire data pipeline lifecycle. This platform compresses new-source onboarding from weeks to hours, while ensuring data governance and compliance controls are maintained. It streamlines the transition from Bronze-to-Silver-to-Gold data stages, optimizing data engineering processes significantly.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+          "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+          "summary": "Amazon Bedrock introduces a query-aware context compression pattern to optimize Retrieval Augmented Generation (RAG) processes. By employing a smaller model to filter retrieved chunks based on their relevance to the query, it effectively reduces the token input size, thus lowering the operational costs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
           "source": "Artificial Intelligence",
-          "published": "2026-08-21T17:06:17",
-          "read_time_minutes": 12
+          "published": "2026-08-21T16:59:15",
+          "read_time_minutes": 15
         },
         {
-          "title": "Rust Glancer: Rust LSP using 100x less RAM",
-          "summary": "Rust Glancer significantly reduces the memory footprint of Language Server Protocols (LSP) in Rust, using 100 times less RAM than conventional solutions. This tool is designed to optimize the development experience by providing more efficient resource usage, which is critical for developers working in resource-constrained environments.",
-          "url": "https://rust-glancer.github.io/blog/hello-world/",
-          "source": "Hacker News",
-          "published": null,
-          "read_time_minutes": 14
+          "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3",
+          "summary": "NVIDIA's AVO has achieved a perfect score on the ARC-AGI-3 benchmark, showcasing a frontier-level general-purpose architecture for long-horizon autonomous agents. This breakthrough highlights NVIDIA's advancements in creating robust and adaptive AI architectures capable of complex autonomous tasks.",
+          "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+          "source": "NVIDIA Technical Blog",
+          "published": "2026-08-21T13:00:00",
+          "read_time_minutes": 12
         }
       ]
     },
@@ -46,16 +55,7 @@
       "id": "deprecations",
       "title": "Deprecations & Changes",
       "emoji": "\ud83d\udcc9",
-      "items": [
-        {
-          "title": "LLM 0.32.1",
-          "summary": "The latest release of LLM, version 0.32.1, addresses a critical issue where fresh installs of the software stopped functioning due to changes in the OpenAI Python library. The update ensures compatibility by adjusting dependencies, specifically removing reliance on the recently deprecated httpx library.",
-          "url": "https://simonwillison.net/2026/Aug/21/llm/",
-          "source": "Simon Willison",
-          "published": null,
-          "read_time_minutes": 2
-        }
-      ]
+      "items": []
     },
     {
       "id": "research",
@@ -63,49 +63,36 @@
       "emoji": "\ud83d\udd2c",
       "items": [
         {
-          "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3",
-          "summary": "NVIDIA's AVO has achieved a 100% score on the ARC-AGI-3 benchmark, showcasing its frontier-level general-purpose architecture for long-horizon autonomous agents. This milestone demonstrates significant advancements in creating robust AI systems capable of complex autonomous tasks over extended periods.",
-          "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
-          "source": "NVIDIA Technical Blog",
-          "published": "2026-08-21T13:00:00",
-          "read_time_minutes": 12
+          "title": "How Claude Watermarks AI-Generated Text",
+          "summary": "A detailed 48-minute video walkthrough exploring the methods used by Claude to watermark AI-generated text, including token sampling techniques, watermark detection, and removal processes.",
+          "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+          "source": "Sebastian Raschka",
+          "published": null,
+          "read_time_minutes": 41
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community Buzz",
+      "emoji": "\ud83d\udccc",
+      "items": [
+        {
+          "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+          "summary": "An insightful account of a Texas student who identified and reported a rogue AI hacking attempt, showcasing the crucial role of vigilance and ethics in AI development and security.",
+          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+          "source": "Hacker News",
+          "published": null
         }
       ]
     }
   ],
   "stats": {
     "sources_checked": 6,
-    "items_processed": 71,
-    "items_categorized": 5
+    "items_processed": 56,
+    "items_categorized": 6
   },
   "all_items": [
-    {
-      "title": "Agentic Search. More accurate and efficient results from your AI systems.",
-      "url": "https://mistral.ai/news/agentic-search/",
-      "summary": "The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents",
-      "published": "2026-08-20T12:00:17",
-      "source": "Mistral AI Blog",
-      "source_type": "rss",
-      "read_time_minutes": 10
-    },
-    {
-      "title": "Measuring benchmark optimization in speech recognition",
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "summary": "",
-      "published": "2026-08-21T00:00:00",
-      "source": "Hugging Face - Blog",
-      "source_type": "rss",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "summary": "",
-      "published": "2026-08-20T16:52:57",
-      "source": "Hugging Face - Blog",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
@@ -152,60 +139,6 @@
       "read_time_minutes": 8
     },
     {
-      "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-      "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profiles route requests for higher throughput, how to call the models with the OpenAI and Converse APIs, and how to configure IAM, quotas, and monitoring.",
-      "published": "2026-08-20T21:46:03",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 18
-    },
-    {
-      "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick \u2013 Part 1: Setting up your Snowflake environment",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment/",
-      "summary": "Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your AWS account and Snowflake environment for a no-code ML workflow with Amazon SageMaker Canvas, laying the foundation for building a fraud detection model without writing code.",
-      "published": "2026-08-20T21:23:38",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick \u2013 Part 2: Data preparation and model building with Amazon SageMaker Canvas",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
-      "summary": "In Part 2 of this no-code ML series, you connect Amazon SageMaker Canvas to Snowflake, prepare and join transaction data with Data Wrangler visual transformations, and train an XGBoost fraud detection model. All without writing machine learning code, laying the groundwork for interactive dashboards in Part 3.",
-      "published": "2026-08-20T21:23:29",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 13
-    },
-    {
-      "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick \u2013 Part 3: Visualizing insights with Amazon Quick Sight",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-3-visualizing-insights-with-amazon-quick-sight/",
-      "summary": "In Part 3 of this no-code ML series, you bring fraud detection predictions to life. Import your Amazon SageMaker Canvas predictions into Amazon Quick Sight, build interactive dashboards, use generative BI to answer questions in natural language, and publish AI-generated executive summaries for stakeholders.",
-      "published": "2026-08-20T21:23:23",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 8
-    },
-    {
-      "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/",
-      "summary": "AI agents can take actions that do not match your organization's policies. Policy in Amazon Bedrock AgentCore lets teams enforce controls across agents, now including time-based constraints. This post shows how Policy Authoring turns natural-language policy documents into correct Dogwood policies, with worked examples and best practices.",
-      "published": "2026-08-20T16:31:28",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/",
-      "summary": "Scaling agentic AI across an enterprise requires patterns that preserve flexibility while avoiding vendor lock-in. In this second post of our multi-agent series, we examine how ML teams operate many agentic AI systems across a multi-everything environment of frameworks, models, and providers, and the principles that let those systems scale together.",
-      "published": "2026-08-20T16:24:12",
-      "source": "Artificial Intelligence",
-      "source_type": "rss",
-      "read_time_minutes": 12
-    },
-    {
       "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
       "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
       "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image10_1920x1080-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image10_1920x1080\" width=\"768\" />Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor...",
@@ -240,15 +173,6 @@
       "source": "NVIDIA Technical Blog",
       "source_type": "rss",
       "read_time_minutes": 12
-    },
-    {
-      "title": "How Generative Recommenders Are Redefining RecSys at Scale",
-      "url": "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image2-3-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and...",
-      "published": "2026-08-20T16:00:00",
-      "source": "NVIDIA Technical Blog",
-      "source_type": "rss",
-      "read_time_minutes": 13
     },
     {
       "title": "The Download: threats from space mirrors and credit for AI drugs",
@@ -287,197 +211,159 @@
       "read_time_minutes": 6
     },
     {
-      "title": "Debates over AI consciousness are a trap",
-      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "summary": "\u201cRunaway\u201d AI, \u201crogue\u201d agents, and \u201cautonomous\u201d actors\u2014the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly \u201csuperhuman\u201d systems, while a separate faction, led by policy organizations&#8230;",
-      "published": "2026-08-20T15:42:39",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 9
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "summary": "Score: 312 | 107 comments",
+      "score": 312,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 28
     },
     {
-      "title": "The Download: polycrisis support networks and a hydrogen gold rush",
-      "url": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Support networks aim to help kids through the polycrisis Sometime in the late 2000s, six-year-old Pim Sullivan-Tailyour was sitting in the back of a car in Thailand when she saw a&#8230;",
-      "published": "2026-08-20T12:10:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 7
-    },
-    {
-      "title": "The next big thing in hydrogen could be underground",
-      "url": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
-      "summary": "There\u2019s a hunt for new sources of hydrogen, and the gas (or at least the right conditions to make it) could be hiding beneath our feet. Hydrogen can be used as a fuel in everything from large trucks to planes to steelmaking. It\u2019s often hailed as a climate solution because when burned, it produces water&#8230;",
-      "published": "2026-08-20T10:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "summary": "Score: 88 | 26 comments",
+      "score": 88,
+      "source": "Hacker News",
+      "source_type": "hackernews",
       "read_time_minutes": 5
     },
     {
-      "title": "Unlocking hidden revenue streams with market models",
-      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name&#8230;",
-      "published": "2026-08-20T09:47:22",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Support networks aim to help kids through the polycrisis",
-      "url": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
-      "summary": "Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother\u2019s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just six years old but was about to be hit by an adult-size realization. \u201cThey were just quarried&#8230;",
-      "published": "2026-08-20T09:00:00",
-      "source": "MIT Technology Review",
-      "source_type": "rss",
-      "read_time_minutes": 18
-    },
-    {
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "url": "https://rust-glancer.github.io/blog/hello-world/",
-      "summary": "<a href=\"https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html\" rel=\"nofollow\">https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html</a>",
-      "score": 152,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 14
-    },
-    {
-      "title": "Scientists release biggest 2D map of the universe",
-      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-      "summary": "Direct link to Legacy Survey Sky Viewer: <a href=\"https:&#x2F;&#x2F;viewer.legacysurvey.org\" rel=\"nofollow\">https:&#x2F;&#x2F;viewer.legacysurvey.org</a>",
-      "score": 193,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "AI boosted homework scores, then exam scores dropped: study",
-      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;w1eng\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;w1eng</a><p><a href=\"https:&#x2F;&#x2F;papers.ssrn.com&#x2F;sol3&#x2F;papers.cfm?abstract_id=6868618\" rel=\"nofollow\">https:&#x2F;&#x2F;papers.ssrn.com&#x2F;sol3&#x2F;papers.cfm?abstract_id=6868618</a>",
-      "score": 297,
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "summary": "Score: 153 | 51 comments",
+      "score": 153,
       "source": "Hacker News",
       "source_type": "hackernews"
     },
     {
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "summary": "Score: 253 | 176 comments",
-      "score": 253,
-      "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 3
-    },
-    {
-      "title": "Early-life stress leaves a 'scar' inside brain cells in mice",
-      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
-      "summary": "Score: 83 | 31 comments",
-      "score": 83,
+      "title": "A week of using Codex more than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "summary": "Score: 187 | 208 comments",
+      "score": 187,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 4
     },
     {
-      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "url": "https://ozbrain.com",
-      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard&#x2F;UI will go away. I\u2019m not sure who exactly wins it, but I want my knowledge to grow&#x2F;go with me.<p>A lot of the \u201cknowledge\u201d ie research, analysis, reasoning will be done by agents as the primary user. ",
-      "score": 66,
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "summary": "Score: 200 | 130 comments",
+      "score": 200,
       "source": "Hacker News",
       "source_type": "hackernews",
-      "read_time_minutes": 11
+      "read_time_minutes": 5
     },
     {
-      "title": "I'm becoming AI-blind",
-      "url": "https://cymerys.com/w/im-becoming-ai-blind",
-      "summary": "Score: 348 | 350 comments",
-      "score": 348,
+      "title": "Show HN: Public Muscriptor Instance (latest, most powerful Audio-to-MIDI model)",
+      "url": "https://www.pianoify.net/",
+      "summary": "GPU powered models to convert any song to piano",
+      "score": 41,
       "source": "Hacker News",
-      "source_type": "hackernews",
-      "read_time_minutes": 3
+      "source_type": "hackernews"
     },
     {
-      "title": "How we made a text-to-speech model respond in sub-50 ms",
-      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
-      "summary": "Score: 140 | 34 comments",
-      "score": 140,
+      "title": "Munder Difflin \u2013 Agent harness to run an office of your clones",
+      "url": "https://munderdiffl.in/",
+      "summary": "Score: 277 | 118 comments",
+      "score": 277,
       "source": "Hacker News",
       "source_type": "hackernews",
       "read_time_minutes": 9
     },
     {
-      "title": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "summary": "\u5229\u7528 AI \u5927\u6a21\u578b\u548c\u81ea\u52a8\u5316\u5de5\u4f5c\u6d41\uff0c\u6839\u636e\u4e3b\u9898\u6216\u5173\u952e\u8bcd\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891\u3002Generate HD short videos from a topic or keyword with an automated AI workflow. | 1,201 stars today stars today",
+      "title": "Autolith: A programming agent with a live runtime",
+      "url": "https://www.lambda-symbolics.com/autolith",
+      "summary": "Score: 122 | 48 comments",
+      "score": 122,
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 127 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 6
+      "read_time_minutes": 2
     },
     {
       "title": "PostHog/posthog",
       "url": "https://github.com/PostHog/posthog",
-      "summary": "\ud83e\udd94 PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP. | 335 stars today stars today",
+      "summary": "\ud83e\udd94 PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP. | 286 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 5
     },
     {
-      "title": "elder-plinius/OBLITERATUS",
-      "url": "https://github.com/elder-plinius/OBLITERATUS",
-      "summary": "OBLITERATE THE CHAINS THAT BIND YOU | 63 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 31
-    },
-    {
       "title": "Tencent/AI-Infra-Guard",
       "url": "https://github.com/Tencent/AI-Infra-Guard",
-      "summary": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation. | 434 stars today stars today",
+      "summary": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation. | 150 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 15
     },
     {
-      "title": "anthropics/claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 170 stars today stars today",
+      "title": "shy3130/tick-stock-panel",
+      "url": "https://github.com/shy3130/tick-stock-panel",
+      "summary": "TSP\u81ea\u6258\u7ba1\u3001\u96f6\u8fd0\u7ef4\u7684 A \u80a1\u300c\u9009\u80a1 + \u76d1\u63a7 + \u56de\u6d4b\u300d\u91cf\u5316\u5de5\u4f5c\u53f0 | \u57fa\u4e8e TickFlow \u6570\u636e\u6e90 | LLM\u80fd\u529b\u9a71\u4f7f\u7b56\u7565\u5b9a\u5236+\u4e2a\u80a1\u5206\u6790+\u590d\u76d8 | \u81ea\u7531\u63a5\u5165\u7b2c\u4e09\u65b9\u6570\u636e\u6e90\u4e0e\u4e2a\u6027\u5316\u6269\u5c55\u6570\u636e | \u4e2a\u4eba\u5f00\u6e90 ,\u975eTickFlow\u5b98\u65b9\u9879\u76ee | 82 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 2
+      "read_time_minutes": 4
     },
     {
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "summary": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0 | 243 stars today stars today",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. | 462 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 15
-    },
-    {
-      "title": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. | 223 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 23
-    },
-    {
-      "title": "google/adk-samples",
-      "url": "https://github.com/google/adk-samples",
-      "summary": "A collection of sample agents built with Agent Development Kit (ADK) | 12 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Osmantic/ODS",
-      "url": "https://github.com/Osmantic/ODS",
-      "summary": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. | 42 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 17
+      "read_time_minutes": 37
     },
     {
       "title": "forcedotcom/sf-skills",
       "url": "https://github.com/forcedotcom/sf-skills",
-      "summary": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. | 44 stars today stars today",
+      "summary": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. | 18 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "summary": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror \u2014 submit plugins at clau.de/plugin-directory-submission. | 190 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 1
+    },
+    {
+      "title": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | 62 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 20
+    },
+    {
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. | 119 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 11
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "The agent that grows with you | 443 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 9
+    },
+    {
+      "title": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "summary": "Lightweight coding agent that runs in your terminal | 1,544 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
@@ -485,82 +371,98 @@
     {
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory. | 3,362 stars today stars today",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory. | 2,683 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 10
     },
     {
-      "title": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "summary": "\u5229\u7528 AI \u5927\u6a21\u578b\u548c\u81ea\u52a8\u5316\u5de5\u4f5c\u6d41\uff0c\u6839\u636e\u4e3b\u9898\u6216\u5173\u952e\u8bcd\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891\u3002Generate HD short videos from a topic or keyword with an automated AI workflow. | 1,201 stars today stars today",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 411 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "AprilNEA/OpenLogi",
-      "url": "https://github.com/AprilNEA/OpenLogi",
-      "summary": "\u26a1\ufe0fA native, local-first alternative to Logitech Options+, written in Rust \ud83e\udd80 \u2014 remap buttons, DPI, and SmartShift over HID++. No account, no telemetry. | 1,380 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 6
-    },
-    {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "summary": "\ud83e\udd94 PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP. | 335 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 5
-    },
-    {
-      "title": "microsoft/TypeScript",
-      "url": "https://github.com/microsoft/TypeScript",
-      "summary": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output. | 65 stars today stars today",
-      "source": "GitHub Trending",
-      "source_type": "github",
-      "read_time_minutes": 1
+      "read_time_minutes": 65
     },
     {
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works. | 790 stars today stars today",
+      "summary": "An agentic skills framework & software development methodology that works. | 592 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 8
     },
     {
-      "title": "santifer/career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "summary": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications \u2014 runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity\u2026) | 921 stars today stars today",
+      "title": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "summary": "Sub2API \u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001Grok\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002 | 278 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 18
+      "read_time_minutes": 28
     },
     {
-      "title": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "summary": "Cursor plugin specification and official plugins | 388 stars today stars today",
+      "title": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "summary": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 263 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 3
     },
     {
-      "title": "modular/modular",
-      "url": "https://github.com/modular/modular",
-      "summary": "The Modular Platform (includes MAX & Mojo) | 913 stars today stars today",
+      "title": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | 149 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 127 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
       "read_time_minutes": 2
     },
     {
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 357 stars today stars today",
+      "title": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "summary": "\u26a1\ufe0fA native, local-first alternative to Logitech Options+, written in Rust \ud83e\udd80 \u2014 remap buttons, DPI, and SmartShift over HID++. No account, no telemetry. | 959 stars today stars today",
       "source": "GitHub Trending",
       "source_type": "github",
-      "read_time_minutes": 65
+      "read_time_minutes": 6
+    },
+    {
+      "title": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "summary": "The Modular Platform (includes MAX & Mojo) | 395 stars today stars today",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "Quoting Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "summary": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p>\n<p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p>\n<p>I suspect those",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
+    },
+    {
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p>\n        <p>My highlights from this release:</p>\n<blockquote>\n<ul>\n<li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/1608\">#1608</a>, <a href=\"https://github.com/simon",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 3
+    },
+    {
+      "title": "More than just code review",
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "summary": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p>\n<p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most eff",
+      "source": "Simon Willison",
+      "source_type": "blog",
+      "read_time_minutes": 2
     },
     {
       "title": "llm 0.32.1",
@@ -577,30 +479,6 @@
       "source": "Simon Willison",
       "source_type": "blog",
       "read_time_minutes": 2
-    },
-    {
-      "title": "Stop Making TUIs",
-      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "summary": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p>\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p>\n<p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS tas",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "Quoting Matt Webb",
-      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
-      "summary": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn\u2019t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn\u2019t by reading books and asking mathematician friends \u2013 I learnt how to use quate",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 2
-    },
-    {
-      "title": "ChatGPT search now uses the site:operator at scale",
-      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-      "summary": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p>\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p>\n<p",
-      "source": "Simon Willison",
-      "source_type": "blog",
-      "read_time_minutes": 3
     },
     {
       "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
@@ -643,6 +521,14 @@
       "read_time_minutes": 8
     },
     {
+      "title": "How Claude Watermarks AI-Generated Text",
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+      "source": "Sebastian Raschka",
+      "source_type": "blog",
+      "read_time_minutes": 41
+    },
+    {
       "title": "Building an AI Text Detector From Scratch",
       "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
       "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
@@ -673,14 +559,6 @@
       "source": "Sebastian Raschka",
       "source_type": "blog",
       "read_time_minutes": 7
-    },
-    {
-      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-      "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-      "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
-      "source": "Sebastian Raschka",
-      "source_type": "blog",
-      "read_time_minutes": 29
     }
   ]
 }
